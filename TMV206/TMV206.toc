@@ -47,4 +47,15 @@
 \contentsline {subparagraph}{Lösning}{10}{}%
 \contentsline {chapter}{\numberline {3}Linjer och plan (Avsnitt 1.6)}{11}{}%
 \contentsline {subsection}{\numberline {3.0.1}Linjer}{11}{}%
-\contentsline {section}{\numberline {3.1}Plan}{11}{}%
+\contentsline {paragraph}{Ex}{11}{}%
+\contentsline {subparagraph}{Lösning}{11}{}%
+\contentsline {section}{\numberline {3.1}Linjer i planet}{12}{}%
+\contentsline {paragraph}{Ex}{12}{}%
+\contentsline {subparagraph}{Lösning}{12}{}%
+\contentsline {chapter}{\numberline {4}Plan i rummet}{13}{}%
+\contentsline {paragraph}{Ex}{13}{}%
+\contentsline {subparagraph}{Lösning}{13}{}%
+\contentsline {section}{\numberline {4.1}Avstånd från en punkt till en linje}{14}{}%
+\contentsline {paragraph}{Ex}{14}{}%
+\contentsline {subparagraph}{Lösning}{14}{}%
+\contentsline {section}{\numberline {4.2}Avstånd från en punkt till ett plan}{14}{}%
