@@ -59,3 +59,24 @@
 \contentsline {paragraph}{Ex}{14}{}%
 \contentsline {subparagraph}{Lösning}{14}{}%
 \contentsline {section}{\numberline {4.2}Avstånd från en punkt till ett plan}{14}{}%
+\contentsline {chapter}{\numberline {5}Matrisoperationer}{15}{}%
+\contentsline {paragraph}{Definition}{15}{}%
+\contentsline {paragraph}{Definition}{15}{}%
+\contentsline {paragraph}{Proposition 2.11}{15}{}%
+\contentsline {section}{\numberline {5.1}Produkter av matriser}{16}{}%
+\contentsline {paragraph}{Definition}{16}{}%
+\contentsline {paragraph}{Ex}{16}{}%
+\contentsline {subparagraph}{Lösning}{16}{}%
+\contentsline {paragraph}{Proposition 2.14}{16}{}%
+\contentsline {paragraph}{Propostion 2.16}{16}{}%
+\contentsline {paragraph}{Definition}{17}{}%
+\contentsline {paragraph}{Ex}{17}{}%
+\contentsline {paragraph}{Definition}{17}{}%
+\contentsline {paragraph}{Ex}{17}{}%
+\contentsline {paragraph}{Proposition 2.21}{17}{}%
+\contentsline {chapter}{\numberline {6}Determinanter (Avs. 2.2)}{18}{}%
+\contentsline {paragraph}{Definition}{18}{}%
+\contentsline {paragraph}{Ex}{18}{}%
+\contentsline {paragraph}{Sats 2.24}{18}{}%
+\contentsline {subparagraph}{Bevis}{18}{}%
+\contentsline {paragraph}{Definition}{19}{}%

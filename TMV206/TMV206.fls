@@ -1,8 +1,8 @@
-PWD c:/Users/maxha/Documents/Notes-1/TMV206
+PWD c:/Users/Max Hagman/Documents/Notes/TMV206
 INPUT c:/texlive/2021/texmf.cnf
 INPUT c:/texlive/2021/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/maxha/Documents/Notes-1/TMV206/TMV206.tex
+INPUT c:/Users/Max Hagman/Documents/Notes/TMV206/TMV206.tex
 OUTPUT TMV206.log
 INPUT c:/texlive/2021/texmf-dist/tex/latex/base/report.cls
 INPUT c:/texlive/2021/texmf-dist/tex/latex/base/report.cls
@@ -423,12 +423,32 @@ INPUT ./lessons/lesson04/lesson04.tex
 INPUT lessons/lesson04/lesson04.tex
 INPUT ./lessons/lesson04/lesson04.tex
 INPUT lessons/lesson04/lesson04.tex
+INPUT ./lessons/lesson05/lesson05.tex
+INPUT lessons/lesson05/lesson05.tex
+INPUT ./lessons/lesson05/lesson05.tex
+INPUT lessons/lesson05/lesson05.tex
+INPUT ./lessons/lesson05//imgs/22-01-31-img01.png
+INPUT ./lessons/lesson05//imgs/22-01-31-img01.png
+INPUT lessons/lesson05//imgs/22-01-31-img01.png
+INPUT ./lessons/lesson05//imgs/22-01-31-img01.png
+INPUT ./lessons/lesson05//imgs/22-01-31-img01.png
+INPUT ./lessons/lesson05//imgs/22-01-31-img02.png
+INPUT ./lessons/lesson05//imgs/22-01-31-img02.png
+INPUT lessons/lesson05//imgs/22-01-31-img02.png
+INPUT ./lessons/lesson05//imgs/22-01-31-img02.png
+INPUT ./lessons/lesson05//imgs/22-01-31-img02.png
+INPUT ./lessons/lesson05//imgs/22-01-31-img04.png
+INPUT ./lessons/lesson05//imgs/22-01-31-img04.png
+INPUT lessons/lesson05//imgs/22-01-31-img04.png
+INPUT ./lessons/lesson05//imgs/22-01-31-img04.png
+INPUT ./lessons/lesson05//imgs/22-01-31-img04.png
 INPUT TMV206.aux
+INPUT c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc
+INPUT c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolF.enc
 INPUT c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc
 INPUT c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolC.enc
 INPUT c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc
 INPUT c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolE.enc
-INPUT c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc
 INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol10.pfb
 INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol7.pfb
 INPUT c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb
