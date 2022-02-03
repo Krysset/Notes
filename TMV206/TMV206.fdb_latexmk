@@ -1,9 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1643809320 "c:/Users/Max Hagman/Documents/Notes/TMV206/TMV206.tex" "TMV206.pdf" "TMV206" 1643809322
-  "TMV206.aux" 1643809322 7826 eaf529f5b478f53662ebced11260618c "pdflatex"
-  "TMV206.tex" 1643613422 601 3d1140f9be1e4a432a3b09a4a1135879 ""
-  "TMV206.toc" 1643809322 3975 35a69e38ae2abcde073e6fce75c0636a "pdflatex"
-  "c:/Users/Max Hagman/Documents/Notes/TMV206/TMV206.tex" 1643613422 601 3d1140f9be1e4a432a3b09a4a1135879 ""
+["pdflatex"] 1643875252 "c:/Users/Max Hagman/Documents/Notes/TMV206/TMV206.tex" "TMV206.pdf" "TMV206" 1643875253
+  "TMV206.aux" 1643875253 7826 eaf529f5b478f53662ebced11260618c "pdflatex"
+  "TMV206.tex" 1643871708 646 d705cdd4f19bb67b340873a338b543bb ""
+  "TMV206.toc" 1643875253 3975 35a69e38ae2abcde073e6fce75c0636a "pdflatex"
+  "c:/Users/Max Hagman/Documents/Notes/TMV206/TMV206.tex" 1643871708 646 d705cdd4f19bb67b340873a338b543bb ""
   "c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1643275313 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc" 1643277213 3341 78e600b269762aa2a25a5293cc4535c0 ""
   "c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolC.enc" 1643277213 3275 8d7166dfdbc31ffdc8aba0c31b3bd5c8 ""
@@ -154,7 +154,7 @@
   "lessons/lesson02//imgs/22-01-20-img07.jpg" 1643267556 154381 d9e8775daf9ae7d9262d3ebe046c3d95 ""
   "lessons/lesson02//imgs/22-01-20-img08.jpg" 1643267556 181504 89904e50d86fa1a2a27bd75f85854392 ""
   "lessons/lesson02//imgs/22-01-20-img09.jpg" 1643267556 377166 3bf5c516960dab7f4905a7897c70c53d ""
-  "lessons/lesson02/lesson02.tex" 1643267556 7418 889819e95f4a2b9f326825b641c7b13e ""
+  "lessons/lesson02/lesson02.tex" 1643875251 7418 e733d55d1cb5c275ee76ea79ee0deb3c ""
   "lessons/lesson03//imgs/22-01-24img01.jpg" 1643267556 45350 ce082fef926b9983d02a508365cc5a98 ""
   "lessons/lesson03//imgs/22-01-24img02.jpg" 1643267556 20254 3fba8842dfc26f32275fa5789e58650a ""
   "lessons/lesson03/lesson03.tex" 1643267556 6105 8939f6d3bc2bcd95e19079b1de48cad4 ""
@@ -163,6 +163,7 @@
   "lessons/lesson05//imgs/22-01-31-img02.png" 1643614897 248564 956eb4817a9dc19f2bdbcf3587197a0b ""
   "lessons/lesson05//imgs/22-01-31-img04.png" 1643617438 83318 a0f2fca1e8dcd589b792ef7e91045959 ""
   "lessons/lesson05/lesson05.tex" 1643618950 6829 76c21de3675d78490ef488ef15130648 ""
+  "lessons/lesson06/lesson06.tex" 1643871695 0 d41d8cd98f00b204e9800998ecf8427e ""
   (generated)
   "TMV206.aux"
   "TMV206.log"
