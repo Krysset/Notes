@@ -1,7 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1643809922 "c:/Users/Max Hagman/Documents/Notes/TMV206/gruppovn1/gruppovn1.tex" "gruppovn1.pdf" "gruppovn1" 1643809923
+["pdflatex"] 1643977255 "c:/Users/Max Hagman/Documents/Notes/TMV206/gruppovn/gruppovn1/gruppovn1.tex" "gruppovn1.pdf" "gruppovn1" 1643977257
   "bild.png" 1643805540 72189 102f0984d98360ddde28c2fe02fb5052 ""
-  "c:/Users/Max Hagman/Documents/Notes/TMV206/gruppovn1/gruppovn1.tex" 1643809921 3908 f45858814d0c0a16b06c4ec4c1ac8232 ""
+  "bild2.png" 1643897307 8024 9478da15b9eeaaebc5e9e0c5cadfcd48 ""
+  "c:/Users/Max Hagman/Documents/Notes/TMV206/gruppovn/gruppovn1/gruppovn1.tex" 1643977255 8573 8dbe1fe8b25f1bc2b378d42afdb1bfb9 ""
   "c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc" 1643277213 3341 78e600b269762aa2a25a5293cc4535c0 ""
   "c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolC.enc" 1643277213 3275 8d7166dfdbc31ffdc8aba0c31b3bd5c8 ""
   "c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc" 1643277213 3375 808c88761dbdc66fc653d18f42765b64 ""
@@ -36,6 +37,7 @@
   "c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr17.tfm" 1643275285 1292 296a67155bdbfc32aa9c636f21e91433 ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr6.tfm" 1643275285 1300 b62933e007d01cfd073f79b963c01526 ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmr8.tfm" 1643275285 1292 21c1c5bfeaebccffdb478fd231a0997d ""
+  "c:/texlive/2021/texmf-dist/fonts/tfm/public/cm/cmti10.tfm" 1643275285 1480 aa8e34af0eb6a2941b776984cf1dfdc4 ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/public/mnsymbol/MnSymbolA10.tfm" 1643277213 1380 34770d6ca8fa213a1c08117a2f19bd7a ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/public/mnsymbol/MnSymbolA12.tfm" 1643277213 1380 e07a490a6c9811eaaabe76956dd41cca ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/public/mnsymbol/MnSymbolA5.tfm" 1643277213 1380 0b0b2852d3dd18875230701abcae6382 ""
@@ -72,6 +74,7 @@
   "c:/texlive/2021/texmf-dist/fonts/tfm/public/mnsymbol/MnSymbolF6.tfm" 1643277213 928 45610d12be5578208a2b25524ddb18ac ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/public/mnsymbol/MnSymbolF7.tfm" 1643277213 928 daf8dc6a1b5f9d77266c8bca20202576 ""
   "c:/texlive/2021/texmf-dist/fonts/tfm/public/mnsymbol/MnSymbolF8.tfm" 1643277213 928 0e527254486d1fce95b15cf78ee2580a ""
+  "c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb" 1643274672 32080 340ef9bf63678554ee606688e7b5339d ""
   "c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb" 1643274672 36299 5f9df58c2139e7edcf37c8fca4bd384d ""
   "c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb" 1643274672 36281 c355509802a035cadc5f15869451dcee ""
   "c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb" 1643274672 36912 b448ef9ad9d7228ec3c6e71005136d55 ""
@@ -80,6 +83,7 @@
   "c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb" 1643274672 32362 bc3f3eec7ab7d65fe700963d4017d32c ""
   "c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb" 1643274672 31809 8670ca339bf94e56da1fc21c80635e2a ""
   "c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb" 1643274672 32762 7fee39e011c23b3589931effd97b9702 ""
+  "c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb" 1643274672 37944 359e864bd06cde3b1cf57bb20757fb06 ""
   "c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb" 1643274672 39386 0d30f65251ad09eae5335149fa8e6f76 ""
   "c:/texlive/2021/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol10.pfb" 1643277213 230551 3a6f2a919a12e8506446d232b6642ecc ""
   "c:/texlive/2021/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol7.pfb" 1643277213 232813 a278334f5659f8278398ceeda0b510df ""
@@ -110,8 +114,8 @@
   "c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map" 1643279351 4417058 0b608c5d44817b826a1c6b0dd51c3a64 ""
   "c:/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt" 1643279448 2796717 d02a5c7135dd56b4330abe953d6e8f90 ""
   "c:/texlive/2021/texmf.cnf" 1643279330 713 e69b156964470283e0530f5060668171 ""
-  "gruppovn1.aux" 1643809923 32 ab05033ccbb38b00a31b200ccedf8001 "pdflatex"
-  "gruppovn1.tex" 1643809921 3908 f45858814d0c0a16b06c4ec4c1ac8232 ""
+  "gruppovn1.aux" 1643977256 388 1511d8ff4d969dffbb71ef5dcb1ab129 "pdflatex"
+  "gruppovn1.tex" 1643977255 8573 8dbe1fe8b25f1bc2b378d42afdb1bfb9 ""
   (generated)
   "gruppovn1.aux"
   "gruppovn1.log"
