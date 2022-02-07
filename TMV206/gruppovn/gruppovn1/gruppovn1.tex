@@ -68,7 +68,7 @@
             $||\bm{u}||^{2}+||\bm{v}||^{2}=||\bm{u}+\bm{v}||^{2}=(\bm{u}+\bm{v})\cdot (\bm{u}+\bm{v}) = \bm{u}\cdot \bm{u} + 2\bm{u}\cdot \bm{v}+\bm{v}\cdot \bm{v}$\\
         \end{center}
         Då $\bm{u}\cdot \bm{u}=||\bm{u}||^{2}$ och $\bm{v}\cdot \bm{v}=||\bm{v}||^{2}$ får vi $||\bm{u}+\bm{v}||^{2}=||\bm{u}||^{2}+||\bm{v}||^{2}+2\bm{u}\cdot \bm{v}$.\\
-        Då $\bm{u}$ och $\bm{v}$ är ortogonala blir $2\bm{u}\cdot \bm{v} = 0$ vilket ger oss: $||\bm{u}||^{2}+||\bm{v}||^{2}$ v.s.b.
+        Då $\bm{u}$ och $\bm{v}$ är ortogonala blir $2\bm{u}\cdot \bm{v} = 0$ vilket ger oss: $||\bm{u}||^{2}+||\bm{v}||^{2} \blacksquare$
     \item 
         \begin{enumerate}
             \item 
@@ -93,23 +93,35 @@
                 innebär det att $\lambda\bm{b} + \mu\bm{c}$ är ortogonalt mot $\bm{a}$ och då blir $\lambda(\bm{a}\cdot\bm{b}) + \mu(\bm{a}\cdot\bm{c}) = 0$.
 
             \item
-                $\mu$ och $\lambda$ är skalärer
+                Då $\lambda (\bm{a}\cdot \bm{b})+\mu (\bm{a}\cdot \bm{c})=0 \Leftrightarrow \begin{pmatrix}\lambda\\\mu\end{pmatrix} \cdot \begin{pmatrix}\bm{a}\cdot \bm{b}\\ \bm{a} \cdot \bm{c} \end{pmatrix} = 0$\\
+                kan vi räkna ut att 
                 \begin{center}
-                    $\mu (\bm{a}\cdot \bm{c}) = -\lambda (\bm{a}\cdot \bm{b}) = (-1)\cdot \lambda ((-\bm{a})\cdot \bm{b})$\\
-                    $\mu (\bm{a}\cdot \bm{c}) = \lambda ((-\bm{a})\cdot \bm{b})$\\
-                    $\mu (\bm{a}\cdot \bm{c}) + \lambda ((-\bm{a})\cdot\bm{b})=0$
+                    $\begin{pmatrix}\bm{a}\cdot \bm{c}\\ \bm{-a} \cdot \bm{b} \end{pmatrix}\cdot\begin{pmatrix}\bm{a}\cdot \bm{b}\\ \bm{a} \cdot \bm{c} \end{pmatrix} = (\bm{a}\cdot\bm{c})(\bm{a}\cdot\bm{b})-(\bm{a}\cdot\bm{b})(\bm{a}\cdot\bm{c})=0$.
+                \end{center}
+                Detta innebär att $\begin{pmatrix}\lambda\\\mu\end{pmatrix}$ och $\begin{pmatrix}\bm{a}\cdot \bm{c}\\ \bm{-a} \cdot \bm{b} \end{pmatrix}$ är ortogonala mot $\begin{pmatrix}\bm{a}\cdot \bm{b}\\ \bm{a} \cdot \bm{c} \end{pmatrix}$ och
+                därför måste de vara parallella.\\\\
+                Vilket implicerar att man kan skriva den ena vektorn som en linjärkombination av den andra vektorn, såsom:
+                \begin{center}
+                    $\begin{pmatrix}\lambda\\\mu\end{pmatrix}=s\begin{pmatrix}\bm{a}\cdot\bm{c}\\ (-)\bm{a}\cdot\bm{b}\end{pmatrix}$, $s \in \mathbb{R}$
                 \end{center}
             \item
-                Då vi antar att $s=1$ så ser ekvationen ut som följande:
+                Då vi antar att $s=1$ ser ekvationen ut som följande:
                 \begin{center}
                     $\begin{pmatrix}\lambda\\\mu\end{pmatrix}=\begin{pmatrix}\bm{a}\cdot c\\ (-\bm{a})\cdot \bm{b}\end{pmatrix}$
                 \end{center}
-                Om vi då sätter 
+                Om vi då sätter
                 $a=\begin{pmatrix}3\\1\\5\end{pmatrix}$, $b=\begin{pmatrix}1\\4\\2\end{pmatrix}$ och $c=\begin{pmatrix}2\\3\\1\end{pmatrix}$\\
                 \begin{center}
-                    $\bm{a}\cdot \bm{c} = 3\cdot 2 + 1\cdot 3 + 5\cdot 1 = 6 + 3 + 5 = 14$\\
-                    $-\bm{a}\cdot \bm{b} = -3\cdot 1 - 1\cdot 4 - 5\cdot 2 = -3 -3 -10 = -16$
+                    $\bm{a}\cdot \bm{c} = 3\cdot 2 + 1\cdot 3 + 5\cdot 1 = 6 + 3 + 5 = 14 = \lambda$\\
+                    $-\bm{a}\cdot \bm{b} = -3\cdot 1 - 1\cdot 4 - 5\cdot 2 = -3 -4 -10 = -17 = \mu$
                 \end{center}
+                Med hjälp av dessa värden kan vi sätta:
+                \begin{center}
+                    $\lambda \bm{b} + \mu \bm{c} = 
+                    14\begin{pmatrix}1\\4\\2\end{pmatrix} + (-17)\begin{pmatrix}2\\3\\1\end{pmatrix} =
+                    \begin{pmatrix}-20\\5\\11\end{pmatrix}$
+                \end{center}
+                Om vi dessutom räknar ut $\bm{a}\times(\bm{b}\times\bm{c})$ får vi $\begin{pmatrix}-20\\5\\11\end{pmatrix}$.
         \end{enumerate}
 \end{enumerate}
 
