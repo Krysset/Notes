@@ -446,6 +446,11 @@ INPUT ./lessons/lesson06/lesson06.tex
 INPUT lessons/lesson06/lesson06.tex
 INPUT ./lessons/lesson06/lesson06.tex
 INPUT lessons/lesson06/lesson06.tex
+INPUT ./lessons/lesson06//imgs/22-02-07img01.png
+INPUT ./lessons/lesson06//imgs/22-02-07img01.png
+INPUT lessons/lesson06//imgs/22-02-07img01.png
+INPUT ./lessons/lesson06//imgs/22-02-07img01.png
+INPUT ./lessons/lesson06//imgs/22-02-07img01.png
 INPUT TMV206.aux
 INPUT c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc
 INPUT c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolF.enc

@@ -80,3 +80,20 @@
 \contentsline {paragraph}{Sats 2.24}{18}{}%
 \contentsline {subparagraph}{Bevis}{18}{}%
 \contentsline {paragraph}{Definition}{19}{}%
+\contentsline {paragraph}{Proposition 2.28}{19}{}%
+\contentsline {paragraph}{Sats 2.29}{19}{}%
+\contentsline {paragraph}{Ex}{19}{}%
+\contentsline {subparagraph}{Lösning}{19}{}%
+\contentsline {paragraph}{Proposition 2.31}{19}{}%
+\contentsline {chapter}{\numberline {7}Matris Invers Avs 2.3}{21}{}%
+\contentsline {paragraph}{Definition}{21}{}%
+\contentsline {paragraph}{Sats 2.36}{21}{}%
+\contentsline {subparagraph}{Bevis}{21}{}%
+\contentsline {chapter}{\numberline {8}Geometrisk och linjära avbildningar}{23}{}%
+\contentsline {section}{\numberline {8.1}Linjära avbildningar}{23}{}%
+\contentsline {paragraph}{Definition}{23}{}%
+\contentsline {paragraph}{Ex}{23}{}%
+\contentsline {paragraph}{Ex}{23}{}%
+\contentsline {paragraph}{Ex}{23}{}%
+\contentsline {paragraph}{Ex}{23}{}%
+\contentsline {subparagraph}{Lösning}{23}{}%
