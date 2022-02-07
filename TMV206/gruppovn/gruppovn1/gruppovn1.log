@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.27)  6 FEB 2022 13:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.27)  7 FEB 2022 11:11
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -177,6 +177,8 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen148
 \Gin@req@width=\dimen149
+) (c:/texlive/2021/texmf-dist/tex/latex/import/import.sty
+Package: import 2020/04/01  v 6.2
 ) (c:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count272
@@ -228,59 +230,59 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 
 {c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}]
 Chapter 1.
-
-Underfull \hbox (badness 10000) in paragraph at lines 21--28
+(./teori/1a.tex
+Underfull \hbox (badness 10000) in paragraph at lines 1--8
 
  []
 
-<bild.png, id=8, 1888.05376pt x 987.69pt>
-File: bild.png Graphic file (type png)
-<use bild.png>
-Package pdftex.def Info: bild.png  used on input line 33.
+<imgs/bild.png, id=8, 1888.05376pt x 987.69pt>
+File: imgs/bild.png Graphic file (type png)
+<use imgs/bild.png>
+Package pdftex.def Info: imgs/bild.png  used on input line 13.
 (pdftex.def)             Requested size: 283.19585pt x 148.14711pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 36--37
+Underfull \hbox (badness 10000) in paragraph at lines 16--17
 
  []
 
 [1
 
- <./bild.png>]
-<bild2.png, id=28, 447.17062pt x 299.61937pt>
-File: bild2.png Graphic file (type png)
-<use bild2.png>
-Package pdftex.def Info: bild2.png  used on input line 80.
+ <./imgs/bild.png>]) (./teori/1b.tex) (./teori/2.tex) (./teori/3a.tex
+<imgs/bild2.png, id=28, 447.17062pt x 299.61937pt>
+File: imgs/bild2.png Graphic file (type png)
+<use imgs/bild2.png>
+Package pdftex.def Info: imgs/bild2.png  used on input line 6.
 (pdftex.def)             Requested size: 178.86507pt x 119.84561pt.
- [2 <./bild2.png>]
-Underfull \hbox (badness 10000) in paragraph at lines 101--104
+) (./teori/3b.tex) (./teori/3c.tex [2 <./imgs/bild2.png>]
+Underfull \hbox (badness 10000) in paragraph at lines 6--9
 
  []
 
 
-Overfull \hbox (37.52852pt too wide) in paragraph at lines 101--104
+Overfull \hbox (37.52852pt too wide) in paragraph at lines 6--9
 \OT1/cmr/m/n/10 Vilket im-plicerar att man kan skriva den ena vek-torn som en linj^^?arkombination
  []
 
-
-Underfull \hbox (badness 10000) in paragraph at lines 112--114
+) (./teori/3d.tex
+Underfull \hbox (badness 10000) in paragraph at lines 5--7
 
  []
 
-[3]
+) [3]
 Chapter 2.
-[4
+(./dator/1.tex) (./dator/2a.tex) (./dator/2b.tex) (./dator/2c.tex) (./dator/3.tex) [4
 
 ] (./gruppovn1.aux) ) 
 Here is how much of TeX's memory you used:
- 4960 strings out of 478287
- 68347 string characters out of 5850749
- 340427 words of memory out of 5000000
- 23080 multiletter control sequences out of 15000+600000
+ 5065 strings out of 478287
+ 70076 string characters out of 5850749
+ 340546 words of memory out of 5000000
+ 23139 multiletter control sequences out of 15000+600000
  497470 words of font info for 123 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,13n,62p,363b,388s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,13n,62p,390b,437s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol-Bold10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmti10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb>
-Output written on gruppovn1.pdf (5 pages, 235527 bytes).
+Output written on gruppovn1.pdf (5 pages, 235459 bytes).
 PDF statistics:
  119 PDF objects out of 1000 (max. 8388607)
  72 compressed objects within 1 object stream
