@@ -96,4 +96,28 @@
 \contentsline {paragraph}{Ex}{23}{}%
 \contentsline {paragraph}{Ex}{23}{}%
 \contentsline {paragraph}{Ex}{23}{}%
-\contentsline {subparagraph}{Lösning}{23}{}%
+\contentsline {subparagraph}{Lösning}{24}{}%
+\contentsline {paragraph}{Sats 3.11 (Bassatsen)}{24}{}%
+\contentsline {subparagraph}{Bevis}{24}{}%
+\contentsline {paragraph}{Sats 3.12}{24}{}%
+\contentsline {section}{\numberline {8.2}Geometri hos linjära avbildningar (Avs 3.4)}{24}{}%
+\contentsline {paragraph}{Proposition 3.14}{24}{}%
+\contentsline {subparagraph}{Bevis}{24}{}%
+\contentsline {paragraph}{Proposition 3.16}{24}{}%
+\contentsline {subparagraph}{Bevis}{24}{}%
+\contentsline {paragraph}{Ex}{25}{}%
+\contentsline {subparagraph}{Lösning}{25}{}%
+\contentsline {paragraph}{Ex}{25}{}%
+\contentsline {subparagraph}{Lösning}{25}{}%
+\contentsline {paragraph}{Ex}{26}{}%
+\contentsline {subparagraph}{Lösning}{26}{}%
+\contentsline {paragraph}{Ex (Spegling)}{26}{}%
+\contentsline {paragraph}{Proposition 3.18}{26}{}%
+\contentsline {subparagraph}{}{26}{}%
+\contentsline {paragraph}{Ex}{26}{}%
+\contentsline {subparagraph}{Lösning}{26}{}%
+\contentsline {chapter}{\numberline {9}Sammansatta avbildningar (Avs 3.5)}{27}{}%
+\contentsline {paragraph}{Proposition 3.22}{27}{}%
+\contentsline {paragraph}{Proposition 3.26}{27}{}%
+\contentsline {paragraph}{Ex}{27}{}%
+\contentsline {subparagraph}{Bevis}{27}{}%
