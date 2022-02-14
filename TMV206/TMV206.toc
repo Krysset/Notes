@@ -121,3 +121,18 @@
 \contentsline {paragraph}{Proposition 3.26}{27}{}%
 \contentsline {paragraph}{Ex}{27}{}%
 \contentsline {subparagraph}{Bevis}{27}{}%
+\contentsline {paragraph}{Ex}{28}{}%
+\contentsline {subparagraph}{Lösning}{28}{}%
+\contentsline {chapter}{\numberline {10}Area- och Volymförändringar (Avs 3.6)}{29}{}%
+\contentsline {paragraph}{Sats 3.29}{29}{}%
+\contentsline {paragraph}{Ex}{29}{}%
+\contentsline {subparagraph}{Lösning}{29}{}%
+\contentsline {paragraph}{Ex}{30}{}%
+\contentsline {subparagraph}{Lösning}{30}{}%
+\contentsline {paragraph}{Sats 3.31}{30}{}%
+\contentsline {chapter}{\numberline {11}Affina avbildningar (Avs 3.7)}{31}{}%
+\contentsline {paragraph}{Ex}{31}{}%
+\contentsline {chapter}{\numberline {12}Rummet $\mathbb {R}^{n}$}{32}{}%
+\contentsline {section}{\numberline {12.1}Vektorer av allmän dimension (Avs 4.1)}{32}{}%
+\contentsline {paragraph}{Definition}{32}{}%
+\contentsline {paragraph}{Sats 4.11}{33}{}%
