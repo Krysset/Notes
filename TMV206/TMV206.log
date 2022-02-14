@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.27)  14 FEB 2022 18:24
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.27)  14 FEB 2022 20:19
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -179,55 +179,62 @@ File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen148
 \Gin@req@width=\dimen149
+) (c:/texlive/2021/texmf-dist/tex/latex/wrapfig/wrapfig.sty
+\wrapoverhang=\dimen150
+\WF@size=\dimen151
+\c@WF@wrappedlines=\count272
+\WF@box=\box52
+\WF@everypar=\toks22
+Package: wrapfig 2003/01/31  v 3.6
 ) (c:/texlive/2021/texmf-dist/tex/latex/comment/comment.sty
 \CommentStream=\write3
  Excluding comment 'comment') (c:/texlive/2021/texmf-dist/tex/latex/import/import.sty
 Package: import 2020/04/01  v 6.2
 ) (c:/texlive/2021/texmf-dist/tex/latex/l3backend/l3backend-pdftex.def
 File: l3backend-pdftex.def 2022-01-12 L3 backend support: PDF output (pdfTeX)
-\l__color_backend_stack_int=\count272
-\l__pdf_internal_box=\box52
+\l__color_backend_stack_int=\count273
+\l__pdf_internal_box=\box53
 ) (./TMV206.aux)
 \openout1 = `TMV206.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 11.
-LaTeX Font Info:    ... okay on input line 11.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 12.
+LaTeX Font Info:    ... okay on input line 12.
  (c:/texlive/2021/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count273
-\scratchdimen=\dimen150
-\scratchbox=\box53
-\nofMPsegments=\count274
-\nofMParguments=\count275
-\everyMPshowfont=\toks22
-\MPscratchCnt=\count276
-\MPscratchDim=\dimen151
-\MPnumerator=\count277
-\makeMPintoPDFobject=\count278
-\everyMPtoPDFconversion=\toks23
+\scratchcounter=\count274
+\scratchdimen=\dimen152
+\scratchbox=\box54
+\nofMPsegments=\count275
+\nofMParguments=\count276
+\everyMPshowfont=\toks23
+\MPscratchCnt=\count277
+\MPscratchDim=\dimen153
+\MPnumerator=\count278
+\makeMPintoPDFobject=\count279
+\everyMPtoPDFconversion=\toks24
 ) (c:/texlive/2021/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 485.
  (c:/texlive/2021/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Live
 ))
-LaTeX Font Info:    Trying to load font information for U+msa on input line 14.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 15.
  (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsa.fd
 File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 14.
+LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
  (c:/texlive/2021/texmf-dist/tex/latex/amsfonts/umsb.fd
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
@@ -287,30 +294,42 @@ Overfull \hbox (38.34871pt too wide) in paragraph at lines 55--58
 <lessons/lesson02//imgs/22-01-20-img05.jpg, id=46, 1710.39pt x 1078.0275pt>
 File: lessons/lesson02//imgs/22-01-20-img05.jpg Graphic file (type jpg)
 <use lessons/lesson02//imgs/22-01-20-img05.jpg>
-Package pdftex.def Info: lessons/lesson02//imgs/22-01-20-img05.jpg  used on input line 75.
-(pdftex.def)             Requested size: 171.04901pt x 107.80907pt.
+Package pdftex.def Info: lessons/lesson02//imgs/22-01-20-img05.jpg  used on input line 76.
+(pdftex.def)             Requested size: 102.61897pt x 64.67885pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--82
+
+ []
+
 <lessons/lesson02//imgs/22-01-20-img06.jpg, id=47, 1366.35469pt x 797.98125pt>
 File: lessons/lesson02//imgs/22-01-20-img06.jpg Graphic file (type jpg)
 <use lessons/lesson02//imgs/22-01-20-img06.jpg>
-Package pdftex.def Info: lessons/lesson02//imgs/22-01-20-img06.jpg  used on input line 84.
+Package pdftex.def Info: lessons/lesson02//imgs/22-01-20-img06.jpg  used on input line 90.
 (pdftex.def)             Requested size: 204.94435pt x 119.69202pt.
 <lessons/lesson02//imgs/22-01-20-img07.jpg, id=48, 1361.085pt x 580.41844pt>
 File: lessons/lesson02//imgs/22-01-20-img07.jpg Graphic file (type jpg)
 <use lessons/lesson02//imgs/22-01-20-img07.jpg>
-Package pdftex.def Info: lessons/lesson02//imgs/22-01-20-img07.jpg  used on input line 86.
+Package pdftex.def Info: lessons/lesson02//imgs/22-01-20-img07.jpg  used on input line 92.
 (pdftex.def)             Requested size: 204.15395pt x 87.059pt.
- [6 <./lessons/lesson02//imgs/22-01-20-img05.jpg> <./lessons/lesson02//imgs/22-01-20-img06.jpg> <./lessons/lesson02//imgs/22-01-20-img07.jpg>]
+[6 <./lessons/lesson02//imgs/22-01-20-img05.jpg> <./lessons/lesson02//imgs/22-01-20-img06.jpg> <./lessons/lesson02//imgs/22-01-20-img07.jpg>]
 <lessons/lesson02//imgs/22-01-20-img08.jpg, id=55, 1429.59094pt x 867.24pt>
 File: lessons/lesson02//imgs/22-01-20-img08.jpg Graphic file (type jpg)
 <use lessons/lesson02//imgs/22-01-20-img08.jpg>
-Package pdftex.def Info: lessons/lesson02//imgs/22-01-20-img08.jpg  used on input line 98.
+Package pdftex.def Info: lessons/lesson02//imgs/22-01-20-img08.jpg  used on input line 104.
 (pdftex.def)             Requested size: 171.5435pt x 104.0643pt.
 <lessons/lesson02//imgs/22-01-20-img09.jpg, id=56, 1182.66844pt x 1204.5pt>
 File: lessons/lesson02//imgs/22-01-20-img09.jpg Graphic file (type jpg)
 <use lessons/lesson02//imgs/22-01-20-img09.jpg>
-Package pdftex.def Info: lessons/lesson02//imgs/22-01-20-img09.jpg  used on input line 108.
-(pdftex.def)             Requested size: 118.27377pt x 120.45705pt.
-) (./lessons/lesson03/lesson03.tex [7 <./lessons/lesson02//imgs/22-01-20-img08.jpg> <./lessons/lesson02//imgs/22-01-20-img09.jpg>]
+Package pdftex.def Info: lessons/lesson02//imgs/22-01-20-img09.jpg  used on input line 114.
+(pdftex.def)             Requested size: 82.79524pt x 84.32361pt.
+
+Underfull \hbox (badness 4403) in paragraph at lines 109--115
+\OT1/cmr/m/n/10 Vektorprodukten (krysspro-duk-ten) av dem ^^?ar vek-torn $\OML/cmm/b/it/10 u \U/MnSymbolC/m/n/10 ^^U \OML/cmm/b/it/10 v$ \OT1/cmr/m/n/10 s^^Wa att
+ []
+
+) (./lessons/lesson03/lesson03.tex [7
+
+ <./lessons/lesson02//imgs/22-01-20-img08.jpg> <./lessons/lesson02//imgs/22-01-20-img09.jpg>]
 Chapter 2.
 <lessons/lesson03//imgs/22-01-24img01.jpg, id=60, 643.6547pt x 398.23781pt>
 File: lessons/lesson03//imgs/22-01-24img01.jpg Graphic file (type jpg)
@@ -500,12 +519,17 @@ Chapter 10.
 <lessons/lesson08//imgs/img03.png, id=152, 237.88875pt x 295.85532pt>
 File: lessons/lesson08//imgs/img03.png Graphic file (type png)
 <use lessons/lesson08//imgs/img03.png>
-Package pdftex.def Info: lessons/lesson08//imgs/img03.png  used on input line 77.
-(pdftex.def)             Requested size: 118.94408pt x 147.92729pt.
+Package pdftex.def Info: lessons/lesson08//imgs/img03.png  used on input line 76.
+(pdftex.def)             Requested size: 95.15381pt x 118.34003pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 79--83
+
+ []
+
 <lessons/lesson08//imgs/img04.png, id=153, 580.41844pt x 155.83218pt>
 File: lessons/lesson08//imgs/img04.png Graphic file (type png)
 <use lessons/lesson08//imgs/img04.png>
-Package pdftex.def Info: lessons/lesson08//imgs/img04.png  used on input line 83.
+Package pdftex.def Info: lessons/lesson08//imgs/img04.png  used on input line 87.
 (pdftex.def)             Requested size: 290.20851pt x 77.9159pt.
 [29
 
@@ -513,37 +537,51 @@ Package pdftex.def Info: lessons/lesson08//imgs/img04.png  used on input line 83
 <lessons/lesson08//imgs/img05.png, id=160, 1428.83812pt x 317.68687pt>
 File: lessons/lesson08//imgs/img05.png Graphic file (type png)
 <use lessons/lesson08//imgs/img05.png>
-Package pdftex.def Info: lessons/lesson08//imgs/img05.png  used on input line 98.
+Package pdftex.def Info: lessons/lesson08//imgs/img05.png  used on input line 104.
 (pdftex.def)             Requested size: 285.76256pt x 63.53624pt.
- [30 <./lessons/lesson08//imgs/img05.png>]
+ [30
+
+ <./lessons/lesson08//imgs/img05.png>]
 Chapter 11.
 <lessons/lesson08//imgs/img06.png, id=166, 672.26157pt x 186.6975pt>
 File: lessons/lesson08//imgs/img06.png Graphic file (type png)
 <use lessons/lesson08//imgs/img06.png>
-Package pdftex.def Info: lessons/lesson08//imgs/img06.png  used on input line 110.
+Package pdftex.def Info: lessons/lesson08//imgs/img06.png  used on input line 116.
 (pdftex.def)             Requested size: 336.12996pt x 93.34851pt.
 [31
 
  <./lessons/lesson08//imgs/img06.png>]
 Chapter 12.
-
-Overfull \hbox (54.7503pt too wide) in paragraph at lines 175--177
-[]\OT1/cmr/m/n/10 En vek-tor p^^Wa formeln $\OML/cmm/m/it/10 a[]\OML/cmm/b/it/10 v[] \U/MnSymbolC/m/n/10 ^^T \OML/cmm/m/it/10 a[]\OML/cmm/b/it/10 v[] \U/MnSymbolC/m/n/10 ^^T [] ^^T \OML/cmm/m/it/10 a[]\OML/cmm/b/it/10 v[]$ \OT1/cmr/m/n/10 ^^?ar en $[]$.
- []
-
 [32
 
-]) [33] (./TMV206.aux) ) 
+]
+Underfull \hbox (badness 10000) in paragraph at lines 185--191
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 185--191
+
+ []
+
+
+Overfull \hbox (39.7503pt too wide) in paragraph at lines 185--191
+\OT1/cmr/m/n/10 En vek-tor p^^Wa formeln $\OML/cmm/m/it/10 a[]\OML/cmm/b/it/10 v[] \U/MnSymbolC/m/n/10 ^^T \OML/cmm/m/it/10 a[]\OML/cmm/b/it/10 v[] \U/MnSymbolC/m/n/10 ^^T [] ^^T \OML/cmm/m/it/10 a[]\OML/cmm/b/it/10 v[]$ \OT1/cmr/m/n/10 ^^?ar en $[]$.
+ []
+
+) [33
+
+] (./TMV206.aux) ) 
 Here is how much of TeX's memory you used:
- 5374 strings out of 478287
- 80813 string characters out of 5850749
- 356451 words of memory out of 5000000
- 23405 multiletter control sequences out of 15000+600000
+ 5456 strings out of 478287
+ 82131 string characters out of 5850749
+ 358173 words of memory out of 5000000
+ 23483 multiletter control sequences out of 15000+600000
  508369 words of font info for 160 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,12n,62p,426b,238s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolF.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on TMV206.pdf (34 pages, 4953692 bytes).
+Output written on TMV206.pdf (34 pages, 4953851 bytes).
 PDF statistics:
  282 PDF objects out of 1000 (max. 8388607)
  157 compressed objects within 2 object streams

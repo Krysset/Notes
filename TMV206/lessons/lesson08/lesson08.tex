@@ -70,12 +70,16 @@ Matrisen till $f$ ges av $RP$.\\
 \end{equation*}
 
 \chapter{Area- och Volymförändringar (Avs 3.6)}
-
+\begin{wrapfigure}{r}{0.5\textwidth}
+    \vspace{-50pt}
+    \centering
+    \includegraphics[scale=0.4]{imgs/img03.png}
+    \vspace{-30pt}
+\end{wrapfigure}
 \paragraph{Sats 3.29} Antag att $D$ är ett godtyckligt område i planet.
-Låt $D^{\prime}$ vara bilden av $D$ under den linjära avbildningen med matris $A$.
-Då är $\frac{area(d^{\prime})}{area(d)}=|det(A)|$.\\
-\includegraphics[scale=0.5]{imgs/img03.png}
-
+Låt $D^{\prime}$ vara bilden av $D$ under den linjära avbildningen med matris $A$.\\
+Då är $\frac{area(d^{\prime})}{area(d)}=|det(A)|$.
+\\
 \paragraph{Ex} Låt $D$ vara en rektangel i planet och $R$ vara en rotation.\\
 Vad är arean av $R(D)$ eller då bilden av $D=D^{\prime}$?
 \subparagraph{Lösning} Vi tycker att $arean(\prim{D})=arean(D)$.
@@ -85,6 +89,8 @@ Rotationer ges av $R=\begin{pmatrix}
     cos\beta&&-sin\beta\\
     sin\beta&&cos\beta
 \end{pmatrix}$ och $det(R)=cos^{2}\beta+sin^{2}\beta=1$ så enligt sats 3.29 är $\frac{area(\prim{D})}{area(D)}=1$
+
+\clearpage
 
 \paragraph{Ex} Hur förändras arean av ett område under följande avbildningarna?
 \begin{equation*}
@@ -108,11 +114,11 @@ Låt $V$ vara planet eller rummet och låt $\bm{b}$ vara en vektor i $V$.\\
 Avbildningen $t_{\bm{b}}(\bm{v})=\bm{b}+\bm{v}$ kallas \underline{translationen med $\bm{b}$}.
 Den är \underline{inte} linjär!\\
 \includegraphics[scale=0.5]{imgs/img06.png}\\
-Allting förflyttas med $\bm{b}$!
+Allting förflyttas med $\bm{b}$!\\
 En funktion på formen $f(\bm{w})=A\bm{v}+\bm{b}$ sägs vara en \underline{affin avbildning}.
 Affina avbildnigar liknar linjära avbildningar.
-De avbildar linjer på linjer eller punkter.
-Sammansättningen av affina avbildningar är affin.
+De avbildar linjer på linjer eller på punkter.
+Sammansättningen av affina avbildningar är affin.\\
 Varje linjär avbildning är också en affin avbildning (låt $\bm{b}=\bm{0}$).
 
 \paragraph{Ex} $f(x)=kx$ är en affin och linjär avbildning. 
@@ -161,17 +167,25 @@ Vi låter
     \item[] $\bm{u}\cdot \bm{v}=\begin{pmatrix}u_{1}\\\vdots\\u_{n}\end{pmatrix}\cdot\begin{pmatrix}v_{1}\\\vdots\\v_{n}\end{pmatrix}= u_{1}v_{1}+u_{2}v_{2}+\ldots+u_{n}v_{n}$
     \item[] $||\bm{u}||=||\begin{pmatrix}u_{1}\\\vdots\\u_{n}\end{pmatrix}||=\sqrt{u_{1}^{2}+u_{2}^{2}+\ldots+u_{n}^{2}}$
 \end{itemize}
-Två vektorer $\bm{u}$ och $\bm{v}$ är \underline{parallella} om $\bm{u}=c\bm{v}$ för något $c\neq 0$.\\
-Två vektorer $\bm{u}$ och $\bm{v}$ är \underline{ortogonala} om $\bm{u}\cdot \bm{v}=0$.\\
-Vinkeln mellan $\bm{u}$ och $\bm{v}$ är det unika tal så att $cos\alpha=\frac{\bm{u}\cdot \bm{v}}{||\bm{u}||\cdot ||\bm{v}||}\text{ där } 0\leq \alpha \leq \pi$\\
+\paragraph{Definition} 
+\begin{itemize}
+    \item[] Två vektorer $\bm{u}$ och $\bm{v}$ är \underline{parallella} om $\bm{u}=c\bm{v}$ för något $c\neq 0$.
+    \item[] Två vektorer $\bm{u}$ och $\bm{v}$ är \underline{ortogonala} om $\bm{u}\cdot \bm{v}=0$.
+    \item[] Vinkeln mellan $\bm{u}$ och $\bm{v}$ är det unika tal så att $cos\alpha=\frac{\bm{u}\cdot \bm{v}}{||\bm{u}||\cdot ||\bm{v}||}\text{ där } 0\leq \alpha \leq \pi$
+\end{itemize}
+
+\clearpage
+
+\section{Räkneregler}
 Vi får räkneregler såsom
 \begin{itemize}
     \item[] $\bm{u}+\bm{v}=\bm{v}+\bm{u}$
     \item[] $(\bm{u}+\bm{v})+\bm{w}=\bm{u}+(\bm{v}+\bm{w})$
 \end{itemize}
 och så vidare... (Proposition 4.5)\\
-Pythagoras sats gäller: $\bm{u}$ och $\bm{v}$ är ortogonala $\Leftrightarrow ||\bm{u}+\bm{v}||^{2}=||\bm{u}||^{2}+||\bm{v}||^{2}$
-
+\\
+Pythagoras sats gäller: $\bm{u}$ och $\bm{v}$ är ortogonala $\Leftrightarrow ||\bm{u}+\bm{v}||^{2}=||\bm{u}||^{2}+||\bm{v}||^{2}$\\
+\\
 En vektor på formeln $a_{1}\bm{v}_{1}+a_{2}\bm{v}_{2}+\ldots+a_{m}\bm{v}_{m}$ är en \underline{linjärkombination av $\bm{v}_{1}+\bm{v}_{2}+\ldots+\bm{v}_{m}$}.
 Standardbasen för $\mathbb{R}^{n}$ ges av $\bm{e}_{1}, \bm{e}_{2}, \ldots, \bm{e}_{n}$ där 
 \begin{equation*}
