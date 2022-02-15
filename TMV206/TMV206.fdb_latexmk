@@ -1,8 +1,8 @@
 # Fdb version 3
-["pdflatex"] 1644866357 "c:/Users/Max Hagman/Documents/Notes/TMV206/TMV206.tex" "TMV206.pdf" "TMV206" 1644866359
-  "TMV206.aux" 1644866359 13543 05643c418cbb044675a64b30d581c33f "pdflatex"
+["pdflatex"] 1644869720 "c:/Users/Max Hagman/Documents/Notes/TMV206/TMV206.tex" "TMV206.pdf" "TMV206" 1644869722
+  "TMV206.aux" 1644869722 13790 a29fef23ab4cd0b508e207d05e4165a9 "pdflatex"
   "TMV206.tex" 1644864997 814 8e91fa390ef9865455268f6b6850c659 ""
-  "TMV206.toc" 1644866359 6857 1074e9034378a2f258cdec64f619ccb0 "pdflatex"
+  "TMV206.toc" 1644869722 6981 d86c318a2962e1728b8cd21d9e8e629d "pdflatex"
   "c:/Users/Max Hagman/Documents/Notes/TMV206/TMV206.tex" 1644864997 814 8e91fa390ef9865455268f6b6850c659 ""
   "c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1643275313 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc" 1643277213 3341 78e600b269762aa2a25a5293cc4535c0 ""
@@ -160,8 +160,10 @@
   "lessons/lesson02/lesson02.tex" 1644866356 7308 822f47f8c913d1a5874308b2bdc07c70 ""
   "lessons/lesson03//imgs/22-01-24img01.jpg" 1643267556 45350 ce082fef926b9983d02a508365cc5a98 ""
   "lessons/lesson03//imgs/22-01-24img02.jpg" 1643267556 20254 3fba8842dfc26f32275fa5789e58650a ""
-  "lessons/lesson03/lesson03.tex" 1643267556 6105 8939f6d3bc2bcd95e19079b1de48cad4 ""
-  "lessons/lesson04/lesson04.tex" 1643273865 6490 be407a3fdfb1435a5f1aa4beefe70a60 ""
+  "lessons/lesson03/lesson03.tex" 1644868076 6496 ddd2ecf8571e39dbef5863364f89805b ""
+  "lessons/lesson04//imgs/img01.png" 1644869376 107629 8f3aa57e4958bdad5dbf6f98d44f39d7 ""
+  "lessons/lesson04//imgs/img02.png" 1644869585 66847 4745610d4d1e4525ed6af87b47060746 ""
+  "lessons/lesson04/lesson04.tex" 1644869717 6913 029d20af97a2d2da821b30c4076419c5 ""
   "lessons/lesson05//imgs/22-01-31-img01.png" 1643614884 294177 65b5e055cf2a742ef29892ac07182149 ""
   "lessons/lesson05//imgs/22-01-31-img02.png" 1643614897 248564 956eb4817a9dc19f2bdbcf3587197a0b ""
   "lessons/lesson05//imgs/22-01-31-img04.png" 1643617438 83318 a0f2fca1e8dcd589b792ef7e91045959 ""

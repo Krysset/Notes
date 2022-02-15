@@ -1,5 +1,5 @@
-% 2022-01-27 Lesson 4 week 2 of TMV206
-% Missade lite??
+\paragraph{Definition} En linje beskriven på formen $\begin{pmatrix}x\\y\\z\end{pmatrix}=P_{0}+t\bm{v}$ sägs vara på \underline{parameterform}.
+Alltså är det \underline{linjens ekvation på parameterform} och t är parametern.
 
 \paragraph{Ex} Bestäm en ekvation för den linje som går igenom $P=\begin{pmatrix}1\\1\\0\end{pmatrix}$ och $Q=\begin{pmatrix}0\\1\\1\end{pmatrix}$.
 \subparagraph{Lösning} 
@@ -7,12 +7,16 @@ Vektorn $v=\overrightarrow{QP}=Q-P=\begin{pmatrix}1\\1\\0\end{pmatrix}-\begin{pm
 Linjen ges av: $\begin{pmatrix}y\\y\\z\end{pmatrix}=\begin{pmatrix}1\\1\\0\end{pmatrix}+t\begin{pmatrix}1\\0\\-1\end{pmatrix}=\begin{pmatrix}1+t\\1\\-t\end{pmatrix}$
 
 \section{Linjer i planet}
+Vi har 
 Vi har sett att linjer i planet går att beskriva med en ekvation $Ax+By+C=0$.
-Detta sägs vara \underline{linjens ekvation på normalform}.
-Vektorn $\begin{pmatrix}0\\-C/B\end{pmatrix}-\begin{pmatrix}-C/A\\0\end{pmatrix}=\begin{pmatrix}C/A\\-C/B\\\end{pmatrix}$ är en riktningsvektor. 
-Men då är även $\frac{AB}{C}\begin{pmatrix}C/A\\-C/B\end{pmatrix}=\begin{pmatrix}B\\-A\end{pmatrix}$ är en riktningsvektor!
-Men då är $\bm{n}=\begin{pmatrix}A\\B\end{pmatrix}$ en normal!
-Varför? Jo, $\begin{pmatrix}B\\-A\end{pmatrix}\cdot \begin{pmatrix}A\\B\end{pmatrix}=BA+(-A)B=0$
+Detta sägs vara \underline{linjens ekvation på normalform}.\\
+Vektorn $\begin{pmatrix}0\\-C/B\end{pmatrix}-\begin{pmatrix}-C/A\\0\end{pmatrix}=\begin{pmatrix}C/A\\-C/B\\\end{pmatrix}$ är en riktningsvektor.\\
+Men då är även $\frac{AB}{C}\begin{pmatrix}C/A\\-C/B\end{pmatrix}=\begin{pmatrix}B\\-A\end{pmatrix}$ är en riktningsvektor!\\
+Vilket leder till att $\bm{n}=\begin{pmatrix}A\\B\end{pmatrix}$ en normal!
+Varför? Jo, 
+\begin{equation*}
+    \begin{pmatrix}B\\-A\end{pmatrix}\cdot \begin{pmatrix}A\\B\end{pmatrix}=BA+(-A)B=0
+\end{equation*}
 En linje beskriven av ekvationen $Ax+By+C=0$ har $\bm{n}=\begin{pmatrix}A\\B\end{pmatrix}$ som en normal.
 Vektorn $\begin{pmatrix}B\\A\end{pmatrix}$ är en riktningsvektor.
 
@@ -22,12 +26,16 @@ Vektorn $\begin{pmatrix}B\\A\end{pmatrix}$ är en riktningsvektor.
 Skriv linjen på normalform.
 \subparagraph{Lösning} Vi vill bli av med t!\\
 $t=1-x$ och $2t=y-3\Leftrightarrow t=\frac{y-3}{2}$\\
-Alltså: $1-x=\frac{y-3}{2}\Leftrightarrow x+\frac{y}{x}-\frac{3}{2}-1=0\Leftrightarrow $ MISSADE LITE
+Alltså: $1-x=\frac{y-3}{2}\Leftrightarrow x+\frac{y}{2}-\frac{3}{2}-1=0\Leftrightarrow 2x+y-5=0$\\
+Vi ser att $\begin{pmatrix}2\\1\end{pmatrix}$ är en normal!
 
 \chapter{Plan i rummet}
 Ett plan bestäms av en punkt och två icke-parallella vektorer som ligger i planet.
-Men ett plan bestäms också av en punkt samt en normalvektor.
+Ett plan kan dessutom bestämmas av en punkt samt en normalvektor.
 Vi kan exempelvis välja $\bm{u}\times \bm{v}$ som normal.
+\begin{center}
+    \includegraphics[scale=0.3]{imgs/img01.png}
+\end{center}
 Planets ekvation på parameterform: $
 \begin{pmatrix}
     x\\y\\z
@@ -44,14 +52,14 @@ Planets ekvation på parameterform: $
 \begin{pmatrix}
     v_{x}\\v_{y}\\v_{z}
 \end{pmatrix}$\\
-Här är s,t parametrar.\\
+Här är $s$, $t$ parametrar.\\
 Antag att $\bm{n}=(A,B,C)$ är en normal till planet.
 Då är $(x,y,z)$ en punkt planet $\Leftrightarrow \bm{n}\cdot \overrightarrow{P_{0}P}=0\Leftrightarrow \begin{pmatrix}
     A\\B\\C
 \end{pmatrix}\cdot \begin{pmatrix}
     x-x_{0}\\y-y_{0}\\z-z_{0}
 \end{pmatrix}=0\Leftrightarrow Ax+By+Cz-(Ax_{0}+By_{0}+Cz_{0})=0$\\
-% Bild 4.
+\includegraphics[scale=0.5]{imgs/img02.png}\\
 Alltså: Planet ges av $Ax+By+Cz+D=0$ där $\bm{n}=(A,B,C)$ är en normal till planet!/?
 Detta är planets ekvation på normalform!
 

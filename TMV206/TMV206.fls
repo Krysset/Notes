@@ -434,6 +434,16 @@ INPUT ./lessons/lesson04/lesson04.tex
 INPUT lessons/lesson04/lesson04.tex
 INPUT ./lessons/lesson04/lesson04.tex
 INPUT lessons/lesson04/lesson04.tex
+INPUT ./lessons/lesson04//imgs/img01.png
+INPUT ./lessons/lesson04//imgs/img01.png
+INPUT lessons/lesson04//imgs/img01.png
+INPUT ./lessons/lesson04//imgs/img01.png
+INPUT ./lessons/lesson04//imgs/img01.png
+INPUT ./lessons/lesson04//imgs/img02.png
+INPUT ./lessons/lesson04//imgs/img02.png
+INPUT lessons/lesson04//imgs/img02.png
+INPUT ./lessons/lesson04//imgs/img02.png
+INPUT ./lessons/lesson04//imgs/img02.png
 INPUT ./lessons/lesson05/lesson05.tex
 INPUT lessons/lesson05/lesson05.tex
 INPUT ./lessons/lesson05/lesson05.tex
