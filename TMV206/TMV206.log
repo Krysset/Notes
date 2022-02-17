@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.27)  14 FEB 2022 21:15
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.27)  17 FEB 2022 20:13
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -239,23 +239,23 @@ LaTeX Font Info:    Trying to load font information for U+msb on input line 15.
 File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 ) [1
 
-{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./TMV206.toc)
+{c:/texlive/2021/texmf-var/fonts/map/pdftex/updmap/pdftex.map}] (./TMV206.toc [1
+
+])
 \tf@toc=\write4
 \openout4 = `TMV206.toc'.
 
- (./lessons/lesson01/lesson01.tex [1
-
-]
+ (./lessons/lesson01/lesson01.tex [2]
 Chapter 1.
-[2
+[3
 
 ]
-<lessons/lesson01//imgs/22-01-17-img01.jpg, id=23, 642.90187pt x 534.49687pt>
+<lessons/lesson01//imgs/22-01-17-img01.jpg, id=26, 642.90187pt x 534.49687pt>
 File: lessons/lesson01//imgs/22-01-17-img01.jpg Graphic file (type jpg)
 <use lessons/lesson01//imgs/22-01-17-img01.jpg>
 Package pdftex.def Info: lessons/lesson01//imgs/22-01-17-img01.jpg  used on input line 50.
 (pdftex.def)             Requested size: 160.72507pt x 133.62389pt.
-) (./lessons/lesson02/lesson02.tex [3
+) (./lessons/lesson02/lesson02.tex [4
 
  <./lessons/lesson01//imgs/22-01-17-img01.jpg>]
 LaTeX Font Info:    Trying to load font information for OMS+cmr on input line 15.
@@ -264,23 +264,23 @@ File: omscmr.fd 2019/12/16 v2.5j Standard LaTeX font definitions
 )
 LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <10> not available
 (Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 15.
-<lessons/lesson02//imgs/22-01-20-img01.jpg, id=32, 1768.35657pt x 693.34032pt>
+<lessons/lesson02//imgs/22-01-20-img01.jpg, id=35, 1768.35657pt x 693.34032pt>
 File: lessons/lesson02//imgs/22-01-20-img01.jpg Graphic file (type jpg)
 <use lessons/lesson02//imgs/22-01-20-img01.jpg>
 Package pdftex.def Info: lessons/lesson02//imgs/22-01-20-img01.jpg  used on input line 17.
 (pdftex.def)             Requested size: 229.89442pt x 90.1374pt.
-<lessons/lesson02//imgs/22-01-20-img02.jpg, id=33, 1555.31062pt x 590.205pt>
+<lessons/lesson02//imgs/22-01-20-img02.jpg, id=36, 1555.31062pt x 590.205pt>
 File: lessons/lesson02//imgs/22-01-20-img02.jpg Graphic file (type jpg)
 <use lessons/lesson02//imgs/22-01-20-img02.jpg>
 Package pdftex.def Info: lessons/lesson02//imgs/22-01-20-img02.jpg  used on input line 22.
 (pdftex.def)             Requested size: 233.28653pt x 88.52692pt.
- [4 <./lessons/lesson02//imgs/22-01-20-img01.jpg> <./lessons/lesson02//imgs/22-01-20-img02.jpg>]
-<lessons/lesson02//imgs/22-01-20-img03.jpg, id=39, 1668.9853pt x 513.41812pt>
+ [5 <./lessons/lesson02//imgs/22-01-20-img01.jpg> <./lessons/lesson02//imgs/22-01-20-img02.jpg>]
+<lessons/lesson02//imgs/22-01-20-img03.jpg, id=42, 1668.9853pt x 513.41812pt>
 File: lessons/lesson02//imgs/22-01-20-img03.jpg Graphic file (type jpg)
 <use lessons/lesson02//imgs/22-01-20-img03.jpg>
 Package pdftex.def Info: lessons/lesson02//imgs/22-01-20-img03.jpg  used on input line 45.
 (pdftex.def)             Requested size: 250.33699pt x 77.00938pt.
-<lessons/lesson02//imgs/22-01-20-img04.jpg, id=40, 1649.41219pt x 755.07094pt>
+<lessons/lesson02//imgs/22-01-20-img04.jpg, id=43, 1649.41219pt x 755.07094pt>
 File: lessons/lesson02//imgs/22-01-20-img04.jpg Graphic file (type jpg)
 <use lessons/lesson02//imgs/22-01-20-img04.jpg>
 Package pdftex.def Info: lessons/lesson02//imgs/22-01-20-img04.jpg  used on input line 57.
@@ -290,8 +290,8 @@ Overfull \hbox (38.34871pt too wide) in paragraph at lines 55--58
  \OT1/cmr/bx/n/10 Def-i-ni-tion[] \OT1/cmr/m/n/10 L^^Wat $\OML/cmm/b/it/10 v$ \OT1/cmr/m/n/10 vara en vek-tor och L en linje. $[]$
  []
 
-[5 <./lessons/lesson02//imgs/22-01-20-img03.jpg> <./lessons/lesson02//imgs/22-01-20-img04.jpg>]
-<lessons/lesson02//imgs/22-01-20-img05.jpg, id=46, 1710.39pt x 1078.0275pt>
+[6 <./lessons/lesson02//imgs/22-01-20-img03.jpg> <./lessons/lesson02//imgs/22-01-20-img04.jpg>]
+<lessons/lesson02//imgs/22-01-20-img05.jpg, id=50, 1710.39pt x 1078.0275pt>
 File: lessons/lesson02//imgs/22-01-20-img05.jpg Graphic file (type jpg)
 <use lessons/lesson02//imgs/22-01-20-img05.jpg>
 Package pdftex.def Info: lessons/lesson02//imgs/22-01-20-img05.jpg  used on input line 76.
@@ -301,23 +301,23 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--82
 
  []
 
-<lessons/lesson02//imgs/22-01-20-img06.jpg, id=47, 1366.35469pt x 797.98125pt>
+<lessons/lesson02//imgs/22-01-20-img06.jpg, id=51, 1366.35469pt x 797.98125pt>
 File: lessons/lesson02//imgs/22-01-20-img06.jpg Graphic file (type jpg)
 <use lessons/lesson02//imgs/22-01-20-img06.jpg>
 Package pdftex.def Info: lessons/lesson02//imgs/22-01-20-img06.jpg  used on input line 90.
 (pdftex.def)             Requested size: 204.94435pt x 119.69202pt.
-<lessons/lesson02//imgs/22-01-20-img07.jpg, id=48, 1361.085pt x 580.41844pt>
+<lessons/lesson02//imgs/22-01-20-img07.jpg, id=52, 1361.085pt x 580.41844pt>
 File: lessons/lesson02//imgs/22-01-20-img07.jpg Graphic file (type jpg)
 <use lessons/lesson02//imgs/22-01-20-img07.jpg>
 Package pdftex.def Info: lessons/lesson02//imgs/22-01-20-img07.jpg  used on input line 92.
 (pdftex.def)             Requested size: 204.15395pt x 87.059pt.
-[6 <./lessons/lesson02//imgs/22-01-20-img05.jpg> <./lessons/lesson02//imgs/22-01-20-img06.jpg> <./lessons/lesson02//imgs/22-01-20-img07.jpg>]
-<lessons/lesson02//imgs/22-01-20-img08.jpg, id=55, 1429.59094pt x 867.24pt>
+[7 <./lessons/lesson02//imgs/22-01-20-img05.jpg> <./lessons/lesson02//imgs/22-01-20-img06.jpg> <./lessons/lesson02//imgs/22-01-20-img07.jpg>]
+<lessons/lesson02//imgs/22-01-20-img08.jpg, id=58, 1429.59094pt x 867.24pt>
 File: lessons/lesson02//imgs/22-01-20-img08.jpg Graphic file (type jpg)
 <use lessons/lesson02//imgs/22-01-20-img08.jpg>
 Package pdftex.def Info: lessons/lesson02//imgs/22-01-20-img08.jpg  used on input line 104.
 (pdftex.def)             Requested size: 171.5435pt x 104.0643pt.
-<lessons/lesson02//imgs/22-01-20-img09.jpg, id=56, 1182.66844pt x 1204.5pt>
+<lessons/lesson02//imgs/22-01-20-img09.jpg, id=59, 1182.66844pt x 1204.5pt>
 File: lessons/lesson02//imgs/22-01-20-img09.jpg Graphic file (type jpg)
 <use lessons/lesson02//imgs/22-01-20-img09.jpg>
 Package pdftex.def Info: lessons/lesson02//imgs/22-01-20-img09.jpg  used on input line 114.
@@ -327,24 +327,24 @@ Underfull \hbox (badness 4403) in paragraph at lines 109--115
 \OT1/cmr/m/n/10 Vektorprodukten (krysspro-duk-ten) av dem ^^?ar vek-torn $\OML/cmm/b/it/10 u \U/MnSymbolC/m/n/10 ^^U \OML/cmm/b/it/10 v$ \OT1/cmr/m/n/10 s^^Wa att
  []
 
-) (./lessons/lesson03/lesson03.tex [7
+) (./lessons/lesson03/lesson03.tex [8
 
  <./lessons/lesson02//imgs/22-01-20-img08.jpg> <./lessons/lesson02//imgs/22-01-20-img09.jpg>]
 Chapter 2.
-<lessons/lesson03//imgs/22-01-24img01.jpg, id=60, 643.6547pt x 398.23781pt>
+<lessons/lesson03//imgs/22-01-24img01.jpg, id=63, 643.6547pt x 398.23781pt>
 File: lessons/lesson03//imgs/22-01-24img01.jpg Graphic file (type jpg)
 <use lessons/lesson03//imgs/22-01-24img01.jpg>
 Package pdftex.def Info: lessons/lesson03//imgs/22-01-24img01.jpg  used on input line 20.
 (pdftex.def)             Requested size: 160.91327pt x 99.5592pt.
-[8
+[9
 
- <./lessons/lesson03//imgs/22-01-24img01.jpg>] [9
+ <./lessons/lesson03//imgs/22-01-24img01.jpg>] [10
 
-] [10
+] [11
 
 ]
 Chapter 3.
-<lessons/lesson03//imgs/22-01-24img02.jpg, id=70, 548.0475pt x 314.67563pt>
+<lessons/lesson03//imgs/22-01-24img02.jpg, id=73, 548.0475pt x 314.67563pt>
 File: lessons/lesson03//imgs/22-01-24img02.jpg Graphic file (type jpg)
 <use lessons/lesson03//imgs/22-01-24img02.jpg>
 Package pdftex.def Info: lessons/lesson03//imgs/22-01-24img02.jpg  used on input line 100.
@@ -359,23 +359,23 @@ Overfull \hbox (17.07574pt too wide) in paragraph at lines 1--3
  \OT1/cmr/bx/n/10 Def-i-ni-tion[] \OT1/cmr/m/n/10 En linje beskriven p^^Wa for-men $[] \U/MnSymbolD/m/n/10 ^^@ \OML/cmm/m/it/10 P[] \U/MnSymbolC/m/n/10 ^^T \OML/cmm/m/it/10 t\OML/cmm/b/it/10 v$ \OT1/cmr/m/n/10 s^^?ags vara p^^Wa $[]$.
  []
 
-[11
+[12
 
- <./lessons/lesson03//imgs/22-01-24img02.jpg>] [12]
+ <./lessons/lesson03//imgs/22-01-24img02.jpg>] [13]
 Chapter 4.
-<lessons/lesson04//imgs/img01.png, id=78, 640.64343pt x 277.035pt>
+<lessons/lesson04//imgs/img01.png, id=81, 640.64343pt x 277.035pt>
 File: lessons/lesson04//imgs/img01.png Graphic file (type png)
 <use lessons/lesson04//imgs/img01.png>
 Package pdftex.def Info: lessons/lesson04//imgs/img01.png  used on input line 37.
 (pdftex.def)             Requested size: 192.1945pt x 83.11113pt.
-<lessons/lesson04//imgs/img02.png, id=80, 368.87813pt x 179.16937pt>
+<lessons/lesson04//imgs/img02.png, id=83, 368.87813pt x 179.16937pt>
 File: lessons/lesson04//imgs/img02.png Graphic file (type png)
 <use lessons/lesson04//imgs/img02.png>
 Package pdftex.def Info: lessons/lesson04//imgs/img02.png  used on input line 62.
 (pdftex.def)             Requested size: 184.4386pt x 89.58446pt.
-[13
+[14
 
- <./lessons/lesson04//imgs/img01.png> <./lessons/lesson04//imgs/img02.png>]) [14] (./lessons/lesson05/lesson05.tex [15]
+ <./lessons/lesson04//imgs/img01.png> <./lessons/lesson04//imgs/img02.png>]) [15] (./lessons/lesson05/lesson05.tex [16]
 Chapter 5.
 
 Overfull \hbox (0.94145pt too wide) in paragraph at lines 33--39
@@ -387,15 +387,15 @@ Overfull \hbox (66.86838pt too wide) in paragraph at lines 48--62
 \OT1/cmr/m/n/10 Vi definierar pro-duk-ten av A och B genom $\OML/cmm/m/it/10 AB \U/MnSymbolD/m/n/10 ^^@ \OML/cmm/m/it/10 A [] \U/MnSymbolD/m/n/10 ^^@ []$ 
  []
 
-[16
+[17
 
 ]
-<lessons/lesson05//imgs/22-01-31-img01.png, id=96, 1036.62282pt x 286.82156pt>
+<lessons/lesson05//imgs/22-01-31-img01.png, id=99, 1036.62282pt x 286.82156pt>
 File: lessons/lesson05//imgs/22-01-31-img01.png Graphic file (type png)
 <use lessons/lesson05//imgs/22-01-31-img01.png>
 Package pdftex.def Info: lessons/lesson05//imgs/22-01-31-img01.png  used on input line 80.
 (pdftex.def)             Requested size: 310.98924pt x 86.04712pt.
-<lessons/lesson05//imgs/22-01-31-img02.png, id=97, 1062.21844pt x 325.96782pt>
+<lessons/lesson05//imgs/22-01-31-img02.png, id=100, 1062.21844pt x 325.96782pt>
 File: lessons/lesson05//imgs/22-01-31-img02.png Graphic file (type png)
 <use lessons/lesson05//imgs/22-01-31-img02.png>
 Package pdftex.def Info: lessons/lesson05//imgs/22-01-31-img02.png  used on input line 83.
@@ -405,22 +405,22 @@ Underfull \hbox (badness 10000) in paragraph at lines 77--84
 
  []
 
-[17 <./lessons/lesson05//imgs/22-01-31-img01.png> <./lessons/lesson05//imgs/22-01-31-img02.png>] [18]
+[18 <./lessons/lesson05//imgs/22-01-31-img01.png> <./lessons/lesson05//imgs/22-01-31-img02.png>] [19]
 Chapter 6.
 
 Underfull \hbox (badness 10000) in paragraph at lines 117--128
 
  []
 
-<lessons/lesson05//imgs/22-01-31-img04.png, id=109, 622.57594pt x 159.59625pt>
+<lessons/lesson05//imgs/22-01-31-img04.png, id=112, 622.57594pt x 159.59625pt>
 File: lessons/lesson05//imgs/22-01-31-img04.png Graphic file (type png)
 <use lessons/lesson05//imgs/22-01-31-img04.png>
 Package pdftex.def Info: lessons/lesson05//imgs/22-01-31-img04.png  used on input line 132.
 (pdftex.def)             Requested size: 311.2872pt x 79.79791pt.
-[19
+[20
 
  <./lessons/lesson05//imgs/22-01-31-img04.png>]) (./lessons/lesson06/lesson06.tex
-<lessons/lesson06//imgs/22-02-07img01.png, id=114, 183.68625pt x 146.04562pt>
+<lessons/lesson06//imgs/22-02-07img01.png, id=117, 183.68625pt x 146.04562pt>
 File: lessons/lesson06//imgs/22-02-07img01.png Graphic file (type png)
 <use lessons/lesson06//imgs/22-02-07img01.png>
 Package pdftex.def Info: lessons/lesson06//imgs/22-02-07img01.png  used on input line 10.
@@ -430,31 +430,31 @@ Overfull \hbox (0.6985pt too wide) detected at line 20
 \OML/cmm/m/it/10 det\OMX/MnSymbolE/m/n/10 à\OML/cmm/b/it/10 u\OML/cmm/m/it/10 ; \OML/cmm/b/it/10 v\OML/cmm/m/it/10 ; \OML/cmm/b/it/10 w\OMX/MnSymbolE/m/n/10 ç \U/MnSymbolD/m/n/10 ^^@ [] ^^@ \OT1/cmr/m/n/10 1 \U/MnSymbolC/m/n/10 ^^@ \OMX/MnSymbolE/m/n/10 à\OT1/cmr/m/n/10 3 \U/MnSymbolC/m/n/10 ^^@ \OT1/cmr/m/n/10 1 \U/MnSymbolC/m/n/10 ^^P \OT1/cmr/m/n/10 1 \U/MnSymbolC/m/n/10 ^^@ \OT1/cmr/m/n/10 1\OMX/MnSymbolE/m/n/10 ç \U/MnSymbolC/m/n/10 ^^P \OT1/cmr/m/n/10 2\OMX/MnSymbolE/m/n/10 à\OT1/cmr/m/n/10 0 \U/MnSymbolC/m/n/10 ^^@ \OT1/cmr/m/n/10 1 \U/MnSymbolC/m/n/10 ^^P \OT1/cmr/m/n/10 2 \U/MnSymbolC/m/n/10 ^^@ \OT1/cmr/m/n/10 1\OMX/MnSymbolE/m/n/10 ç \U/MnSymbolC/m/n/10 ^^T \OT1/cmr/m/n/10 2\OMX/MnSymbolE/m/n/10 à\OT1/cmr/m/n/10 0 \U/MnSymbolC/m/n/10 ^^@ \OT1/cmr/m/n/10 1 \U/MnSymbolC/m/n/10 ^^P \OT1/cmr/m/n/10 2 \U/MnSymbolC/m/n/10 ^^@ \OT1/cmr/m/n/10 3\OMX/MnSymbolE/m/n/10 ç \U/MnSymbolD/m/n/10 ^^@ \OT1/cmr/m/n/10 2 \U/MnSymbolC/m/n/10 ^^T \OT1/cmr/m/n/10 4 \U/MnSymbolC/m/n/10 ^^P \OT1/cmr/m/n/10 12 \U/MnSymbolD/m/n/10 ^^@ \U/MnSymbolC/m/n/10 ^^P\OT1/cmr/m/n/10 6
  []
 
-[20 <./lessons/lesson06//imgs/22-02-07img01.png>] [21]
+[21 <./lessons/lesson06//imgs/22-02-07img01.png>] [22]
 Chapter 7.
 
 Underfull \hbox (badness 10000) in paragraph at lines 74--83
 
  []
 
-[22
+[23
 
-] [23]
+] [24]
 Chapter 8.
-) (./lessons/lesson07/lesson07.tex [24
+) (./lessons/lesson07/lesson07.tex [25
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 8--13
 
  []
 
-<lessons/lesson07//imgs/img01.png, id=132, 948.54375pt x 483.30562pt>
+<lessons/lesson07//imgs/img01.png, id=135, 948.54375pt x 483.30562pt>
 File: lessons/lesson07//imgs/img01.png Graphic file (type png)
 <use lessons/lesson07//imgs/img01.png>
 Package pdftex.def Info: lessons/lesson07//imgs/img01.png  used on input line 29.
 (pdftex.def)             Requested size: 341.47548pt x 173.98988pt.
-[25 <./lessons/lesson07//imgs/img01.png>]
-<lessons/lesson07//imgs/img02.png, id=137, 530.73282pt x 492.33937pt>
+[26 <./lessons/lesson07//imgs/img01.png>]
+<lessons/lesson07//imgs/img02.png, id=140, 530.73282pt x 492.33937pt>
 File: lessons/lesson07//imgs/img02.png Graphic file (type png)
 <use lessons/lesson07//imgs/img02.png>
 Package pdftex.def Info: lessons/lesson07//imgs/img02.png  used on input line 59.
@@ -464,27 +464,27 @@ Overfull \hbox (0.22314pt too wide) in paragraph at lines 63--68
 \OT1/cmr/m/n/10 P^^Wa s^^?att ^^?ar $\OML/cmm/m/it/10 A \U/MnSymbolD/m/n/10 ^^@ []$ \OT1/cmr/m/n/10 or-tog-o-nal pro-jek-tion p^^Wa y-axeln och $\OML/cmm/m/it/10 B \U/MnSymbolD/m/n/10 ^^@ []$
  []
 
-[26 <./lessons/lesson07//imgs/img02.png>]
-<lessons/lesson07//imgs/img03.png, id=142, 372.64218pt x 184.43906pt>
+[27 <./lessons/lesson07//imgs/img02.png>]
+<lessons/lesson07//imgs/img03.png, id=145, 372.64218pt x 184.43906pt>
 File: lessons/lesson07//imgs/img03.png Graphic file (type png)
 <use lessons/lesson07//imgs/img03.png>
 Package pdftex.def Info: lessons/lesson07//imgs/img03.png  used on input line 76.
 (pdftex.def)             Requested size: 130.42671pt x 64.55463pt.
-<lessons/lesson07//imgs/img04.png, id=143, 449.42906pt x 243.15843pt>
+<lessons/lesson07//imgs/img04.png, id=146, 449.42906pt x 243.15843pt>
 File: lessons/lesson07//imgs/img04.png Graphic file (type png)
 <use lessons/lesson07//imgs/img04.png>
 Package pdftex.def Info: lessons/lesson07//imgs/img04.png  used on input line 102.
 (pdftex.def)             Requested size: 134.82974pt x 72.94809pt.
- [27 <./lessons/lesson07//imgs/img03.png> <./lessons/lesson07//imgs/img04.png>]
+ [28 <./lessons/lesson07//imgs/img03.png> <./lessons/lesson07//imgs/img04.png>]
 Chapter 9.
-) (./lessons/lesson08/lesson08.tex [28
+) (./lessons/lesson08/lesson08.tex [29
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 4--5
 
  []
 
-<lessons/lesson08//imgs/img01.png, id=152, 269.50688pt x 184.43906pt>
+<lessons/lesson08//imgs/img01.png, id=155, 269.50688pt x 184.43906pt>
 File: lessons/lesson08//imgs/img01.png Graphic file (type png)
 <use lessons/lesson08//imgs/img01.png>
 Package pdftex.def Info: lessons/lesson08//imgs/img01.png  used on input line 6.
@@ -509,7 +509,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 37--38
 
  []
 
-<lessons/lesson08//imgs/img02.png, id=153, 242.40562pt x 169.38281pt>
+<lessons/lesson08//imgs/img02.png, id=156, 242.40562pt x 169.38281pt>
 File: lessons/lesson08//imgs/img02.png Graphic file (type png)
 <use lessons/lesson08//imgs/img02.png>
 Package pdftex.def Info: lessons/lesson08//imgs/img02.png  used on input line 39.
@@ -524,11 +524,11 @@ Overfull \hbox (76.02295pt too wide) detected at line 70
 \OML/cmm/m/it/10 RP \U/MnSymbolD/m/n/10 ^^@ [] [] [] ^^@ [] []
  []
 
-[29
+[30
 
  <./lessons/lesson08//imgs/img01.png> <./lessons/lesson08//imgs/img02.png>]
 Chapter 10.
-<lessons/lesson08//imgs/img03.png, id=159, 237.88875pt x 295.85532pt>
+<lessons/lesson08//imgs/img03.png, id=163, 237.88875pt x 295.85532pt>
 File: lessons/lesson08//imgs/img03.png Graphic file (type png)
 <use lessons/lesson08//imgs/img03.png>
 Package pdftex.def Info: lessons/lesson08//imgs/img03.png  used on input line 76.
@@ -538,33 +538,33 @@ Underfull \hbox (badness 10000) in paragraph at lines 79--83
 
  []
 
-<lessons/lesson08//imgs/img04.png, id=160, 580.41844pt x 155.83218pt>
+<lessons/lesson08//imgs/img04.png, id=164, 580.41844pt x 155.83218pt>
 File: lessons/lesson08//imgs/img04.png Graphic file (type png)
 <use lessons/lesson08//imgs/img04.png>
 Package pdftex.def Info: lessons/lesson08//imgs/img04.png  used on input line 87.
 (pdftex.def)             Requested size: 290.20851pt x 77.9159pt.
-[30
+[31
 
  <./lessons/lesson08//imgs/img03.png> <./lessons/lesson08//imgs/img04.png>]
-<lessons/lesson08//imgs/img05.png, id=168, 1428.83812pt x 317.68687pt>
+<lessons/lesson08//imgs/img05.png, id=171, 1428.83812pt x 317.68687pt>
 File: lessons/lesson08//imgs/img05.png Graphic file (type png)
 <use lessons/lesson08//imgs/img05.png>
 Package pdftex.def Info: lessons/lesson08//imgs/img05.png  used on input line 104.
 (pdftex.def)             Requested size: 285.76256pt x 63.53624pt.
- [31
+ [32
 
  <./lessons/lesson08//imgs/img05.png>]
 Chapter 11.
-<lessons/lesson08//imgs/img06.png, id=173, 672.26157pt x 186.6975pt>
+<lessons/lesson08//imgs/img06.png, id=176, 672.26157pt x 186.6975pt>
 File: lessons/lesson08//imgs/img06.png Graphic file (type png)
 <use lessons/lesson08//imgs/img06.png>
 Package pdftex.def Info: lessons/lesson08//imgs/img06.png  used on input line 116.
 (pdftex.def)             Requested size: 336.12996pt x 93.34851pt.
-[32
+[33
 
  <./lessons/lesson08//imgs/img06.png>]
 Chapter 12.
-[33
+[34
 
 ]
 Underfull \hbox (badness 10000) in paragraph at lines 185--191
@@ -581,22 +581,48 @@ Overfull \hbox (39.7503pt too wide) in paragraph at lines 185--191
 \OT1/cmr/m/n/10 En vek-tor p^^Wa formeln $\OML/cmm/m/it/10 a[]\OML/cmm/b/it/10 v[] \U/MnSymbolC/m/n/10 ^^T \OML/cmm/m/it/10 a[]\OML/cmm/b/it/10 v[] \U/MnSymbolC/m/n/10 ^^T [] ^^T \OML/cmm/m/it/10 a[]\OML/cmm/b/it/10 v[]$ \OT1/cmr/m/n/10 ^^?ar en $[]$.
  []
 
-) [34
+) (./lessons/lesson09/lesson09.tex [35
 
-] (./TMV206.aux) ) 
+]
+Underfull \hbox (badness 10000) in paragraph at lines 63--64
+
+ []
+
+<lessons/lesson09//imgs/img01.png, id=188, 535.2497pt x 433.62pt>
+File: lessons/lesson09//imgs/img01.png Graphic file (type png)
+<use lessons/lesson09//imgs/img01.png>
+Package pdftex.def Info: lessons/lesson09//imgs/img01.png  used on input line 94.
+(pdftex.def)             Requested size: 107.04803pt x 86.72246pt.
+[36] [37 <./lessons/lesson09//imgs/img01.png>]
+Chapter 13.
+[38
+
+]
+Overfull \hbox (33.90811pt too wide) in paragraph at lines 177--206
+ \OT1/cmr/bx/n/10 L^^?osning[] $[] \U/MnSymbolA/m/n/10 ^^T [] ^^T []\OML/cmm/m/it/10 z \U/MnSymbolD/m/n/10 ^^@ \OML/cmm/m/it/10 t [] \U/MnSymbolA/m/n/10 ^^T
+ []
+
+
+Overfull \hbox (7.59413pt too wide) in paragraph at lines 211--212
+ \OT1/cmr/bx/n/10 Def-i-ni-tion[] \OT1/cmr/m/n/10 Givet ett ek-va-tion-ssys-tem $\OML/cmm/m/it/10 A\OML/cmm/b/it/10 x \U/MnSymbolD/m/n/10 ^^@ \OML/cmm/b/it/10 b$ \OT1/cmr/m/n/10 s^^Wa kallar vi ma-trisen $\OML/cmm/m/it/10 T \U/MnSymbolD/m/n/10 ^^@ []$
+ []
+
+[39
+
+]) [40] (./TMV206.aux) ) 
 Here is how much of TeX's memory you used:
- 5470 strings out of 478287
- 82648 string characters out of 5850749
+ 5496 strings out of 478287
+ 83328 string characters out of 5850749
  367173 words of memory out of 5000000
- 23495 multiletter control sequences out of 15000+600000
- 508369 words of font info for 160 fonts, out of 8000000 for 9000
+ 23514 multiletter control sequences out of 15000+600000
+ 511602 words of font info for 171 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,12n,62p,426b,238s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolF.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on TMV206.pdf (35 pages, 5127469 bytes).
+Output written on TMV206.pdf (41 pages, 5230320 bytes).
 PDF statistics:
- 289 PDF objects out of 1000 (max. 8388607)
- 159 compressed objects within 2 object streams
+ 312 PDF objects out of 1000 (max. 8388607)
+ 174 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
- 141 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 146 words of extra memory for PDF output out of 10000 (max. 10000000)
 
