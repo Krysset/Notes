@@ -1,0 +1,326 @@
+\paragraph{Ex} Lös $\begin{cases}-x+z=3\\-2x-y+5z=-1\\2x+y=1\end{cases}$
+\subparagraph{Lösning} Totalmatrisen ges av 
+\begin{equation*}
+    \begin{pmatrix}
+        -1&0&1&3\\
+        -2&-1&5&-1\\
+        2&1&0&1
+    \end{pmatrix} 
+    \thicksim
+    \begin{pmatrix}
+        1&0&-1&-3\\
+        0&-1&3&-7\\
+        0&1&2&7
+    \end{pmatrix}
+    \thicksim
+    \begin{pmatrix}
+        1&0&-1&-3\\
+        0&1&-3&7\\
+        0&0&5&0
+    \end{pmatrix}
+\end{equation*}
+\begin{equation*}
+    \thicksim
+    \begin{pmatrix}
+        1&0&-1&-3\\
+        0&1&-3&7\\
+        0&0&1&0
+    \end{pmatrix}
+    \thicksim
+    \begin{pmatrix}
+        1&0&0&-3\\
+        0&1&0&7\\
+        0&0&1&0
+    \end{pmatrix}
+    \Leftrightarrow
+    \begin{cases}
+        x=3\\
+        y=7\\
+        z=0
+    \end{cases}
+\end{equation*}
+
+\paragraph{Proposition 5.9} Om $T$ är totalmatrisen till ett linjärt ekvationssystem och 
+$S$ fås från $T$ med en elementär radoperation, då har $S$ och $T$ samma lösningar.
+
+\paragraph{Ex} Lös $\begin{cases}2x+y+3z=0\\x+y+z=6\\x+3y+2z=13\end{cases}$
+\subparagraph{Lösning} Totalmatris:
+\begin{equation*}
+    \begin{pmatrix}
+        2&1&3&0\\1&1&1&6\\1&3&2&13
+    \end{pmatrix}
+    \thicksim
+    \begin{pmatrix}
+        1&1&1&6\\
+        0&-1&1&-12\\
+        0&2&1&7
+    \end{pmatrix}
+    \thicksim
+    \begin{pmatrix}
+        1&1&1&6\\
+        0&1&-1&12\\
+        0&0&3&-17
+    \end{pmatrix}
+\end{equation*}
+\begin{equation*}
+    \Leftrightarrow
+    \begin{cases}
+        3z=-17\Leftrightarrow z=-\frac{17}{3}\\
+        y-z=12\Leftrightarrow y = 12+z= 12\frac{17}{3}\\
+        x+y+z=6\Leftrightarrow x=6-y-z=6-(12-\frac{17}{3})+\frac{17}{3}
+    \end{cases}
+    \Leftrightarrow
+    \begin{cases}
+        x=-7-\frac{2\cdot 17}{3}\\
+        y=12-\frac{17}{3}\\
+        z=-\frac{17}{3}
+    \end{cases}
+\end{equation*}
+
+\paragraph{Definition} 
+\begin{itemize}
+    \item En matris sådan att varje rad har fler inledande nollor än raden ovan är på \underline{trappstegsform}
+    \item Det första nollskilda elementet på en rad kallas för ett \underline{pivotelement}
+    \item En kolumn som inte innehåller ett pivotelement kallas för en \underline{fri kolumn} (Inte den sista i kolumnen i en totalmatris)
+\end{itemize}
+
+\paragraph{Ex} Skriv 
+$\begin{pmatrix}
+    -4&-2&-9&-3&6\\
+    4&2&12&8&2\\
+    6&2&15&14&2
+\end{pmatrix}$
+på trappstegsform.
+\subparagraph{Lösning}
+\begin{equation*}\thicksim
+    \begin{pmatrix}
+        2&1&6&4&1\\
+        -4&-2&-9&-3&6\\
+        6&3&15&14&2
+    \end{pmatrix}
+    \thicksim
+    \begin{pmatrix}
+        2&1&6&4&1\\
+        0&0&3&5&8\\
+        0&0&-3&2&-1
+    \end{pmatrix}
+    \thicksim
+    \begin{pmatrix}
+        2&1&6&4&1\\
+        0&0&3&5&8\\
+        0&0&0&7&7
+    \end{pmatrix}
+\end{equation*}
+
+\paragraph{Propostion 5.13} Varje matris kan reduceras till trappstegsform med hjälp av elementära radoperationer
+
+\paragraph{Ex} Lös $\begin{cases}
+    x+y+2z=3\\
+    x+2y-z=1
+\end{cases}$
+\subparagraph{Lösning} Totalmatris:
+\begin{equation*}
+    \begin{pmatrix}
+        1&1&2&3\\
+        1&2&-1&1
+    \end{pmatrix}
+    \thicksim
+    \begin{pmatrix}
+        1&1&2&3\\
+        0&1&-3&-2
+    \end{pmatrix}
+    \thicksim
+    \begin{pmatrix}
+        1&0&5&5\\
+        0&1&-3&-2
+    \end{pmatrix}
+    \Leftrightarrow
+    \begin{cases}
+        x+5z=5\\
+        y-3z=-2
+    \end{cases}
+\end{equation*}
+Låt $z=t$, dvs. vilket reelt tal $t$ som helst, en parameter.\\
+Då får vi 
+$\begin{cases}
+    x=5-5t\\
+    y=-2+3t\\
+    z=t
+\end{cases}
+\Leftrightarrow 
+\begin{pmatrix}
+    x\\y\\z
+\end{pmatrix}
+=
+\begin{pmatrix}
+    5\\-2\\0
+\end{pmatrix}
++
+t\begin{pmatrix}
+    -5\\3\\1
+\end{pmatrix}$
+
+\paragraph{Proposition 5.16} Antag att ett ekvationssystem har reducerats till en totalmatris $T$ på trappstegform m.h.a elementära radoperationer.
+För lösningarna gäller:
+\begin{enumerate}
+    \item Om det finns ett pivotelement i den sista kolumnen saknas lösningar
+    \item Om det inte finns ett pivotelement i sista kolumnen då finns det lösningar och man får den genom att
+        \begin{enumerate}
+            \item sätta alla variabler som svarar mot fria kolumner till paramterar
+            \item Börja i sista raden och gå uppåt och successivt lösa ut variablerna som svarar mot pivotkolumner.
+        \end{enumerate}
+        Det finns oändligt många lösningar om det finns fria kolumner. Annars finns en unik lösning.
+\end{enumerate}
+
+\paragraph{Ex} Lös $\begin{cases}
+    x+y=2\\
+    2x-y=4\\
+    3x+2y=-3
+\end{cases}$
+\subparagraph{Lösning} 
+\begin{equation*}
+    \begin{pmatrix}
+        1&1&2\\
+        2&-1&4\\
+        3&2&-3
+    \end{pmatrix}
+    \thicksim
+    \begin{pmatrix}
+        1&1&2\\
+        0&-3&0\\
+        0&-1&-9
+    \end{pmatrix}
+    \thicksim
+    \begin{pmatrix}
+        1&1&2\\
+        0&1&9\\
+        0&0&27
+    \end{pmatrix}
+\end{equation*}
+Det finns pivotelement i sista kolumnen $\Rightarrow$ det saknas lösningar.
+
+\paragraph{Ex} Lös $\begin{cases}
+    2y+z=4\\
+    x-z=1\\
+    -2x+y=0
+\end{cases}$
+\subparagraph{Lösning}
+\begin{equation*}
+    \begin{pmatrix}
+        0&2&1&4\\
+        1&0&-1&1\\
+        -2&1&0&0
+    \end{pmatrix}
+    \thicksim
+    \begin{pmatrix}
+        1&0&-1&1\\
+        0&2&1&4\\
+        0&1&-2&2
+    \end{pmatrix}
+    \thicksim
+    \begin{pmatrix}
+        1&0&-1&1\\
+        0&1&-2&2\\
+        0&0&5&0
+    \end{pmatrix}
+    \Leftrightarrow
+    \begin{cases}
+        x-z=1\Leftrightarrow x=1\\
+        y-2z=2\leftrightarrow y=2\\
+        z=0
+    \end{cases}
+\end{equation*}
+
+\chapter{Kvadratiska system (Avs 5.4)}
+\paragraph{Sats 5.20} Låt $T$ vara den totalmatrisen reducerad till trappstegsform för $A\bm{x}=\bm{b}$.
+Följande är ekvivalent:
+\begin{enumerate}
+    \item Det finns en unik lösning till $A\bm{x}=\bm{b}$ för alla $\bm{b}$
+    \item $T$ saknar fria kolumner
+\end{enumerate}
+Om 1 och 2 inte gäller då har $A\bm{x}=\bm{b}$ inga eller oändligt många lösnignar.
+
+\paragraph{Sats 5.28} Om $A$ är en Kvadratisk matris så är föjande ekvivalent:
+\begin{enumerate}
+    \item $A\bm{x}=\bm{b}$ har en unik lösning för ala$\bm{b}$
+    \item Man kan reducera $A$ till identitetsmatrisen m.h.a elementära radoperationer
+    \item $A$ är inverterbar
+\end{enumerate}
+Om $A$ är inverterbar så är lösningen till $A\bm{x}=\bm{b}\Leftrightarrow \bm{x}=A^{-1}\bm{b}$\\
+~\\
+Om vi sätter $A$ och identitetsmatrisen $I_{n}$ i en stor matris $\begin{pmatrix}A&I_{n}\end{pmatrix}$ och 
+reducerar den till $\begin{pmatrix}I_{n}&B\end{pmatrix}$ m.h.a elementära radoperationer, då är $B=A^{-1}$.\\
+Om vi misslyckas är inte $A$ inverterbar.
+
+\begin{figure*}
+\paragraph{Ex} Hitta inversen till $A=\begin{pmatrix}1&2&-2\\2&1&1\\3&1&2\end{pmatrix}$.
+\subparagraph{Lösning}~\\
+$\begin{pmatrix}
+    1&2&-2&1&0&0\\
+    2&1&1&0&1&0\\
+    3&1&2&0&0&1
+\end{pmatrix}
+\thicksim
+\begin{pmatrix}
+    1&2&-2&1&0&0\\
+    0&-3&5&-2&1&0\\
+    0&-5&8&-3&0&1
+\end{pmatrix}
+$\\
+
+$\thicksim
+\begin{pmatrix}
+    1&2&-2&1&0&0\\
+    0&1&-\frac{5}{3}&\frac{2}{3}&-\frac{1}{3}&0\\
+    0&-\frac{15}{3}&\frac{24}{3}&-\frac{9}{3}&0&\frac{3}{3}
+\end{pmatrix}
+\thicksim
+\begin{pmatrix}
+    1&2&-2&1&0&0\\
+    0&1&-\frac{5}{3}&\frac{2}{3}&-\frac{1}{3}&0\\
+    0&0&\frac{24}{3}-\frac{15\cdot 5}{9}&-\frac{9\cdot 3}{3\cdot 3}+\frac{30}{9}&-\frac{15}{3}&\frac{3}{3}
+\end{pmatrix}
+$\\
+
+$\thicksim
+\begin{pmatrix}
+    1&2&-2&1&0&0\\
+    0&1&-\frac{5}{3}&\frac{2}{3}&-\frac{1}{3}&0\\
+    0&0&-\frac{1}{3}&\frac{1}{3}&-\frac{15}{3}&\frac{3}{3}
+\end{pmatrix}
+\thicksim
+\begin{pmatrix}
+    1&2&-2&1&0&0\\
+    0&1&-\frac{5}{3}&\frac{2}{3}&-\frac{1}{3}&0\\
+    0&0&1&-1&15&-1  
+\end{pmatrix}
+$\\
+
+$\thicksim
+\begin{pmatrix}
+    1&2&0&-1&30&-2\\
+    0&1&0&\frac{2}{3}-\frac{5}{3}&-\frac{1}{3}+\frac{25\cdot 3}{3}&-\frac{5}{3}\\
+    0&0&1&-1&15&-1
+\end{pmatrix}
+\thicksim
+\begin{pmatrix}
+    1&2&0&-1&30&-2\\
+    0&1&0&-1&\frac{74}{3}&-\frac{5}{3}\\
+    0&0&1&-1&15&-1
+\end{pmatrix}
+$\\
+$
+\thicksim
+\begin{pmatrix}
+    1&0&0&1&30-\frac{2\cdot 74}{3}&-2+\frac{10}{3}\\
+    0&1&0&-1&\frac{74}{3}&-\frac{5}{3}\\
+    0&0&1&-1&15&-1
+\end{pmatrix}
+\Rightarrow
+A^{-1}=
+\begin{pmatrix}
+    -1&-\frac{58}{3}&\frac{4}{3}\\
+    -1&\frac{74}{3}&-\frac{5}{3}\\
+    -1&15&-1
+\end{pmatrix}$
+\end{figure*}

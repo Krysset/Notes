@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.27)  18 FEB 2022 10:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.27)  21 FEB 2022 17:16
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -609,20 +609,44 @@ Overfull \hbox (7.59413pt too wide) in paragraph at lines 211--212
 
 [39
 
-]) [40] (./TMV206.aux) ) 
+]) (./lessons/lesson10/lesson10.tex [40] [41] [42]
+Chapter 14.
+
+Underfull \hbox (badness 10000) in paragraph at lines 249--254
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 257--270
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 271--284
+
+ []
+
+
+Underfull \hbox (badness 10000) in paragraph at lines 285--298
+
+ []
+
+) [43
+
+] [44] (./TMV206.aux) ) 
 Here is how much of TeX's memory you used:
- 5496 strings out of 478287
- 83328 string characters out of 5850749
+ 5503 strings out of 478287
+ 83517 string characters out of 5850749
  367173 words of memory out of 5000000
- 23514 multiletter control sequences out of 15000+600000
+ 23516 multiletter control sequences out of 15000+600000
  511602 words of font info for 171 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,12n,62p,426b,238s stack positions out of 5000i,500n,10000p,200000b,80000s
-{c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolF.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on TMV206.pdf (41 pages, 5230363 bytes).
+{c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolF.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol-Bold10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
+Output written on TMV206.pdf (45 pages, 5255555 bytes).
 PDF statistics:
- 312 PDF objects out of 1000 (max. 8388607)
- 174 compressed objects within 2 object streams
+ 330 PDF objects out of 1000 (max. 8388607)
+ 186 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  146 words of extra memory for PDF output out of 10000 (max. 10000000)
 
