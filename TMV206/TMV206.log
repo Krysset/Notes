@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.27)  21 FEB 2022 17:16
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.27)  21 FEB 2022 17:20
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -378,12 +378,7 @@ Package pdftex.def Info: lessons/lesson04//imgs/img02.png  used on input line 62
  <./lessons/lesson04//imgs/img01.png> <./lessons/lesson04//imgs/img02.png>]) [15] (./lessons/lesson05/lesson05.tex [16]
 Chapter 5.
 
-Overfull \hbox (0.94145pt too wide) in paragraph at lines 33--39
- \OT1/cmr/bx/n/10 Def-i-ni-tion[] \OT1/cmr/m/n/10 Givet en $3 \U/MnSymbolC/m/n/10 ^^U \OT1/cmr/m/n/10 3$-matris $\OML/cmm/m/it/10 A \U/MnSymbolD/m/n/10 ^^@ []$ \OT1/cmr/m/n/10 och en (kol-umn)vektor
- []
-
-
-Overfull \hbox (66.86838pt too wide) in paragraph at lines 48--62
+Overfull \hbox (26.86838pt too wide) in paragraph at lines 48--62
 \OT1/cmr/m/n/10 Vi definierar pro-duk-ten av A och B genom $\OML/cmm/m/it/10 AB \U/MnSymbolD/m/n/10 ^^@ \OML/cmm/m/it/10 A [] \U/MnSymbolD/m/n/10 ^^@ []$ 
  []
 
@@ -425,12 +420,7 @@ File: lessons/lesson06//imgs/22-02-07img01.png Graphic file (type png)
 <use lessons/lesson06//imgs/22-02-07img01.png>
 Package pdftex.def Info: lessons/lesson06//imgs/22-02-07img01.png  used on input line 10.
 (pdftex.def)             Requested size: 91.84288pt x 73.02261pt.
-
-Overfull \hbox (0.6985pt too wide) detected at line 20
-\OML/cmm/m/it/10 det\OMX/MnSymbolE/m/n/10 à\OML/cmm/b/it/10 u\OML/cmm/m/it/10 ; \OML/cmm/b/it/10 v\OML/cmm/m/it/10 ; \OML/cmm/b/it/10 w\OMX/MnSymbolE/m/n/10 ç \U/MnSymbolD/m/n/10 ^^@ [] ^^@ \OT1/cmr/m/n/10 1 \U/MnSymbolC/m/n/10 ^^@ \OMX/MnSymbolE/m/n/10 à\OT1/cmr/m/n/10 3 \U/MnSymbolC/m/n/10 ^^@ \OT1/cmr/m/n/10 1 \U/MnSymbolC/m/n/10 ^^P \OT1/cmr/m/n/10 1 \U/MnSymbolC/m/n/10 ^^@ \OT1/cmr/m/n/10 1\OMX/MnSymbolE/m/n/10 ç \U/MnSymbolC/m/n/10 ^^P \OT1/cmr/m/n/10 2\OMX/MnSymbolE/m/n/10 à\OT1/cmr/m/n/10 0 \U/MnSymbolC/m/n/10 ^^@ \OT1/cmr/m/n/10 1 \U/MnSymbolC/m/n/10 ^^P \OT1/cmr/m/n/10 2 \U/MnSymbolC/m/n/10 ^^@ \OT1/cmr/m/n/10 1\OMX/MnSymbolE/m/n/10 ç \U/MnSymbolC/m/n/10 ^^T \OT1/cmr/m/n/10 2\OMX/MnSymbolE/m/n/10 à\OT1/cmr/m/n/10 0 \U/MnSymbolC/m/n/10 ^^@ \OT1/cmr/m/n/10 1 \U/MnSymbolC/m/n/10 ^^P \OT1/cmr/m/n/10 2 \U/MnSymbolC/m/n/10 ^^@ \OT1/cmr/m/n/10 3\OMX/MnSymbolE/m/n/10 ç \U/MnSymbolD/m/n/10 ^^@ \OT1/cmr/m/n/10 2 \U/MnSymbolC/m/n/10 ^^T \OT1/cmr/m/n/10 4 \U/MnSymbolC/m/n/10 ^^P \OT1/cmr/m/n/10 12 \U/MnSymbolD/m/n/10 ^^@ \U/MnSymbolC/m/n/10 ^^P\OT1/cmr/m/n/10 6
- []
-
-[21 <./lessons/lesson06//imgs/22-02-07img01.png>] [22]
+ [21 <./lessons/lesson06//imgs/22-02-07img01.png>] [22]
 Chapter 7.
 
 Underfull \hbox (badness 10000) in paragraph at lines 74--83
@@ -459,12 +449,7 @@ File: lessons/lesson07//imgs/img02.png Graphic file (type png)
 <use lessons/lesson07//imgs/img02.png>
 Package pdftex.def Info: lessons/lesson07//imgs/img02.png  used on input line 59.
 (pdftex.def)             Requested size: 212.28937pt x 196.93225pt.
-
-Overfull \hbox (0.22314pt too wide) in paragraph at lines 63--68
-\OT1/cmr/m/n/10 P^^Wa s^^?att ^^?ar $\OML/cmm/m/it/10 A \U/MnSymbolD/m/n/10 ^^@ []$ \OT1/cmr/m/n/10 or-tog-o-nal pro-jek-tion p^^Wa y-axeln och $\OML/cmm/m/it/10 B \U/MnSymbolD/m/n/10 ^^@ []$
- []
-
-[27 <./lessons/lesson07//imgs/img02.png>]
+ [27 <./lessons/lesson07//imgs/img02.png>]
 <lessons/lesson07//imgs/img03.png, id=145, 372.64218pt x 184.43906pt>
 File: lessons/lesson07//imgs/img03.png Graphic file (type png)
 <use lessons/lesson07//imgs/img03.png>
@@ -495,11 +480,6 @@ Underfull \hbox (badness 10000) in paragraph at lines 6--7
  []
 
 
-Overfull \hbox (34.87206pt too wide) detected at line 17
-\OMX/MnSymbolE/m/n/10 à\OML/cmm/b/it/10 e[]\OMX/MnSymbolE/m/n/10 ç[] \U/MnSymbolD/m/n/10 ^^@ \OML/cmm/b/it/10 e[] \U/MnSymbolC/m/n/10 ^^P [] \U/MnSymbolD/m/n/10 ^^@ [] \U/MnSymbolC/m/n/10 ^^P [] [] \U/MnSymbolD/m/n/10 ^^@ [] \U/MnSymbolC/m/n/10 ^^P [] [] \U/MnSymbolD/m/n/10 ^^@ [] []
- []
-
-
 Underfull \hbox (badness 10000) in paragraph at lines 31--36
 
  []
@@ -520,7 +500,7 @@ Underfull \hbox (badness 10000) in paragraph at lines 54--55
  []
 
 
-Overfull \hbox (76.02295pt too wide) detected at line 70
+Overfull \hbox (16.02295pt too wide) detected at line 70
 \OML/cmm/m/it/10 RP \U/MnSymbolD/m/n/10 ^^@ [] [] [] ^^@ [] []
  []
 
@@ -602,11 +582,6 @@ Overfull \hbox (33.90811pt too wide) in paragraph at lines 177--206
  \OT1/cmr/bx/n/10 L^^?osning[] $[] \U/MnSymbolA/m/n/10 ^^T [] ^^T []\OML/cmm/m/it/10 z \U/MnSymbolD/m/n/10 ^^@ \OML/cmm/m/it/10 t [] \U/MnSymbolA/m/n/10 ^^T
  []
 
-
-Overfull \hbox (7.59413pt too wide) in paragraph at lines 211--212
- \OT1/cmr/bx/n/10 Def-i-ni-tion[] \OT1/cmr/m/n/10 Givet ett ek-va-tion-ssys-tem $\OML/cmm/m/it/10 A\OML/cmm/b/it/10 x \U/MnSymbolD/m/n/10 ^^@ \OML/cmm/b/it/10 b$ \OT1/cmr/m/n/10 s^^Wa kallar vi ma-trisen $\OML/cmm/m/it/10 T \U/MnSymbolD/m/n/10 ^^@ []$
- []
-
 [39
 
 ]) (./lessons/lesson10/lesson10.tex [40] [41] [42]
@@ -643,7 +618,7 @@ Here is how much of TeX's memory you used:
  1141 hyphenation exceptions out of 8191
  55i,12n,62p,426b,238s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolF.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol-Bold10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on TMV206.pdf (45 pages, 5255555 bytes).
+Output written on TMV206.pdf (45 pages, 5255488 bytes).
 PDF statistics:
  330 PDF objects out of 1000 (max. 8388607)
  186 compressed objects within 2 object streams

@@ -2,12 +2,12 @@
 \paragraph{Definition} En \underline{$m\times n$-matris} är ett tvådimensionellt fält med reella tal som har $m$ rader och $n$ kolumner.
 \begin{equation*}
     A=\begin{pmatrix}
-        a_{1,1} && a_{1,2} && \ldots && a_{1,n}\\
-        a_{2,1} && a_{2,2} && \ldots && a_{2,n}\\
-        \vdots && \vdots && \ddots && \vdots\\
-        a_{m,1} && a_{m,2} && \ldots && a_{m,n}
+        a_{1,1} & a_{1,2} & \ldots & a_{1,n}\\
+        a_{2,1} & a_{2,2} & \ldots & a_{2,n}\\
+        \vdots & \vdots & \ddots & \vdots\\
+        a_{m,1} & a_{m,2} & \ldots & a_{m,n}
     \end{pmatrix} = \begin{pmatrix}
-        \bm{a}_{1} && \bm{a}_{2} && \ldots && \bm{a}_{n}
+        \bm{a}_{1} & \bm{a}_{2} & \ldots & \bm{a}_{n}
     \end{pmatrix}
 \end{equation*}
 
@@ -15,10 +15,10 @@ Addition av matriser går till som tidigare och det gör även multiplikation me
 Om $A$ är en matris med talet $a_{i,j}$ på plats $(i,j)$ då är $A^{t}$, transponatet av $A$, matrisen med tal $a_{j,i}$ på plats $(i,j)$.
 \begin{equation*}
     A^{t}=\begin{pmatrix}
-        a_{1,1} && a_{2,1} && \ldots && a_{m,1}\\
-        a_{1,2} && a_{2,2} && \ldots && a_{m,2}\\
-        \vdots && \vdots && \ddots && \vdots\\
-        a_{1,n} && a_{2,n} && \ldots && a_{m,n}
+        a_{1,1} & a_{2,1} & \ldots & a_{m,1}\\
+        a_{1,2} & a_{2,2} & \ldots & a_{m,2}\\
+        \vdots & \vdots & \ddots & \vdots\\
+        a_{1,n} & a_{2,n} & \ldots & a_{m,n}
     \end{pmatrix}
 \end{equation*}
 Om $A$ är $m\times n$-matris sår är $A^{t}$ $n\times m$-matris.
@@ -26,7 +26,7 @@ Om $A$ är $m\times n$-matris sår är $A^{t}$ $n\times m$-matris.
 \paragraph{Definition} Om $A$ är en $m\times n$-matris och $\bm{v}$ är en $n$-vektor så låter vi 
 \begin{equation*}
     A\bm{v}=\begin{pmatrix}
-        \bm{a}_{1}&&\bm{a}_{2}&& \ldots &&\bm{a}_{n}
+        \bm{a}_{1}&\bm{a}_{2}& \ldots &\bm{a}_{n}
     \end{pmatrix}\begin{pmatrix}
         v_{1}\\ v_{2}\\ \vdots \\ v_{n}
     \end{pmatrix}=v_{1}\bm{a}_{1}+v_{2}\bm{a}_{2}+\ldots+v_{n}\bm{a}_{n}
@@ -36,9 +36,9 @@ Observera att $A\bm{v}$ är en $m$-vektor!
 \paragraph{Definition} Om $A$ är en $m\times n$-matris och $B$ är en $n\times p$-matris då låter vi 
 \begin{equation*}
     AB-A\begin{pmatrix}
-        \bm{b}_{1}&& \bm{b}_{2} &&\ldots&&\bm{b}_{p}
+        \bm{b}_{1}& \bm{b}_{2} &\ldots&\bm{b}_{p}
     \end{pmatrix}=\begin{pmatrix}
-        A\bm{b}_{1}&& A\bm{b}_{2} && \ldots &&A\bm{b}_{p}
+        A\bm{b}_{1}& A\bm{b}_{2} & \ldots &A\bm{b}_{p}
     \end{pmatrix}
 \end{equation*}
 Observera att $AB$ är en $m\times p$-matris.
@@ -50,12 +50,12 @@ Då ges $c_{i,j}$, elementet på plats $(i,j)$ för $C$, av
 \end{equation*}
 
 \paragraph{Proposition 4.23} Om $A=\begin{pmatrix}\bm{r}^{t}_{1}\\\bm{r}^{t}_{2}\\\vdots\\\bm{r}^{t}_{m}\end{pmatrix}$ och 
-$B=\begin{pmatrix}\bm{b}_{1}&&\bm{b}_{2}&&\ldots&&\bm{b}_{p}\end{pmatrix}$ då är 
+$B=\begin{pmatrix}\bm{b}_{1}&\bm{b}_{2}&\ldots&\bm{b}_{p}\end{pmatrix}$ då är 
 \begin{equation*}
         AB=\begin{pmatrix}
-        \bm{r}^{t}_{1}\bm{b}_{1} && \bm{r}^{t}_{1}\bm{b}_{2} && \ldots && \bm{r}^{t}_{1}\bm{b}_{p}\\
-        \bm{r}^{t}_{2}\bm{b}_{1} && \bm{r}^{t}_{2}\bm{b}_{2} && \ldots && \bm{r}^{t}_{2}\bm{b}_{p}\\
-        \vdots && && && \vdots\\
+        \bm{r}^{t}_{1}\bm{b}_{1} & \bm{r}^{t}_{1}\bm{b}_{2} & \ldots & \bm{r}^{t}_{1}\bm{b}_{p}\\
+        \bm{r}^{t}_{2}\bm{b}_{1} & \bm{r}^{t}_{2}\bm{b}_{2} & \ldots & \bm{r}^{t}_{2}\bm{b}_{p}\\
+        \vdots & & & \vdots\\
         \bm{r}^{t}_{m}\bm{b}_{1}
     \end{pmatrix}
 \end{equation*}
@@ -64,7 +64,7 @@ $B=\begin{pmatrix}\bm{b}_{1}&&\bm{b}_{2}&&\ldots&&\bm{b}_{p}\end{pmatrix}$ då �
 
 Det finns flera naturliga räkneregler för addition och multiplikation av matriser men fortfarande är $AB\neq BA$ i allmänhet.
 
-\paragraph{Proposition 4.25} Matrisen $I_{n}=\begin{pmatrix}\bm{e}_{1}&&\bm{e}_{2}&&\ldots&&\bm{e}_{n}\end{pmatrix}$ är en identitetsmatris (för $n\times n$-matriser).
+\paragraph{Proposition 4.25} Matrisen $I_{n}=\begin{pmatrix}\bm{e}_{1}&\bm{e}_{2}&\ldots&\bm{e}_{n}\end{pmatrix}$ är en identitetsmatris (för $n\times n$-matriser).
 Dvs om $A$ är en $n\times n$ matris så är $AI_{n}=A=I_{n}A$.
 En $n\times n$-matris $B$ är en invers till $n\times n$-matrisen $A$ om $AB=I_{n}=BA$.
 Om det finns en invers så är den unik, så vi kan prata om inversen till A (om den finns).
@@ -85,7 +85,7 @@ Vi tänker ofta på matrisen som avbildningen och struntar då i notationen $f_{
 \paragraph{Sats (Bassatsen)} Om $f:\mathbb{R}^{m}\rightarrow \mathbb{R}^{n}$ är en linjär avbildning då är $f$ en matrisavbildning med matrisen
 \begin{equation*}
     A=\begin{pmatrix}
-        f(\bm{e}_{1})&&f(\bm{e}_{2})&&\ldots&&f(\bm{e}_{m})
+        f(\bm{e}_{1})&f(\bm{e}_{2})&\ldots&f(\bm{e}_{m})
     \end{pmatrix}
 \end{equation*}
 
@@ -103,7 +103,7 @@ Funktionen $F_{L}$ är linjär!
 Matrisen till $f_{L}$ ges av: 
 \begin{equation*}
     A=\begin{pmatrix}
-        \frac{\bm{e}_{1}\cdot\bm{r}}{\bm{r}\cdot\bm{r}}\bm{r} && \frac{\bm{e}_{2}\cdot\bm{r}}{\bm{r}\cdot\bm{r}}\bm{r} && \ldots && \frac{\bm{e}_{n}\cdot\bm{r}}{\bm{r}\cdot\bm{r}}\bm{r}
+        \frac{\bm{e}_{1}\cdot\bm{r}}{\bm{r}\cdot\bm{r}}\bm{r} & \frac{\bm{e}_{2}\cdot\bm{r}}{\bm{r}\cdot\bm{r}}\bm{r} & \ldots & \frac{\bm{e}_{n}\cdot\bm{r}}{\bm{r}\cdot\bm{r}}\bm{r}
     \end{pmatrix}
 \end{equation*}
 Avbildningen $A$ är alltså en avbildning från $\mathbb{R}^{n}$ till $\mathbb{R}^{n}$ men $A\bm{v}$ ligger på linjen $L$ för varje $\bm{v}\in\mathbb{R}^{n}$.
@@ -208,7 +208,7 @@ Lösningarna är en linje!
 Då har det linjära ekvationssystemet $A\bm{x}=\bm{b}$ den unika lösningen $\bm{x}=A^{-1}\bm{b}$.
 
 \section{Gausselimination}
-\paragraph{Definition} Givet ett ekvationssystem $A\bm{x}=\bm{b}$ så kallar vi matrisen $T=\begin{pmatrix}A&&\bm{b}\end{pmatrix}$ för \underline{totalmatrisen}.
+\paragraph{Definition} Givet ett ekvationssystem $A\bm{x}=\bm{b}$ så kallar vi matrisen $T=\begin{pmatrix}A&\bm{b}\end{pmatrix}$ för \underline{totalmatrisen}.
 
 \paragraph{Definition} Givet ett ekvationssystem $A\bm{x}=\bm{b}$ eller en totalmatris $T$ kallas följande för \underline{elementära radoperationer}:
 \begin{enumerate}
