@@ -185,8 +185,25 @@
 \contentsline {subparagraph}{Lösning}{42}{}%
 \contentsline {paragraph}{Ex}{42}{}%
 \contentsline {subparagraph}{Lösning}{42}{}%
-\contentsline {chapter}{\numberline {14}Kvadratiska system (Avs 5.4)}{43}{}%
-\contentsline {paragraph}{Sats 5.20}{43}{}%
-\contentsline {paragraph}{Sats 5.28}{43}{}%
-\contentsline {paragraph}{Ex}{44}{}%
+\contentsline {section}{\numberline {13.3}Kvadratiska system (Avs 5.4)}{42}{}%
+\contentsline {paragraph}{Sats 5.20}{42}{}%
+\contentsline {paragraph}{Sats 5.28}{42}{}%
+\contentsline {paragraph}{Ex}{43}{}%
+\contentsline {subparagraph}{Lösning}{43}{}%
+\contentsline {section}{\numberline {13.4}Homogena ekvationssystem (Avs 5.5)}{43}{}%
+\contentsline {paragraph}{Proposition 5.31}{43}{}%
+\contentsline {paragraph}{Proposition 5.33}{43}{}%
+\contentsline {subparagraph}{Bevis}{43}{}%
+\contentsline {paragraph}{Ex}{43}{}%
 \contentsline {subparagraph}{Lösning}{44}{}%
+\contentsline {section}{\numberline {13.5}Överbestämda ekvationssystem (Avs 5.6)}{44}{}%
+\contentsline {paragraph}{Proposition 5.36}{44}{}%
+\contentsline {paragraph}{Ex}{45}{}%
+\contentsline {subparagraph}{Lösning}{45}{}%
+\contentsline {chapter}{\numberline {14}Determinanter}{46}{}%
+\contentsline {paragraph}{Definition}{46}{}%
+\contentsline {paragraph}{Proposition 6.4}{46}{}%
+\contentsline {paragraph}{Sats 6.5}{46}{}%
+\contentsline {paragraph}{Ex}{46}{}%
+\contentsline {subparagraph}{Lösning}{47}{}%
+\contentsline {section}{\numberline {14.1}Konstruktion av determinanten (Avs 6.2)}{47}{}%
