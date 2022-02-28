@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.27)  24 FEB 2022 09:49
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.27)  28 FEB 2022 11:26
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -655,20 +655,51 @@ Overfull \hbox (28.92859pt too wide) in paragraph at lines 226--250
 
 [46
 
-]) [47] (./TMV206.aux) ) 
+]) (./lessons/lesson12/lesson12.tex [47]
+Overfull \hbox (8.20638pt too wide) in paragraph at lines 16--18
+\OML/cmm/m/it/10 det\OMX/MnSymbolE/m/n/10 à\OML/cmm/m/it/10 A\OMX/MnSymbolE/m/n/10 ç \U/MnSymbolD/m/n/10 ^^@ \OMX/MnSymbolE/m/n/10 à\U/MnSymbolC/m/n/10 ^^P\OT1/cmr/m/n/10 1\OMX/MnSymbolE/m/n/10 ç[]\OML/cmm/m/it/10 a[]det\OMX/MnSymbolE/m/n/10 à\OML/cmm/m/it/10 A[]\OMX/MnSymbolE/m/n/10 ç \U/MnSymbolC/m/n/10 ^^T \OMX/MnSymbolE/m/n/10 à\U/MnSymbolC/m/n/10 ^^P\OT1/cmr/m/n/10 1\OMX/MnSymbolE/m/n/10 ç[]\OML/cmm/m/it/10 a[]det\OMX/MnSymbolE/m/n/10 à\OML/cmm/m/it/10 A[]\OMX/MnSymbolE/m/n/10 ç \U/MnSymbolC/m/n/10 ^^T [] ^^T \OMX/MnSymbolE/m/n/10 à\U/MnSymbolC/m/n/10 ^^P\OT1/cmr/m/n/10 1\OMX/MnSymbolE/m/n/10 ç[]\OML/cmm/m/it/10 det\OMX/MnSymbolE/m/n/10 à\OML/cmm/m/it/10 A[]\OMX/MnSymbolE/m/n/10 ç$ 
+ []
+
+
+Overfull \hbox (25.73076pt too wide) in paragraph at lines 18--20
+\OML/cmm/m/it/10 det\OMX/MnSymbolE/m/n/10 à\OML/cmm/m/it/10 A\OMX/MnSymbolE/m/n/10 ç \U/MnSymbolD/m/n/10 ^^@ \OMX/MnSymbolE/m/n/10 à\U/MnSymbolC/m/n/10 ^^P\OT1/cmr/m/n/10 1\OMX/MnSymbolE/m/n/10 ç[]\OML/cmm/m/it/10 a[]det\OMX/MnSymbolE/m/n/10 à\OML/cmm/m/it/10 A[]\OMX/MnSymbolE/m/n/10 ç \U/MnSymbolC/m/n/10 ^^T \OMX/MnSymbolE/m/n/10 à\U/MnSymbolC/m/n/10 ^^P\OT1/cmr/m/n/10 1\OMX/MnSymbolE/m/n/10 ç[]\OML/cmm/m/it/10 a[]det\OMX/MnSymbolE/m/n/10 à\OML/cmm/m/it/10 A[]\OMX/MnSymbolE/m/n/10 ç \U/MnSymbolC/m/n/10 ^^T [] ^^T \OMX/MnSymbolE/m/n/10 à\U/MnSymbolC/m/n/10 ^^P\OT1/cmr/m/n/10 1\OMX/MnSymbolE/m/n/10 ç[]\OML/cmm/m/it/10 a[]det\OMX/MnSymbolE/m/n/10 à\OML/cmm/m/it/10 A[]\OMX/MnSymbolE/m/n/10 ç$ 
+ []
+
+[48
+
+]
+Chapter 15.
+
+Overfull \hbox (12.24089pt too wide) in paragraph at lines 71--73
+ \OT1/cmr/bx/n/10 Propo-si-tion 7.6[] \OT1/cmr/m/n/10 L^^Wat $\OML/cmm/b/it/10 v[]\OML/cmm/m/it/10 ; \OML/cmm/b/it/10 v[]\OML/cmm/m/it/10 ; [] ; \OML/cmm/b/it/10 v[]$ \OT1/cmr/m/n/10 vara vek-torer i $\U/msb/m/n/10 R[]$\OT1/cmr/m/n/10 . Vek-tor-erna $\OML/cmm/b/it/10 v[]\OML/cmm/m/it/10 ; \OML/cmm/b/it/10 v[]\OML/cmm/m/it/10 ; [] ; \OML/cmm/b/it/10 v[]$
+ []
+
+[49
+
+]
+Overfull \hbox (6.45596pt too wide) detected at line 87
+\OML/cmm/m/it/10 det [] \U/MnSymbolD/m/n/10 ^^@ \OT1/cmr/m/n/10 1 \U/MnSymbolC/m/n/10 ^^@ [] ^^P \OT1/cmr/m/n/10 4 \U/MnSymbolC/m/n/10 ^^@ [] ^^T \OT1/cmr/m/n/10 7 [] \U/MnSymbolD/m/n/10 ^^@ \OMX/MnSymbolE/m/n/10 à\OT1/cmr/m/n/10 15 \U/MnSymbolC/m/n/10 ^^P \OT1/cmr/m/n/10 64\OMX/MnSymbolE/m/n/10 ç \U/MnSymbolC/m/n/10 ^^P \OT1/cmr/m/n/10 4\OMX/MnSymbolE/m/n/10 à\OT1/cmr/m/n/10 6 \U/MnSymbolC/m/n/10 ^^P \OT1/cmr/m/n/10 24\OMX/MnSymbolE/m/n/10 ç \U/MnSymbolC/m/n/10 ^^T \OT1/cmr/m/n/10 7\OMX/MnSymbolE/m/n/10 à\OT1/cmr/m/n/10 16 \U/MnSymbolC/m/n/10 ^^P \OT1/cmr/m/n/10 15\OMX/MnSymbolE/m/n/10 ç \U/MnSymbolD/m/n/10 ^^@ \OT1/cmr/m/n/10 34 \U/MnSymbolD/m/n/10 x \OT1/cmr/m/n/10 0
+ []
+
+
+Overfull \hbox (11.55902pt too wide) in paragraph at lines 108--111
+[]$\OML/cmm/b/it/10 e[]\OML/cmm/m/it/10 ; \OML/cmm/b/it/10 e[]\OML/cmm/m/it/10 ; [] ; \OML/cmm/b/it/10 e[]$ \OT1/cmr/m/n/10 ^^?ar linj^^?art oberoende ty ek-va-tion-ssytemet $[] \OML/cmm/b/it/10 x \U/MnSymbolD/m/n/10 ^^@
+ []
+
+) [50] (./TMV206.aux) ) 
 Here is how much of TeX's memory you used:
- 5860 strings out of 478287
- 90074 string characters out of 5850749
- 374687 words of memory out of 5000000
- 23862 multiletter control sequences out of 15000+600000
+ 5867 strings out of 478287
+ 90263 string characters out of 5850749
+ 373687 words of memory out of 5000000
+ 23864 multiletter control sequences out of 15000+600000
  511602 words of font info for 171 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 55i,12n,62p,426b,280s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 55i,12n,62p,426b,282s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolF.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol-Bold10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on TMV206.pdf (48 pages, 5434682 bytes).
+Output written on TMV206.pdf (51 pages, 5442101 bytes).
 PDF statistics:
- 343 PDF objects out of 1000 (max. 8388607)
- 192 compressed objects within 2 object streams
+ 353 PDF objects out of 1000 (max. 8388607)
+ 199 compressed objects within 2 object streams
  0 named destinations out of 1000 (max. 500000)
  156 words of extra memory for PDF output out of 10000 (max. 10000000)
 
