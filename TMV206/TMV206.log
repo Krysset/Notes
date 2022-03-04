@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.27)  4 MAR 2022 11:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.23 (TeX Live 2021/W32TeX) (preloaded format=pdflatex 2022.1.27)  4 MAR 2022 11:55
 entering extended mode
  restricted \write18 enabled.
  file:line:error style messages enabled.
@@ -696,24 +696,37 @@ Overfull \hbox (4.44621pt too wide) in paragraph at lines 107--107
 []\OT1/cmr/bx/n/14.4 Linj^^?ara av-bild-ningar och bas-byten (Avs 7.3) 
  []
 
-[52] [53]
+[52]
+<lessons/lesson13//imgs/img01.png, id=251, 195.73125pt x 179.92218pt>
+File: lessons/lesson13//imgs/img01.png Graphic file (type png)
+<use lessons/lesson13//imgs/img01.png>
+Package pdftex.def Info: lessons/lesson13//imgs/img01.png  used on input line 137.
+(pdftex.def)             Requested size: 156.58519pt x 143.93793pt.
+
+Underfull \hbox (badness 10000) in paragraph at lines 131--138
+\OT1/cmr/m/n/10 f^^?or pro-jek-tio-nen i stan-dard-basen? L^^Wat $\OML/cmm/m/it/10 P$ \OT1/cmr/m/n/10 vara pro-jek-tio-nen.
+ []
+
+[53
+
+ <./lessons/lesson13//imgs/img01.png>] [54]
 Chapter 16.
-) [54
+) [55
 
 ] (./TMV206.aux) ) 
 Here is how much of TeX's memory you used:
- 5874 strings out of 478287
- 90452 string characters out of 5850749
+ 5882 strings out of 478287
+ 90742 string characters out of 5850749
  373687 words of memory out of 5000000
- 23866 multiletter control sequences out of 15000+600000
+ 23872 multiletter control sequences out of 15000+600000
  511602 words of font info for 171 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  55i,15n,62p,426b,282s stack positions out of 5000i,500n,10000p,200000b,80000s
 {c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolC.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolF.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc}{c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolE.enc}<c:/texlive/2021/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol-Bold10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/mnsymbol/MnSymbol7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmi7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmmib10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cmextra/cmmib7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr12.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr17.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr5.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/amsfonts/symbols/msbm10.pfb><c:/texlive/2021/texmf-dist/fonts/type1/public/cm-super/sfrm1000.pfb>
-Output written on TMV206.pdf (55 pages, 5466465 bytes).
+Output written on TMV206.pdf (56 pages, 5517279 bytes).
 PDF statistics:
- 372 PDF objects out of 1000 (max. 8388607)
- 211 compressed objects within 3 object streams
+ 377 PDF objects out of 1000 (max. 8388607)
+ 213 compressed objects within 3 object streams
  0 named destinations out of 1000 (max. 500000)
- 156 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 161 words of extra memory for PDF output out of 10000 (max. 10000000)
 
