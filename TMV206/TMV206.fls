@@ -626,6 +626,10 @@ INPUT ./lessons/lesson13//imgs/img01.png
 INPUT lessons/lesson13//imgs/img01.png
 INPUT ./lessons/lesson13//imgs/img01.png
 INPUT ./lessons/lesson13//imgs/img01.png
+INPUT ./lessons/lesson14/lesson14.tex
+INPUT lessons/lesson14/lesson14.tex
+INPUT ./lessons/lesson14/lesson14.tex
+INPUT lessons/lesson14/lesson14.tex
 INPUT TMV206.aux
 INPUT c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc
 INPUT c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolC.enc

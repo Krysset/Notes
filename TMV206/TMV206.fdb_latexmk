@@ -1,9 +1,9 @@
 # Fdb version 3
-["pdflatex"] 1646391338 "c:/Users/Max Hagman/Documents/Notes/TMV206/TMV206.tex" "TMV206.pdf" "TMV206" 1646391341
-  "TMV206.aux" 1646391340 24201 9d9f2331966df3c10b2210d1cc93e2b8 "pdflatex"
-  "TMV206.tex" 1646381452 1072 f12253e30a51bfe1518409ac14494282 ""
-  "TMV206.toc" 1646391340 12493 61ea445b512f88c1dc0a88e9d665abae "pdflatex"
-  "c:/Users/Max Hagman/Documents/Notes/TMV206/TMV206.tex" 1646381452 1072 f12253e30a51bfe1518409ac14494282 ""
+["pdflatex"] 1646396915 "c:/Users/Max Hagman/Documents/Notes/TMV206/TMV206.tex" "TMV206.pdf" "TMV206" 1646396917
+  "TMV206.aux" 1646396917 25839 a0160b1ea18efdc5f342ecd38ea0acc0 "pdflatex"
+  "TMV206.tex" 1646391415 1119 db275478ae4d006d1b1a25be19244c23 ""
+  "TMV206.toc" 1646396917 13393 20fbf17c7d084f7c19dd22be2c4767d2 "pdflatex"
+  "c:/Users/Max Hagman/Documents/Notes/TMV206/TMV206.tex" 1646391415 1119 db275478ae4d006d1b1a25be19244c23 ""
   "c:/texlive/2021/texmf-dist/fonts/enc/dvips/cm-super/cm-super-ts1.enc" 1643275313 2900 1537cc8184ad1792082cd229ecc269f4 ""
   "c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolA.enc" 1643277213 3341 78e600b269762aa2a25a5293cc4535c0 ""
   "c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolC.enc" 1643277213 3275 8d7166dfdbc31ffdc8aba0c31b3bd5c8 ""
@@ -194,6 +194,7 @@
   "lessons/lesson12/lesson12.tex" 1646043970 6567 c7cafd246b83429d8e06eff23702129f ""
   "lessons/lesson13//imgs/img01.png" 1646391050 45364 dd81c8dd85815cb262e53bce09be472e ""
   "lessons/lesson13/lesson13.tex" 1646391338 9625 6fc915287598fd84834ec6d2bebc8268 ""
+  "lessons/lesson14/lesson14.tex" 1646396914 7377 0e09c1922b2f9a14857dc232ea804aec ""
   (generated)
   "TMV206.aux"
   "TMV206.log"
