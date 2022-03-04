@@ -227,3 +227,29 @@
 \contentsline {paragraph}{Proposition 7.11}{50}{}%
 \contentsline {paragraph}{Ex}{50}{}%
 \contentsline {subparagraph}{Bevis}{50}{}%
+\contentsline {paragraph}{Sats 7.13}{50}{}%
+\contentsline {paragraph}{Sats 7.14}{50}{}%
+\contentsline {paragraph}{Definition}{50}{}%
+\contentsline {paragraph}{Sats 7.16}{51}{}%
+\contentsline {section}{\numberline {15.1}Baser i $\mathbb {R}^{n}$ (Avs 7.2)}{51}{}%
+\contentsline {paragraph}{Ex}{51}{}%
+\contentsline {subparagraph}{Lösning}{51}{}%
+\contentsline {paragraph}{7.19}{52}{}%
+\contentsline {section}{\numberline {15.2}Linjära avbildningar och basbyten (Avs 7.3)}{52}{}%
+\contentsline {paragraph}{Sats 7.22}{52}{}%
+\contentsline {paragraph}{Sats 7.25}{52}{}%
+\contentsline {paragraph}{Ex}{52}{}%
+\contentsline {subparagraph}{Lösning}{52}{}%
+\contentsline {section}{\numberline {15.3}ON-matriser och ON-baser (Avs 7.4)}{53}{}%
+\contentsline {paragraph}{Definition}{53}{}%
+\contentsline {paragraph}{Definition}{53}{}%
+\contentsline {paragraph}{Proposition 7.34}{53}{}%
+\contentsline {paragraph}{Definition}{53}{}%
+\contentsline {paragraph}{Sats 7.35}{53}{}%
+\contentsline {paragraph}{Ex}{53}{}%
+\contentsline {paragraph}{Sats 7.37}{53}{}%
+\contentsline {paragraph}{Ex}{53}{}%
+\contentsline {chapter}{\numberline {16}Egenvektorer och egenvärden}{54}{}%
+\contentsline {paragraph}{Definition}{54}{}%
+\contentsline {paragraph}{Ex}{54}{}%
+\contentsline {paragraph}{Ex}{54}{}%
