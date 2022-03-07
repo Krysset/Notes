@@ -271,3 +271,27 @@
 \contentsline {paragraph}{Sats 8.22}{57}{}%
 \contentsline {paragraph}{Ex}{57}{}%
 \contentsline {subparagraph}{Lösning}{58}{}%
+\contentsline {paragraph}{Ex}{59}{}%
+\contentsline {subparagraph}{Lösning}{59}{}%
+\contentsline {paragraph}{Ex}{60}{}%
+\contentsline {subparagraph}{Lösning}{60}{}%
+\contentsline {chapter}{\numberline {17}Grafer (Avs 9.1)}{61}{}%
+\contentsline {paragraph}{Definition}{61}{}%
+\contentsline {paragraph}{Ex}{61}{}%
+\contentsline {paragraph}{Definition}{61}{}%
+\contentsline {paragraph}{Definition}{61}{}%
+\contentsline {paragraph}{Ex}{61}{}%
+\contentsline {paragraph}{Definition}{62}{}%
+\contentsline {paragraph}{Sats 9.14}{62}{}%
+\contentsline {paragraph}{Sats 9.15}{62}{}%
+\contentsline {chapter}{\numberline {18}Grannmatriser (Avs 9.2)}{63}{}%
+\contentsline {paragraph}{Definition}{63}{}%
+\contentsline {paragraph}{Ex}{63}{}%
+\contentsline {paragraph}{Sats 9.19}{63}{}%
+\contentsline {paragraph}{Följdsats 9.20}{63}{}%
+\contentsline {paragraph}{Sats 9.21}{63}{}%
+\contentsline {paragraph}{Följdsats 9.22}{63}{}%
+\contentsline {chapter}{\numberline {19}Slumpvandringar på grafer (Avs 9.3)}{64}{}%
+\contentsline {paragraph}{Definition}{64}{}%
+\contentsline {paragraph}{Sats 9.27}{64}{}%
+\contentsline {paragraph}{Sats 9.27 (forts.)}{64}{}%

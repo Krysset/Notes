@@ -1,8 +1,8 @@
-PWD c:/Users/Max Hagman/Documents/Notes/TMV206
+PWD c:/Users/maxha/Documents/Notes/TMV206
 INPUT c:/texlive/2021/texmf.cnf
 INPUT c:/texlive/2021/texmf-dist/web2c/texmf.cnf
 INPUT c:/texlive/2021/texmf-var/web2c/pdftex/pdflatex.fmt
-INPUT c:/Users/Max Hagman/Documents/Notes/TMV206/TMV206.tex
+INPUT c:/Users/maxha/Documents/Notes/TMV206/TMV206.tex
 OUTPUT TMV206.log
 INPUT c:/texlive/2021/texmf-dist/tex/latex/base/report.cls
 INPUT c:/texlive/2021/texmf-dist/tex/latex/base/report.cls
@@ -630,6 +630,25 @@ INPUT ./lessons/lesson14/lesson14.tex
 INPUT lessons/lesson14/lesson14.tex
 INPUT ./lessons/lesson14/lesson14.tex
 INPUT lessons/lesson14/lesson14.tex
+INPUT ./lessons/lesson15/lesson15.tex
+INPUT lessons/lesson15/lesson15.tex
+INPUT ./lessons/lesson15/lesson15.tex
+INPUT lessons/lesson15/lesson15.tex
+INPUT ./lessons/lesson15//imgs/img01.png
+INPUT ./lessons/lesson15//imgs/img01.png
+INPUT lessons/lesson15//imgs/img01.png
+INPUT ./lessons/lesson15//imgs/img01.png
+INPUT ./lessons/lesson15//imgs/img01.png
+INPUT ./lessons/lesson15//imgs/img02.png
+INPUT ./lessons/lesson15//imgs/img02.png
+INPUT lessons/lesson15//imgs/img02.png
+INPUT ./lessons/lesson15//imgs/img02.png
+INPUT ./lessons/lesson15//imgs/img02.png
+INPUT ./lessons/lesson15//imgs/img03.png
+INPUT ./lessons/lesson15//imgs/img03.png
+INPUT lessons/lesson15//imgs/img03.png
+INPUT ./lessons/lesson15//imgs/img03.png
+INPUT ./lessons/lesson15//imgs/img03.png
 INPUT TMV206.aux
 INPUT c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolD.enc
 INPUT c:/texlive/2021/texmf-dist/fonts/enc/dvips/mnsymbol/MnSymbolC.enc
