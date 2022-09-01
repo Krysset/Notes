@@ -1,0 +1,101 @@
+\chapter{Talföljder och gränsvärden}
+Studium av talföljder är ett av matematikens mest klassiska områden.
+Vi har exempelvis:
+\begin{itemize}
+    \item Fibonacci-talföljden, $0,1,1,2,3,5,8,...$, återfinns i olika sammanhang i naturen.
+    \item Primtalssekvensen, $2,3,5,7,11,13,17,...$, finns formel för att beskriva sekvensen? (olöst)
+\end{itemize}
+Ska försöka formalisera begreppen i synnerhet för oändligt långa talföljder.\\
+Låt $\{a_1,a_2,a_3,...\}=\{a_n\}, n\in\mathbb{N}$ vara en godtycklig talföljd.
+Man säger att $\{a_n\}$ är:
+\begin{itemize}
+    \item Begränsad ovan-/underifrån om det finns ett tal $L$ sådant att $a_n\leq L$/$a_n\geq L$ $\forall n=1,2,3,...$.
+    \item Begränsad om den är begränsad \underline{både} ovan- och underifrån.
+    \item Positiv/Negativ om $a_n\geq 0$/$a_n\leq 0, \forall n=1,2,...$
+    \item Växande/Avtagande om $a_{n+1}\geq a_n$/$a_{n+1}\leq a_n,\forall n=1,2,3,...$
+    \item Monoton om talföljden är antingen växande eller avtagande
+    \item Alternerande om $a_{n+1}\cdot a_n <0,\forall n=1,2,3,...$
+\end{itemize}
+Ett viktigt begrepp för talföljder (och funktioner) är \underline{konvergens}, dvs. om talföljden "stannar av" och håller sig oförändrad om man bara kollar tillräckligt långt in i följden (dvs. n stort).
+%infoga bild 1
+Måste försöka precisera vad detta betyder ren matematiskt.
+\paragraph{Definition} Konvergent talföld\\
+Man säger att en talföljd ${a_n}$ konvergerar mot $L\in\mathbb{R}$ och skriver $\lim_{n \to \infty}a_n=L$, om det för varhe positivt tal $\varepsilon > 0 $ existerar ett positivt heltal $N$ så att det för alla $n\leq N$ gäller att $|a_n-L|\leq\varepsilon$.
+\subparagraph{Intuitivt} $\{a_n\}$ konvergerar mot $L$ om \underline{alla} tal tillräckligt långt in i följden ligger godtyckligt nära talet $L$.
+Av detta följder "enkelt" att:
+\begin{itemize}
+    \item om $\{a_n\}$ konvergerar så är den begränsad.
+    \item om $\{a_n\}$ är begränsad ovanifrån och växande så är $\{a_n\}$ konvergent.
+          Motsvarande för begränsad underifrån och avtagande.
+\end{itemize}
+Bra räknelagar:
+\begin{itemize}
+    \item $\lim_{n \to \infty}(\frac{a_n}{b_n})=\frac{\lim_{n \to \infty}a_n}{\lim_{n \to \infty}b_n}$, om $\lim_{n \to \infty}b_n\neq 0$
+    \item om $a_n\leq b_n\leq c_n$ och $\lim_{n \to \infty}a_n=\lim_{n \to \infty}c_n=L\Rightarrow \lim_{n \to \infty}b_n=L$.
+\end{itemize}
+
+\paragraph{Ex (9.1.25)} Bestäm om möjligt det tal $L$ som $a_n=\sqrt{n^2+n}-\sqrt{n^2-1}$ konvergerar mot då $n\to\infty$
+\subparagraph{Lösning} Det gäller att
+\begin{equation*}
+    \sqrt{n^2-n}-\sqrt{n^2-1}=\sqrt{(n+1)\cdot n}-\sqrt{(n+1)(n-1)}=\sqrt{n+1}\cdot(\sqrt{n}-\sqrt{n-1})=
+\end{equation*}
+\begin{equation*}
+    \sqrt{n+1}\cdot\frac{(\sqrt{n}\sqrt{n-1})\cdot(\sqrt{n}+\sqrt{n-1})}{\sqrt{n}+\sqrt{n-1}}=\sqrt{n+1}\cdot\frac{(n-(n-1))}{\sqrt{n}+\sqrt{n-1}}=\frac{\sqrt{n+1}}{\sqrt{n}+\sqrt{n-1}}
+\end{equation*}
+\begin{equation*}
+    \text{och } \frac{\sqrt{n+1}}{\sqrt{n}+\sqrt{n-1}}\leq\frac{\sqrt{n}}{\sqrt{n}+\sqrt{n}}=\frac{1}{2}
+\end{equation*}
+\begin{equation*}
+    \frac{\sqrt{n+1}}{\sqrt{n}+\sqrt{n+1}}\leq\frac{\sqrt{n+1}}{\sqrt{n-1}+\sqrt{n-1}}\cdot\frac{\sqrt{n-1}}{\sqrt{n-1}}=\frac{\sqrt{n^2-1}}{2(n-1)}\leq\frac{\sqrt{n^2}}{2(n-1)}=
+\end{equation*}
+\begin{equation*}
+    \frac{n}{2(n-1)}=\frac{1}{2(1-\frac{1}{n})}\overrightarrow{n\to\infty}\frac{1}{2}
+\end{equation*}
+så $\lim_{n\to\infty}\sqrt{n^2+n}-\sqrt{n^2-1}=\frac{1}{2}\Box$
+\\
+\paragraph{} Ett av de mest kraftfulla verktygen inom matematisk analys är \underline{gränsvärden} för funktioner, dvs $\lim_{x \to a}f(x),a\in\mathbb{R}$.
+Det ger oss derivator, integraler, differentialekvationer, ...
+Hur ska man definiera gränsvärdet $\lim_{x \to a}f(x)$?
+Skulle kunna inspireras av definitionen för talföljder.
+\paragraph{Definition (försök)} Man säger att $f(x)$ konvergerar mot värdet $L\in\mathbb{R}$ då $x$ går mot $a\in\mathbb{R}$ om det för varje talföljd $\{x_n\}$ s.a $\lim_{n\to\infty}x_n=a$ gäller att $\lim_{n\to\infty}f(x)=L$.
+\\\\Bättre definition i liknande riktning är dock.
+\paragraph{Definition} Man säger att $f(x)$ går mot gränsvärdet
+$L\in\mathbb{R}$ då $x$ går mot $a\in\mathbb{R}$ och skriver
+$\lim_{x\to a}f(x)=L$, om det för varje tal $\varepsilon > 0$
+existerar ett annat tal $\delta > 0$ (som ev. beror av $\varepsilon$) s.a.
+om $0< |x-a| <\delta$ så ligger $x$ i $f$s definitionsmängd och
+$|f(x)-L|<varepsilon$.
+
+\paragraph{Ex}
+\begin{enumerate}
+    \item $f\to L_1$, när $x\to a_1$?
+          %infoga bild 2
+          Ja! Går alltid att hitta $\delta>0$ s.a. $|f(x)-L_1|<\varepsilon$ oavsett $\varepsilon$.
+    \item $f\to L_2$, när $x\to a_1$?
+          %infoga bild 3
+          Omöjligt att hitta $\delta>0$ s.a. $|f(x)-L_2|<\varepsilon$ om $\varepsilon$ litet.
+\end{enumerate}
+
+\paragraph{Ex (1.5.19)}Använd definitionen av gränsvärde för att bevisa att
+\begin{equation*}
+    \lim_{x\to 1}\sqrt{x}=1
+\end{equation*}
+\subparagraph{Lösning} Vill hitta $\delta > 0$ så att
+$|\sqrt{x}-1|<\varepsilon$ så länge som $0< |x-1| <\delta$
+(givet vilket $\varepsilon>0$ som helst).
+Gäller att $|\sqrt{x}-1<\varepsilon\Leftrightarrow-\varepsilon<\sqrt{x}-1<\varepsilon\Rightarrow 1-\varepsilon<\sqrt{x}<1+\varepsilon$.
+$\left\{\begin{matrix}
+        \text{Om }0<\varepsilon<\sqrt{x}\leq 1: 1-\varepsilon<\sqrt{x}<1+\varepsilon\Rightarrow(1-\varepsilon)^2<x<(1+\varepsilon)^2 \\
+        \text{Om }\varepsilon>1:1-\varepsilon<\sqrt{x}<1+\varepsilon\Rightarrow 0<x<(1+\varepsilon)^2
+    \end{matrix}\right.$
+Notera att $(1-\varepsilon)^2<x<(1+\varepsilon)^2$ \underline{alltid} implicerar att $1-\varepsilon<\sqrt{x}<1+\varepsilon$ dvs $|\sqrt{x}-1|<\varepsilon$.
+\begin{equation*}
+    (1-\varepsilon)^2<x<(1-\varepsilon)^2\Leftrightarrow 1-2\varepsilon+\varepsilon^3<x<1+2\varepsilon+\varepsilon^2\Leftrightarrow-\varepsilon(2-\varepsilon)<x-1<\varepsilon\cdot(2+\varepsilon)
+\end{equation*}
+%infoga bild 4
+så \begin{equation*}
+    -\varepsilon\cdot(2-\varepsilon)<x-1<\varepsilon\cdot(2-\varepsilon)\Rightarrow-\varepsilon(2-\varepsilon)<x-1<\varepsilon(2+\varepsilon)
+\end{equation*}
+om $\varepsilon<2$.
+Välj därför $\delta=\varepsilon\cdot(2-\varepsilon)$ om $\varepsilon<2$.
+För $\varepsilon\leq 2$, välj t.ex $\delta=1$ eftersom $|x-1|<1\Rightarrow-1<\sqrt{x}-1<0\Rightarrow-2<\sqrt{x}-1<2\Rightarrow|\sqrt{x}-1|<2\leq\varepsilon\Box$
