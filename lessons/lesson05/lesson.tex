@@ -1,0 +1,74 @@
+Är alla kontinuerliga funktioner "välartade" och alltid lämpliga för att beskriva något slags verklighet?\\
+Nej.
+\begin{itemize}
+    \item Finns massa verkliga situationer som kräver diskontinuerliga funktioner för att kunna beskrivas.
+    \item finns väldigt "konstiga" kontinuerliga funktioner.
+          %Infoga bild 1
+\end{itemize}
+Lite grundläggande egenskaper för kontinuerliga funktioner.\\
+Om $f$ och $g$ är två kontinuerliga funktioner i $c\in\mathbb{R}$ så gäller att:\\
+\begin{itemize}
+    \item $f+g$, $f-g$ och $f\cdot g$ är kontinuerliga i $x=c$ och $\frac{f}{g}$, $\frac{g}{f}$ om $g(c)$ respektive $f(c)\neq 0$
+    \item $k\cdot f$ är kontinuerlig i $x=c$ för alla konstanter $k\in\mathbb{R}$.
+    \item $(f)^\frac{1}{n}$ är kontinuerlig i $x=c,n\in\mathbb{N}$ (givet att $f(c)\geq 0$ om $n$ är jämnt)
+\end{itemize}
+vad gäller om man vill kompononera ihop kontinuerliga funktioner?
+\paragraph{Sats} (Komposition av kont. funktioner)\\
+Om $f\circ g := f(g(x))$ är definierad på ett intervall som innehåller
+$x=C$ och $f$ är kontinuerlig i $x=L$ och $\lim_{x\to c}g(x)=L$
+så gäller att:
+\begin{equation*}
+    \lim_{x\to c}f(g(x))=f(L)=f(\lim_{x\to c}g(x))
+\end{equation*}
+Speciellt om $g$ är kontinuerlig i $x=c$ (dvs. $\lim_{x\to c}g(x)=g(c)$)
+så är kompositionen $f\circ g$ också kontinuerlig i $x=c$.
+
+\subparagraph{Bevis} Vill bevisa att om $f$ är kontinuerlig i $x=L$ och
+$\lim_{x\to c}g(x)=L$ så är $\lim_{x\to c} f(g(x))=f(L)$ (Resten följer per automatik).\\
+Använd definitionen av grändsvärde!\\
+Vet att $f$ är kontinuerlig i $y=L$, dvs. $\lim_{y\to L}f(y)=f(L)$
+vilket definitionsmässigt betyder att det för varje $\varepsilon > 0$
+finns ett tal $\gamma > 0$ s.a. om $|y-L|<\gamma$ så är $|f(y)-f(L)|<\varepsilon$.\\
+Vidare, eftersom $\lim_{x\to c}g(x)=L$ så finns det ett tal $\delta > 0$
+sådant att om $|x-c|<\delta$ så är $|g(x)-L|<\gamma$ för vilket $\gamma>0$ som helst.
+I vårt fall är vi intresserade av fallet där $y=g(x)$ och av tidigare
+gäller således att om bara $0< |x-c| <\varepsilon$ så kommer
+$|f(g(x))-f(L)|<\varepsilon$ oavsett hur vi väljer $\varepsilon>0$.\\
+Men detta betyder att $\lim_{x\to c}f(g(x))=f(L)$ och vi har därmed visat att
+$\lim_{x\to c}f(g(x))=f(L)=f(\lim_{x\to c}g(x))$ och speciellt att
+$f\circ g$ är kontinuerlig i $x=c$ om $g$ är kontinuerlig i $x=c$. $\Box$
+
+~\\
+Vi förstätter med lite allmänna egenskaper för kontinuerliga funktioner.
+\paragraph{Sats} (kontinuerliga funktioner är begränsade) (tenta)\\
+Om $f$ är kontinuerlig på intervallet $[a,b]$ så är $f$ begränsad över samma intervall.\\\\
+För att bevisa detta ska vi använda Bolzano-Weierstrass sats.
+\paragraph{Sats} (Bolzano-Weierstrass) (tenta)\\
+Låt $\{a_n\}$ vara en oändlig och begränsad talföljd.
+Då finns en delföljd av $\{a_n\}$ som är konvergent!\\
+Intuition: Givet att $\{a_n\}$ är begränsad så kan man alltid plocka
+ihop en ny talföljd med element tagna i ordning från $\{a_n\}$,
+säg $\{a_{n_k}\}$, så att denna följd konvergerar.
+
+\paragraph{Bevis} (kontinuerliga funktioner är begränsade)\\
+Använder ett så kallad "motsägelsebevis", dvs. antag att satsen inte stämmer och visar att detta leder till något orimligt eller omöjligt.\\
+Antag att $f$ är kontinuerlig på $[a,b]$ men \underline{inte} begränsad ovanifrån på $[a,b]$.
+I så fall gäller att det för varje heltal $k>0$ finns ett $x_k\in[a,b]$ så att $f(x_k)>k$ (eftersom $f$ växer obegränsat på $[a,b]$ enligt antagande).
+Alltså kan vi konstruera en talföljd $\{x_n\}$ där \underline{alla} $x_n\in[a,b]$ och $f(x_n)>n$.
+Men om alla $x_n\in[a,b]$ så måste talföljden $\{x_n\}$ vara begränsad (eftersom $a\leq x_ \leq b$).
+Av Bolzano-Weierstrass stats finns därför en delföljd till $\{x_n\}$ säg $\{x_{n_k}\}$ som är konvergent.
+Beteckna denna delföljds gränsvärde med $x$, dvs $\lim_{k\to \infty}x_{n_k}=x$.
+Eftersom $x\in[a,b]$ och $f$ är kontinuerlig i $x$ (eftersom $f$ kontinuerlig på hela $[a,b]$ enligt förutsättning) så gäller per definition att $\lim_{h\to \infty}f(x_{n_k})=f(x)$.
+Men eftersom $f(x_n)>n$ så måste $\lim_{k\to\infty}f(x_{n_k})=\infty$.
+Detta motsäger att $f$ är kontinuerlig på $[a,b]$!\\
+Slutsats: $f$ måste vara begränsad ovanifrån.\\
+Liknande resonemang gäller för att visa att $f$ även är måste vara begränsad underifrån och därmed begränsad. $\Box$
+
+\paragraph{Sats} (min-max-satsen)\\
+Låt $f$ vara en kontinuerlig funktion på $[a,b]$ (där $|a|,|b|<\infty$).
+Då existerar \underline{alltid} tal $p,q\in[a,b]$ sådana att för alla $x\in[a,b]$, $f(p)\leq f(x)\leq f(q)$ dvs. $f$ har ett minimum $m=f(p)$ och ett maximum $M=f(q)$.
+%infoga bild 2
+
+\paragraph{Sats} (satsen om mellanliggande värden)\\
+Låt $f$ vara en kontinuerlig funktion på $[a,b]$ och låt $s$ vara ett tal mellan $f(a)$ och $f(b)$.
+Då existerar det alltid ett tal $c\in[a,b]$ så att $f(c)=s$.
