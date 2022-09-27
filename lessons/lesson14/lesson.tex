@@ -23,7 +23,7 @@ Några viktiga standard summor är:
 Vill kunna beräkna arean under funktionsgrafer.
 Strategin är att dela upp ytan i mindre bitar för vilka arean är lätt att beräkna och sedan summera alla bidrag.\\
 %infoga bild 1
-%\includegraphics[scale=0.1]{lessons/lesson14/imgs/img01.jpg}
+\includegraphics[scale=0.1]{lessons/lesson14/imgs/img01.jpg}
 Dela upp intervallet $[a,b]$ i mindre delintervall med ändpunkter i $a=x_0<x_1<x_2<...<x_n=b$.
 Varje delintervall är av bredden $\Delta x=x_1-x_0,\Delta x_2=x_2-x_1,$ osv.
 Beräkna (t.ex) areorna av alla rektanglar med bred $\Delta x_i$ och höjd $\frac{f(x_i)+f(x_i+1)}{2}$ (medelvärdet).
@@ -41,7 +41,7 @@ Detta måste dock preciseras för att bli matematiskt relevant.
 \paragraph{Ex (5.2.5)} Beräkna areorna under grafen till $y=x^2$ mellan $x=1$ och $x=3$.
 \subparagraph*{Lösning}
 %infoga bild 2
-%\includegraphics[scale=0.1]{lessons/lesson14/imgs/img02.jpg}
+\includegraphics[scale=0.1]{lessons/lesson14/imgs/img02.jpg}
 Dela upp intervallet $[1,3]$ i $n$ stycken lika stora delar.
 Delintervallets bredd blir då $\Delta x=\frac{3-1}{n}=\frac{2}{n}$ med ändpunkter i $1,1+\frac{2}{n},1+2\frac{2}{n},...,1+(n-2)\frac{2}{n},3$.
 Om vi använder funktionens medelvärde i varje delintervall som höjd för att approximerande rektanglar får vi att:
@@ -78,7 +78,7 @@ Varje delintervall i $P$ har en längd $\Delta x_i=x_{i-1}-x_i$ och man definier
 \end{equation*}
 Om $f$ är en kontinuerlig funktion så antas både ett maximalt och ett minimalt värde någonstans i varje delintervall, säg i $x=u_i$ och $x=l_i$ för delintervallet $[x_i,x_{i+1}]$.
 % infoga bild 3
-%\includegraphics[scale=0.1]{lessons/lesson14/imgs/img03.jpg}
+\includegraphics[scale=0.1]{lessons/lesson14/imgs/img03.jpg}
 Dvs. om $x\in[x_i,x_{i+1}]$ så gäller att $f(l_i)\leq f(x)\leq f(u_i)$.
 Det betyder att en godtycklig stapel över intervallet $[x_i,x_{x+i}]$ \underline{alltid} kommer att ha en area $A_i$ så att
 \begin{equation*}
@@ -92,7 +92,7 @@ Givet en partition $P$ kan vi definiera den nedåt begränsande Riemann-summan $
     U(f,P)=\sum_{i=1}^n f(u_i)\cdot\Delta x
 \end{equation*}
 %infoga bild 4
-%\includegraphics[scale=0.1]{lessons/lesson14/imgs/img04.jpg}
+\includegraphics[scale=0.1]{lessons/lesson14/imgs/img04.jpg}
 Om $f$ beter sig "vettigt" och $P$ blir en finare och finare partion av intervallet $[a,b]$ där $||P||\overrightarrow{n\to\infty}0$ så \underline{borde} $\lim_{n\to\infty}L(f,P)=\lim_{n\to\infty}U(f,P)$ oavsett val av partition $P$.
 I så fall är det ett rimligt mått av arean under funktionsgrafen.
 Detta definierar den \underline{definita intergralen} av $f$ mellan $a$ och $b$.
