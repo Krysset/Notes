@@ -1,0 +1,182 @@
+\chapter{Att integrera}
+Analysen huvudsats gör det möjligt att beräkna integraler på ett vettigt sätt (utan att konkret jobba med Riemann-summor).
+Jan dock vara mycket svårt ändå!
+
+För att lösa olika typer av integrationsproblem behövs:
+\begin{enumerate}
+    \item Erfarenhet och mycket träning!
+    \item En samling metoder och trix.
+\end{enumerate}
+
+\section*{Variabelsubstitution}
+Grundläggande och viktig metod för att beräkna vissa typer av integraler.
+Utgår från kedjeregeln, fast "baklänges":
+\begin{equation*}
+    \frac{d}{dx}(fg(x))=f^\prime(g(x))\cdot g^\prime(x)\Rightarrow
+    \int f^\prime(g(x))\cdot g^\prime(x)\, dx=
+    \left\lbrace\begin{matrix}
+        u=g(x) \\
+        du=g^\prime\, dx
+    \end{matrix}\right\rbrace =
+\end{equation*}
+\begin{equation*}
+    \int f^\prime(u)\, dx=
+    f(u)+C=\{u=g(x)\}=f(g(x))+C\text{ för } C\in\mathbb{R}
+\end{equation*}
+Så, om man vill lösa en integral där integranden är på formen $f^\prime(g(x))\cdot g\prime(x)$ för några funktioner $f(x)$ och $g(x)$ (kan vara svåra att identifiera!),
+prova att byta variabel från $x$ till $u=g(x)$.
+
+Funkar även för definita integraler:
+\begin{equation*}
+    \int_a^b f^\prime(g(x))\cdot g^\prime(x)\, dx=
+    \left\lbrace\begin{matrix}
+        u=g(x)              &  & x=a\Rightarrow u=g(a) \\
+        du=g^\prime(x)\, dx &  & x=b\Rightarrow u=g(b)
+    \end{matrix}\right\rbrace =
+    \int_{g(a)}^{g(b)}f^\prime(u)\, du
+\end{equation*}
+
+\paragraph*{Ex (5.6.4)} Lös integralen $\int e^{2x}\cdot \sin(e^{2x})\, dx$.
+\subparagraph*{Lösning}
+Observera att $\frac{d}{dx}(e^{2x})=2\cdot e^{2x}$ så vi kan skriva
+\begin{equation*}
+    \int e^{2x}\sin(e^{2x})\, dx=
+    \frac{1}{2}\int 2e^{2x}\sin(e^2x)\, dx
+\end{equation*}
+Använd Variabelsubstitution med $f(x)=sin(x)$ och $g(x)=e^{2x}$.
+\begin{equation*}
+    \frac{1}{2}\int sin(e^{2x})\cdot 2e^{2x}\, dx=
+    \begin{bmatrix}
+        u=e^{2x} \\
+        du=2e^{2x}\, dx
+    \end{bmatrix}=
+    \frac{1}{2}\int \sin(u)\, du=
+\end{equation*}
+\begin{equation*}
+    \frac{1}{2}(-cos(u))+C=
+    C-\frac{1}{2}cos(e^{2x}), C\in\mathbb{R}
+\end{equation*}
+
+\paragraph*{Ex (5.6.41)} Beräkna integralen $\int_0^{\frac{\pi}{2}}\sin^4(x)\, dx$.
+\subparagraph{Lösning}
+Inte uppenbart på förhand.
+Krävs erfarenhet och trigonometri:
+\begin{equation*}
+    \int_0^{\frac{\pi}{2}}\sin^4(x)\, dx=
+    \int_0^{\frac{\pi}{2}}(sin^2(x))^2\, dx=
+\end{equation*}
+\begin{equation*}
+    \{\cos 2x=1-2\sin^2(x)\Leftrightarrow sin^2(x)=\frac{1-cos(2x)}{2}\}=
+    \int_0^{\frac{\pi}{2}}(\frac{1-cos(2x)}{2})^2\, dx=
+\end{equation*}
+\begin{equation*}
+    \frac{1}{4}\int_0^{\frac{\pi}{2}}1-2\cos(2x)+cos^2(2x)\, dx=
+\end{equation*}
+\begin{equation*}
+    \frac{1}{4}\int_0^{\frac{\pi}{2}}\, dx-\frac{2}{4}\int_0^{\frac{\pi}{2}}cos(2x)\, dx+\frac{1}{4}\int_0^{\frac{\pi}{2}}cos^2(2x)\, dx=
+\end{equation*}
+\begin{equation*}
+    \{cos(4x)=2cos^2(2x)-1\Leftrightarrow cos^2(2x)=\frac{cos(4x)+1}{2}\}=
+\end{equation*}
+\begin{equation*}
+    \frac{1}{4}[x]_0^{\frac{\pi}{2}}-\frac{1}{2}[\frac{1}{2}\sin(2x)]_0^\frac{\pi}{2}+\frac{1}{8}\int_0^\frac{\pi}{2}\cos(4x)+1\, dx=
+\end{equation*}
+\begin{equation*}
+    \frac{\pi}{8}+\frac{1}{8}(\frac{1}{4}\sin(2\pi)+\frac{\pi}{2}-\frac{1}{4}\sin(0)-0)=
+    \frac{\pi}{8}+\frac{\pi}{16}=
+    \frac{2\pi}{16}+\frac{\pi}{16}=
+    \frac{3\pi}{16}
+\end{equation*}
+Formlerna för "dubbla vinkeln" är väldigt ofta användbara om integranden involverar \underline{jämna potenser} av $\sin(x)$ och $\cos(x)$!
+
+\section{Partiell integration}
+En mycket användbar metod för att lösa integraler som fås ur produktregeln för derivator:
+\begin{equation*}
+    \frac{d}{dx}(f(x)\cdot g(x))=f^\prime(x)\cdot g(x)+f(x)\cdot g^\prime(x)
+\end{equation*}
+
+Om $F(x)$ är en primitiv funktion till $f(x)$ så kan vi stället skriva:
+\begin{equation*}
+    \frac{d}{dx}(F(x)\cdot g(x))=F^\prime(x)\cdot g(x)+F(x)\cdot g^\prime(x)=
+    \{F^\prime(x)=f(x)\}=f(x)\cdot g(x)+F(x)\cdot g^\prime(x)
+\end{equation*}
+Omskrivet får vi:
+\begin{equation*}
+    f(x)\cdot g(x)=\frac{d}{dx}(F(x)\cdot g(x))-F(x)\cdot g^\prime(x)
+\end{equation*}
+\begin{equation*}
+    \text{Med def. intervall } \int_a^b f(x)\cdot g(x)=[F(x)\cdot g(x)]_a^b-\int_a^b F(x)\cdot g^\prime(x)\, dx
+\end{equation*}
+och om vi integrerar båda sidor och använder analysens huvudsats finner man att:
+\begin{equation*}
+    \int f(x)\cdot g(x) = \int\frac{d}{dx}(F(x)\cdot g(x))\, dx - \int F(x)\cdot g^\prime(x)\, dx=
+    F(x)\cdot g(x)-\int F(x)\cdot g^\prime(x)\, dx
+\end{equation*}
+
+Detta samband kallas för \underline{partiell integration}.
+Användbart när integralen $\int F(x)\cdot g^\prime(x)\, dx$ är lättare än $\int f(x)\cdot g(x)\, dx$.
+
+\paragraph*{Ex (6.1.6)} Lös integralen $x(ln(x))^3\, dx$.
+\subparagraph{Lösning}
+Använd partiell integration med $f(x)=x$ och $g(x)=(ln(x))^3$.
+\begin{equation*}
+    \Rightarrow\int x(ln(x))^3\, dx=
+    \frac{x^2}{2}(\ln(x))^3-\int \frac{x^2}{2}\cdot 3(\ln(x))^2\frac{1}{x}\, dx=
+\end{equation*}
+\begin{equation*}
+    \frac{x^2}{2}(\ln(x))^3-\frac{3}{2}\int x(\ln(x))^2\, dx=
+    \{\text{part. int.}\}=
+\end{equation*}
+\begin{equation*}
+    \frac{x^2}{2}(\ln(x))^3-\frac{3}{2}(\frac{x^2}{2}(\ln(x))^2-\int \frac{x^2}{2}\cdot 2(\ln(x))\frac{1}{x}\, dx)=
+\end{equation*}
+\begin{equation*}
+    \frac{x^2}{2}(\ln(x))^3-\frac{3}{4}x^2(\ln(x))^2+\frac{3}{2}\int x\ln(x)\, dx=
+    \{\text{parti. int.}\}=
+\end{equation*}
+\begin{equation*}
+    \frac{x^2}{2}(\ln(x))^3-\frac{3}{4}x^2(\ln(x))^2+\frac{3}{2}(\frac{x^2}{2}\ln(x)-\int \frac{x^2}{2}\cdot\frac{1}{x}\, dx)-\frac{3}{4}\int x\, dx=
+\end{equation*}
+\begin{equation*}
+    \frac{x^2}{2}(\ln(x))^3-\frac{3}{4}x^2(\ln(x))^2+\frac{3}{4}x^2\ln(x)-\frac{3}{4}\cdot\frac{x^2}{2}+C, C\in\mathbb{R}
+\end{equation*}
+så $\int x(\ln(x))^3\, dx=\frac{x^2}{2}(\ln(x))^3-\frac{3}{4}x^2(\ln(x))^2+\frac{3}{4}x^2\ln(x)-\frac{3}{8}x^2+C,C\in\mathbb{R}$.\\
+Kontroller att det stämmer!
+
+\paragraph{Ex (6.1.23)} Lös integralen $\int arcos(x)\, dx$.
+\paragraph{Lösning}
+Använd partiell integration och ett klassiskt trix!
+\begin{equation*}
+    \int \arccos(x)\, dx=
+    \int 1\cdot \arccos(x)\, dx=
+    \{f(x)=1, g(x)=\arccos(x)\}=
+\end{equation*}
+\begin{equation*}
+    x\cdot \arccos(x)-\int x\cdot (-\frac{1}{\sqrt{1-x^2}})\, dx=
+    x\cdot \arccos(x)+\int \frac{1}{\sqrt{1-x^2}}x\, dx=
+\end{equation*}
+\begin{equation*}
+    \begin{bmatrix}
+        u=x^2 \\
+        du=2x\, dx\Leftrightarrow \frac{1}{2}du=x\, dx
+    \end{bmatrix}=
+    x\cdot\arccos(x)+\int\frac{1}{\sqrt{1-u}}\frac{1}{2}\, du=
+\end{equation*}
+\begin{equation*}
+    \{\frac{d}{du}\sqrt{1-u}=-\frac{1}{2}\frac{1}{\sqrt{1-u}}\}=
+    x\cdot\arccos(x)-\sqrt{1-u}+C=
+    \{u=x^2\}=
+\end{equation*}
+\begin{equation*}
+    x\cdot\arccos(x)-\sqrt{1-x^2}+C,c\in\mathbb{R}
+\end{equation*}
+så $\int\arccos(x)\, dx=x\cdot\arccos(x)-\sqrt{1-x^2}+C$ för $C\in\mathbb{R}$.
+\subparagraph{Kontroll}
+\begin{equation*}
+    \frac{d}{dx}[x\cdot\arccos(x)-\sqrt{1-x^2}+C]=
+    1\cdot\arccos(x)+x\cdot(-\frac{1}{1-x^2})-\frac{1}{2}\cdot\frac{1}{\sqrt{1-x^2}}\cdot(-2x)+0=
+\end{equation*}
+\begin{equation*}
+    arccos(x)-\frac{x}{\sqrt{1-x^2}}+\frac{x}{\sqrt{1-x^2}}
+    =\arccos(x)\, \Box
+\end{equation*}
