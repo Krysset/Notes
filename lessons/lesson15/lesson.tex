@@ -8,7 +8,7 @@ $I$ som alltid ligger mellan godtycklig nedåt begränsad- och övrebegränsad R
 för \underline{alla} tänkbara partitioner $P$ av $[a,b]$.\\
 Geometriskt tolkas $\int_a^b f(x)\, dx$ som "arean under grafen till $f$ med tecken".\\
 %infoga bild 1
-% \includegraphics{lessons/lesson15/imgs/img01.jpg}\\
+\includegraphics[scale=0.1]{lessons/lesson15/imgs/img01.jpg}\\
 
 Har här förutsatt att $a<b$, men är naturligt att utvidga konceptet med definit intergral genom följande definitioner:
 \begin{itemize}
@@ -24,16 +24,21 @@ för alla $\alpha,\beta\in\mathbb{R}$.
 Rent geometriskt gäller också följande:
 \begin{itemize}
     % infoga bild 2
-    \item $\Rightarrow \int_a^c f(x)\, dx = \int_a^b f(x)\, dx + \int_b^c f(x)\, dx$
+    \item \includegraphics[scale=0.1]{lessons/lesson15/imgs/img02.jpg}\\
+          $\Rightarrow \int_a^c f(x)\, dx = \int_a^b f(x)\, dx + \int_b^c f(x)\, dx$
           % infoga bild 3
-    \item $\Rightarrow \int_a^b f(x)\, dx \leq \int_a^b g(x)\, dx$
+    \item \includegraphics[scale=0.1]{lessons/lesson15/imgs/img03.jpg}\\
+          $\Rightarrow \int_a^b f(x)\, dx \leq \int_a^b g(x)\, dx$
           % infoga bild 4
-    \item $\Rightarrow |\int_a^b f(x)\, dx| \leq \int_a^b |f(x)|\, dx$ (triangelolikheten)
+    \item \includegraphics[scale=0.1]{lessons/lesson15/imgs/img04.jpg}\\
+          $\Rightarrow |\int_a^b f(x)\, dx| \leq \int_a^b |f(x)|\, dx$ (triangelolikheten)
           %infoga bild 5
-    \item $\Rightarrow \int_{a-b}^{a+b} f(x)\, dx = 2\cdot\int_{a-b}^{a} f(x)\, dx = 2\cdot\int_{a}^{a+b} f(x)\, dx$\\
+    \item \includegraphics[scale=0.1]{lessons/lesson15/imgs/img05.jpg}\\
+          $\Rightarrow \int_{a-b}^{a+b} f(x)\, dx = 2\cdot\int_{a-b}^{a} f(x)\, dx = 2\cdot\int_{a}^{a+b} f(x)\, dx$\\
           $f$ \underline{jämn} med avseende på $x=a$
           %infoga bild 6
-    \item $\Rightarrow \int_{a-b}^{a+b} f(x)\, dx = 0$\\
+    \item \includegraphics[scale=0.1]{lessons/lesson15/imgs/img06.jpg}\\
+          $\Rightarrow \int_{a-b}^{a+b} f(x)\, dx = 0$\\
           $f$ \underline{udda} med avseende på $x=a$
 \end{itemize}
 
@@ -53,7 +58,7 @@ Om $f$ är kontinuerlig på $[a,b]$ så finns en punkt $c\in[a,b]$ så att
 \end{equation*}
 Medelvärdessatsen för integraler säger att det finns en rektangel med bred $b-a$ och höjd $f(c)$ (för något $c\in[a,b]$) vars area är precis $\int_a^b f(x)\, dx$.\\
 %infoga bild 7
-% \includegraphics[]{lessons/lesson15/imgs/img07.jpg}\\
+\includegraphics[]{lessons/lesson15/imgs/img07.jpg}\\
 Ur detta resultat \underline{definieras} medelvärdet av en funktion $f$ (integrerbar) på ett intervall $[a,b]$ som:
 $\overline{f}\frac{1}{b-a}\cdot \int_a^b f(x)\, dx$ (rimligare än t.ex. att sätta medelvärdet som $\frac{f(a)+f(b)}{2}$ eftersom integralen tar hänsyn till $f$ över \underline{hela} intervallet $[a,b]$ och inte bara ändpunkterna).
 
