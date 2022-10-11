@@ -4,12 +4,12 @@ Kontinuerliga?
 Självklart, men behöver inte ens kontinuitet.
 Till exempel:\\
 % infoga bild 1
-%\includegraphics[scale=0.1]{lessons/lesson18/imgs/img01.jpg}
+\includegraphics[scale=0.1]{lessons/lesson18/imgs/img01.jpg}\\
 
 Värre kan det dock bli om antingen:
 \begin{itemize}
-    \item $f$ är obegränsad i någon punkt $x\in[a,b]$ %infoga bild 2 här
-    \item $"a=-\infty"$ eller $b=\infty$ % infoga bild 3 här
+    \item $f$ är obegränsad i någon punkt $x\in[a,b]$ \includegraphics[scale=0.05]{lessons/lesson18/imgs/img02.jpg}%infoga bild 2 här
+    \item $"a=-\infty"$ eller $b=\infty$ \includegraphics[scale=0.05]{lessons/lesson18/imgs/img03.jpg}% infoga bild 3 här
 \end{itemize}
 Integraler som involverar någon eller båda egenheterna ovan kallas för \\
 \underline{generaliserade integraler}.
@@ -92,7 +92,7 @@ Några generaliserade integraler som är bra att känna till för att avgöra ko
 \end{enumerate}
 för $0<a<\infty$.\\
 %infoga bild 4
-%\includegraphics[scale=0.1]{lessons/lesson18/imgs/img04.jpg}
+\includegraphics[scale=0.1]{lessons/lesson18/imgs/img04.jpg}
 
 \chapter{Numerisk integration}
 %Numerisk integration kommer inte på tentan 👀
@@ -102,7 +102,7 @@ Finns olika typer av algoritmer/metoder.
 \section{Mittpunktsmetoden}
 Approximera $\int_a^b f(x)\, dx$ som en Riemann-summa av staplar av samma bredd vars höjd motsvarar funktionens värde vid stapelns mittpunkt.\\
 %infoga bild 5
-%\includegraphics[]{lessons/lesson18/imgs/img05.jpg}
+\includegraphics[scale=0.1]{lessons/lesson18/imgs/img05.jpg}
 \begin{equation*}
     \Rightarrow \int_a^b f(x)\, dx \approx
     f(m_1)\cdot h+f(m_2)\cdot h+...+f(m_n)\cdot h=
@@ -114,10 +114,10 @@ Ju mindre bredd $h>0$ desto bättre approximation.
 \section{Trapetsmetoden}
 Istället för att som i mittpunktsmetoden använda en punkt per stapel för höjden (mittpunkten), används stapelsn ändpunkter och linjärapprox. funktionen.\\
 %infoga bild 6
-%\includegraphics[scale=0.1]{lessons/lesson18/imgs/img06.jpg}\\
-För stapel $i$ $(0<i<n)$ gäller:
+\includegraphics[scale=0.1]{lessons/lesson18/imgs/img06.jpg}\\
+För stapel $i$ $(0<i<n)$ gäller:\\
 %infoga bild 7
-%\includegraphics[scale=0.1]{lessons/lesson18/imgs/img07.jpg}
+\includegraphics[scale=0.1]{lessons/lesson18/imgs/img07.jpg}
 \begin{equation*}
     \Rightarrow \int_a^b f(x)\, dx\approx
     y_0\cdot h+\frac{1}{2}(y_1-y_0)\cdot h+y_1\cdot h+\frac{1}{2}(y_2-y_1)\cdot h+...=
@@ -141,7 +141,7 @@ dvs. dom är lika bra!\\
 klar förbätttring fås genom att använda både mittpunkten och ändpunkterna och approximera $f$ i stapeln med en andragradskurva genom punkterna.
 \section{Simpsons regel}
 %infoga bild 8
-%\includegraphics[scale=0.1]{lessons/lesson18/imgs/img08.jpg}
+\includegraphics[scale=0.1]{lessons/lesson18/imgs/img08.jpg}\\
 Man kan visa att Simpson-approximation innebär ett fel av storleksordning $O(\frac{1}{n^4})$ dvs.
 \begin{equation*}
     \int_a^b f(x)\, dx=S_n+O(\frac{1}{n^4})
