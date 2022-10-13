@@ -1,0 +1,205 @@
+\chapter*{Separabla differentialekvationer}
+Matematisk modellering handlar ofta om att använda generella principer\\
+(fysikaliska, tekniska, hypotetiska) för att beskriva hur olika typer av processer fungerar.
+Man vet sällan funktionen $f(x)$, man känner bara till de lagar och principer som den måste respektera.
+
+\paragraph*{Ex} Vilken kastbana följer en toppad tennisboll (dvs. en boll som roterar framåt i luften)?
+\subparagraph{Lösning}~\\
+%Infoga bild 1
+Då bollen färdas i luften utsätts den för tre olika krafter:
+\begin{enumerate}
+    \item gravitation $\bm{F}_G$
+    \item luftmotstånd $\bm{F}_D$
+    \item magnuskraften $\bm{F}_M$
+\end{enumerate}
+%Infoga bild 2
+Det gäller att $|\bm{F}_G|=mg$, $|\bm{F}_D|=C_1\cdot\frac{|\bm{V}|^2}{2}$ och $|\bm{F}_M=C_2\cdot\frac{|\bm{V}|^2}{2+\frac{|\bm{V}|}{R\cdot w}}$ och av Newtons 2:a lag gäller:
+\begin{equation*}
+    m\cdot a=\bm{F}_G+\bm{F}_D+\bm{F}_M
+\end{equation*}
+Eftersom $v_x=\frac{dx}{dt}$, $v_y=\frac{dy}{dt}$, $a_x=\frac{d^2x}{dt^2}$, $a_y=\frac{d^2y}{dt^2}$ kan man skriva detta som två separata (kopplade) samband i $x$- och $y$-led:
+\begin{equation*}
+    (*)\left\lbrace
+    \begin{matrix}
+        \frac{d^2x}{dt^2}=-k\cdot v(C\cdot\frac{dx}{dt}+\frac{\frac{dy}{dt}}{2+\frac{v}{Rw}}) \\
+        \frac{d^2y}{dt^2}=-k\cdot v(\frac{\frac{dx}{dt}}{2+\frac{v}{Rw}}-C\cdot\frac{dy}{dx})-g
+    \end{matrix}
+    \right.
+\end{equation*}
+och där $v=\sqrt{(\frac{dx}{dt})^2+(\frac{dy}{dt})^2}, C,k\in\mathbb{R}$.
+Bollbanan ges av de funktioner $x(t)$ och $y(t)$ som uppfyller $(*)$.
+\section{Separabla differentialekvationer}
+En differentialekvation som kan skrivas på formeln: $\frac{dy}{dx}=f(x)\cdot g(y)$ kallas för \underline{separabel}.
+Målet är att hitta ett uttryck för $y=y(x)$.
+Lösningsmetodiken går ut på att separera $x$ och $y$ på var sin sida om likhetstecknet.
+\begin{equation*}
+    \frac{dy}{dx}=f(x)\cdot g(y)\begin{matrix}(?)\\\Leftrightarrow\end{matrix}
+    dy=f(x)g(y)\, dx\Leftrightarrow
+    \frac{1}{g(y)}\, dy=f(x)\, dx
+\end{equation*}
+Vilket betyder att
+\begin{equation*}
+    \int\frac{1}{g(y)}\, dy=\int f(x)\, dx
+\end{equation*}
+Kan man lösa dessa och sedan uttrycka $y$ som en funktion av $x$ så är man klar.
+
+\paragraph{Ex (7.9.8)} Lös differentialekvationen $\frac{dy}{dx}=1+y^2$.
+\subparagraph{Lösning}
+Denna differentialekvation är separabel eftersom
+\begin{equation*}
+    \frac{dy}{dx}=1+y^2\Rightarrow
+    \frac{1}{1+y^2}\, dy=1\, dx\Rightarrow
+    \int\frac{1}{1+y^2}=\int\, dx=x+C,\, C\in\mathbb{R}
+\end{equation*}
+För den andra integralen har vi att:
+\begin{equation*}
+    \int\frac{1}{1+y^2}\, dy=
+    \arctan(y)+D,\, D\in\mathbb{R}\Rightarrow
+\end{equation*}
+\begin{equation*}
+    \arctan(y)+D=x+c\Leftrightarrow
+    \arctan(y)=x+E\, (E=C-D)
+\end{equation*}
+och alltså gäller att
+\begin{equation*}
+    y=\tan(x+e)
+\end{equation*}
+Prova om det stämmer!
+\begin{equation*}
+    \frac{dy}{dx}=
+    \frac{d}{dx}[tan(x+E)]=
+    \frac{1}{\cos^2(x+E)}=
+    \frac{\sin^2(x+E)+\cos^2(x+E)}{\cos^2(x+E)}=
+\end{equation*}
+\begin{equation*}
+    1+\frac{\sin^2}{\cos^2(x+E)}=
+    1+\tan(x+E)=
+    \{y=\tan(x+E)\}=1+y^2\, \Box
+\end{equation*}
+
+\chapter{Första ordningens linjära differentialekvation}
+"Första ordningen" syftar på att högsta ordningen derivata i differentialekvationen är $1$, dvs $y^\prime$.
+En linjär sådan differentialekvation kan skrivas $y^\prime+p(x)\cdot y=q(x)$.
+Hur lösa?\\
+Vill hitta $y(x)$ så att $y^\prime+p(x)y=q(x)$ givet $p(x)$ och $q(x)$.
+Antag att man kan beräkna den primitiva funktionen för $p(x)$, dvs. $\int p(x)\, dx$.
+Då gäller att
+\begin{equation*}
+    \frac{d}{dx}[e^{\int p(x)\, dx}]=
+    \{\text{kedjeregeln}\}=
+    e^{\int p(x)\, dx}\cdot\frac{d}{dx}[\int p(x)\, dx]=
+    e^{\int p(x)\, dx}\cdot p(x)+C
+\end{equation*}
+Om både vänster- och högerled i differentialekvationen multipliceras med $e^{\int p(x)\, dx}$ får vi
+\begin{equation*}
+    e^{\int p(x)\, dx}\cdot y^\prime+e^{\int p(x)\, dx}\cdot p(x)\cdot y=
+    e^{\int p(x)\, dx}\cdot q(x)\Leftrightarrow
+    e^{\int p(x)\, dx}\cdot y^\prime+\frac{d}{dx}[e^{\int p(x)\, dx}]\cdot y=
+    e^{\int p(x)\, dx}\cdot q(x)
+\end{equation*}
+Produktregeln ger: $\frac{d}{dx}[e^{\int p(x)\, dx}\cdot y]=e^{\int p(x)\, dx}\cdot q(x)$.
+Om man integrerar vänster- och högerled med avseende på $x$ fås:
+\begin{equation*}
+    e^{\int p(x)\, dx}\cdot y=\int e^{\int p(x)\, dx}\cdot q(x)\, dx
+\end{equation*}
+och man hittar lösningen $y(x)$ till differentialekvationen som
+\begin{equation*}
+    y(x)=e^{-\int p(x)\, dx}\cdot\int e^{\int p(x)\, dx}\cdot q(x)\, dx + C
+\end{equation*}
+Funktionen $e^{\int p(x)\, dx}$ i lösningsmetodiken kallas för den \underline{integrerande faktorn}.
+
+\paragraph{Ex} Lös begynnelsevärdesproblemet
+\begin{equation*}
+    \left\lbrace
+    \begin{matrix}
+        y^\prime+\cos(x)\cdot y=2x\cdot e^{-\sin(x)} \\
+        y(\pi)=0
+    \end{matrix}
+    \right.
+\end{equation*}
+\subparagraph{Lösning}
+Använd metoden med integrerande faktor!
+\begin{equation*}
+    \int\cos(x)\, dx=\sin(x)
+\end{equation*}
+Den integrerande faktorn är alltså $e^{\sin(x)}$ och
+\begin{equation*}
+    e^{\sin(x)}\cdot y^\prime+e^{\sin(x)}\cdot \cos(x)\cdot y=
+    e^{\sin(x)}\cdot 2x\cdot e^{-\sin(x)}=
+    2x\Rightarrow
+\end{equation*}
+\begin{equation*}
+    \frac{d}{dx}[e^{\sin(x)}\cdot y]=
+    2x\Rightarrow
+    \{\text{integrera}\}\Rightarrow
+    e^{\sin(x)}\cdot y=
+    \int 2x\, dx=
+    x^2+C
+\end{equation*}
+och får att $y=e^{-\sin(x)}(x^2+C)$.
+Vi vet också att $y(\pi)=0$ vilket används för att bestämma konstanten $C$.
+\begin{equation*}
+    y(\pi)=
+    e^{-\sin(\pi)}(\pi^2+C)=
+    e^0(\pi^2+C)=
+    \pi^2+C\Rightarrow
+    \pi^2+C=0\Leftrightarrow
+    C=-\pi^2
+\end{equation*}
+och lösningen till problemet är
+\begin{equation*}
+    y(x)=e^{-\sin(x)}(x^2-\pi^2)\, \Box
+\end{equation*}
+
+\paragraph*{Ex (7.9.29)} Enligt Newtons andra lag kan hastigheten av en fritt fallande kropp i luft beskrivas som $m\cdot\frac{dv}{dt}=mg-hv^2$.
+Talen $m$ och $g$ är kroppens massa respektive tyngdaccelerationen och termen $-h\cdot v^2$ modellerar luftmotståndet.
+Givet att kroppen faller från vila i $t_0$ ($v(0)=0$).
+Bestäm ett uttryck för $v(t)$.
+Vad blir $\lim_{t\to\infty}v(t)$?
+\subparagraph{Lösning}
+$m\cdot\frac{dv}{dt}=mg-kv^2\Leftrightarrow g-\frac{k}{m}v^2$ är separabel!
+\begin{equation*}
+    \Rightarrow \frac{1}{g-\frac{k}{m}v^2}\, dv=dt\Rightarrow
+    \int\frac{1}{g-\frac{k}{m}v^2}\, dv=
+    \int\, dt=
+    t+C,\, C\in\mathbb{R}
+\end{equation*}
+\begin{equation*}
+    \int\frac{1}{g-\frac{k}{m}v^2}\, dv=
+    \frac{m}{k}\int\frac{1}{\frac{mg}{k}-v^2}\, dv=
+    \frac{m}{k}\int\frac{1}{(\sqrt{\frac{mg}{k}}-v)(\sqrt{\frac{mg}{k}}+v)}\, dv=
+\end{equation*}
+\begin{equation*}
+    \{\alpha=\sqrt{\frac{mg}{k}}\}=
+    \frac{m}{k}\int\frac{1}{(\alpha-v)(\alpha+v)}\, dv=
+    \{\text{partialbråksuppdelning}\}=
+\end{equation*}
+\begin{equation*}
+    \begin{vmatrix}
+        \frac{1}{(\alpha-v)(\alpha+v)}=\frac{A}{\alpha-v}+\frac{B}{\alpha+v}\Rightarrow
+        \begin{matrix}
+            A=\frac{1}{2\alpha} \\
+            B=\frac{1}{2\alpha}
+        \end{matrix}
+    \end{vmatrix}=
+    \frac{m}{k}\cdot\frac{1}{2\alpha}\int\frac{1}{\alpha-v}+\frac{1}{\alpha+v}\, dv=
+\end{equation*}
+\begin{equation*}
+    \frac{m}{k}\cdot\frac{1}{2\alpha}\int(\ln(|\alpha+v|)-\ln(|\alpha-v|))=
+    \frac{m}{k}\cdot\frac{1}{2\alpha}\ln(|\frac{\alpha+v}{\alpha-v}|)\Rightarrow
+    \frac{m}{k}\cdot\frac{1}{2\alpha}\ln(|\frac{\alpha+v}{\alpha-v})=t+C,\, C\in\mathbb{R}
+\end{equation*}
+\begin{equation*}
+    V(0)=0\Rightarrow
+    \frac{m}{k}\cdot\frac{1}{2\alpha}\ln(|\frac{\alpha+v}{\alpha-v})=
+    0+C\Leftrightarrow
+    C=0\, (\ln(1)=0)
+\end{equation*}
+så $\ln(|\frac{\alpha+v}{\alpha-v}|)=\frac{2\alpha tk}{m}=\{\alpha=\sqrt{\frac{mg}{k}}\}=2\sqrt{\frac{kg}{m}}\cdot t$.
+För $v<\alpha$ så gäller att $\frac{\alpha+v}{\alpha-v}=e^{2\sqrt{\frac{kg}{m}}\cdot t}$ vilket efter lite räkningar ger $v(t)=\sqrt{\frac{mg}{k}\cdot\frac{e^{2\sqrt{\frac{kg}{m}}\cdot t}-1}{e^{2\sqrt{\frac{kg}{m}}\cdot t}+1}}$.
+\begin{equation*}
+    \frac{e^{2\sqrt{\frac{kg}{m}}\cdot t}-1}{e^{2\sqrt{\frac{kg}{m}}\cdot t}+1}\to 1\text{ då }t\to\infty
+\end{equation*}
+\begin{equation*}
+    \text{så }\lim_{t\to\infty}v(t)=\sqrt{\frac{mg}{k}}\, \Box
+\end{equation*}
