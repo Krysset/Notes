@@ -1,0 +1,182 @@
+\chapter{Andra ordningens linjära differential ekvationer med konstanta koefficienter}
+Ofta räcker första ordningens evkationer inte och vi behöver kunna hantera även högre ordningar.
+Naturligt att studera andra ordningens linjära differentialekvationer som ett nästa steg,
+dvs. något i stil med:
+\begin{equation*}
+    y^{\prime\prime}+p(x)\cdot y^\prime+q(x)\cdot y=f(x)
+\end{equation*}
+för givna funktioner $p(x)$, $q(x)$ och $f(x)$.
+Detta problem är dock \underline{betydligt} svårare än dess motsvarighet av första ordningen och vi ska nöja oss med fallet där $p(x)$ och $q(x)$ är konstanter,
+dvs.
+\begin{equation*}
+    (**)\, y^{\prime\prime}+p\cdot y^\prime+q\cdot y=f(x),\,p,q\in\mathbb{R}
+\end{equation*}
+\section*{Terminologi}
+\underline{Om} funktionen $f(x)=0$ så säger man att differentialekvationen är \underline{homogen}.
+I annat fall säger man att differentialekvationen är \underline{icke-homogen}.
+Antag att $y_p$ är en lösning till en icke-homogen differentialekvation av typen $(**)$ och att $y$ är en lösning till mostvarande homogena ekvationen.
+Då gäller att funktionen $y_p+y_h$ löser den icke-homogena differentialekvationen eftersom:
+\begin{equation*}
+    (y_p+y_h)^{\prime\prime}+p(y_p+y_h)^\prime+q(y_p+y_h)=
+    y_p^{\prime\prime}+y_h^{\prime\prime}+p\cdot y_p^\prime+p\cdot y_h^\prime+q\cdot y_p+q\cdot y_h=
+\end{equation*}
+\begin{equation*}
+    (y_p^{\prime\prime}+p\cdot y_p^\prime+q\cdot y_p)+(y_h^{\prime\prime}+p\cdot y_h^\prime+q\cdot y_h)=
+    f(x)+0=
+    f(x)
+\end{equation*}
+Alltså, för att lösa den icke-homogena differentialekvationen \underline{måste} man även lösa den homogena.
+Den totala lösningen ges av summan $y_p+y_h$ där $y_p$ kallas för \underline{partikulärlösning} och $y_h$ kallas för \underline{homogenlösning}.
+Hur hittar man homogenlösningen $y_h$, dvs. lösningen till differentialekvationen:
+\begin{equation*}
+    y^{\prime\prime}+p\cdot y^\prime+q\cdot y=0
+\end{equation*}
+för givna tal $p,q\in\mathbb{R}\, (\mathbb{C})$?
+Testa ansatsen $y=e^{r\cdot x},\, r\in\mathbb{C}$.
+\begin{equation*}
+    \Rightarrow(e^{r\cdot x})^{\prime\prime}+p(e^{r\cdot x})^\prime+q(e^{r\cdot x})=
+    r^2e^{rx}+pre^{rx}+qe^{rx}=
+    (r^2+pr+q)\cdot e^{rx}=0
+\end{equation*}
+Men detta kan bara vara sant om $r^2+pr+q=0$ och det gäller att hitta det tal $r$ som löser den ekvationen.
+Man brukar kalla $r^2+pr+q=0$ för den \underline{karakteristiska ekvationen} tillhörande den homogena differential ekvationen $y^{\prime\prime}+py^\prime+q=0$.
+Den karakteristiska ekvationen har \underline{alltid} två lösningar räknade med multiplicitet (algebrans fundamentalsats) och vi får tre olika fall:
+(givet att $p,q\in\mathbb{R}$)
+\begin{enumerate}
+    \item Två reella rötter $r_1$ och $r_2$.\\
+          \begin{equation*}
+              \Rightarrow y_h=A\cdot e^{r_1x}+B\cdot e^{r_2x},\, A,B\in\mathbb{R}
+          \end{equation*}
+    \item En dubbelrot $r(=r_1=r_2)$.\\
+          \begin{equation*}
+              \Rightarrow y_h=A\cdot e^{r}+Bxe^{rx},\, A,B\in\mathbb{R}
+          \end{equation*}
+    \item Två komplexkonjugerande rötter $r_{1,2}=k\pm i\omega$.
+          \begin{equation*}
+              \Rightarrow y_h=C\cdot e^{(k+i\omega)x}+D\cdot e^{(k-\omega i)x}=
+              C\cdot e^{kx}\cdot e^{i\omega x}+De^{kx}\cdot e^{-i\omega x}=
+          \end{equation*}
+          \begin{equation*}
+              \{e^{i\omega x}=\cos(\omega x)+i\sin(\omega x)\}=
+              ...=
+              e^{kx}(A\cos(\omega x)+B\sin(\omega x))
+          \end{equation*}
+\end{enumerate}
+Att lösa den karakteristiska ekvationen och därefter identifiera vilket av fallen 1., 2. eller 3. man har ger ett "recept" som \underline{alltid} kan användas för att lösa homogena och linjära andra ordningens differentialekvationer med konstanta koefficienter.
+
+\paragraph*{Ex} Lös differential ekvationen
+$   \left\lbrace
+    \begin{matrix}
+        2y^{\prime\prime}+5y^\prime-3y=0 \\
+        y(0)=0                           \\
+        y^\prime(0)=1
+    \end{matrix}
+    \right.$
+\subparagraph*{Lösning}
+Differentialekvationen är homogen av andra ordningen med konstanta koefficienter och vi vill lösa den karakteristiska ekvationen.
+\begin{equation*}
+    2r^2+5r-3=0\Leftrightarrow
+    r^2+\frac{5}{2}r-\frac{3}{2}=0\Leftrightarrow
+    r^2+2\cdot\frac{2}{4}r+(\frac{5}{4})^2-(\frac{5}{4})^2-\frac{3}{2}=0\Leftrightarrow
+\end{equation*}
+\begin{equation*}
+    (r+\frac{5}{4})^2=
+    \frac{25}{16}+\frac{3}{2}=
+    \frac{25}{16}+\frac{24}{16}=
+    \frac{49}{16}\Leftrightarrow
+    r_{1,2}=-\frac{5}{4}\pm\sqrt{\frac{49}{16}}=
+    -\frac{5}{4}\pm\frac{7}{4}
+\end{equation*}
+så vi får två reella rötter $r_1=-3$ och $r_2=\frac{1}{2}$.
+En allmän lösning ges därför av:
+\begin{equation*}
+    y_h=A\cdot e^{-3x}+Be^{\frac{x}{2}},\, A,B\in\mathbb{R}
+\end{equation*}
+Talen $A$ och $B$ måste respektera villkoren $y(0)=0$ och $y^\prime(0)=1$.
+\begin{equation*}
+    \left.
+    \begin{matrix}
+        y(0)=0\Rightarrow y_h(0)=Ae^{0}+Be^{0}=A+B=0 \\
+        y^\prime(0)=1\Rightarrow y_h(0)=-3Ae^{0}+\frac{B}{2}e^0=\frac{B}{2}-3A=1
+    \end{matrix}
+    \right\rbrace
+\end{equation*}
+\begin{equation*}
+    A=-B\Rightarrow\frac{B}{2}-3(-B)=1\Leftrightarrow
+    \frac{B}{2}+3B=1\Leftrightarrow
+    \frac{7}{2}B=1\Leftrightarrow
+\end{equation*}
+\begin{equation*}
+    B=\frac{2}{7}\Rightarrow
+    A=-\frac{2}{7}\Leftrightarrow
+    B=\frac{2}{7}\Rightarrow A=-\frac{2}{7}
+\end{equation*}
+så vi får slutligen lösningen:
+\begin{equation*}
+    y=-\frac{2}{7}e^{-3x}+\frac{2}{7}e^\frac{x}{2}=\frac{2}{7}(e^\frac{x}{2}-e^{-3x})\, \Box
+\end{equation*}
+För en differentialekvation av typen $y^{\prime\prime}+py^\prime+qy=f(x)$, $p,q\in\mathbb{R}$ så är lösningen på formen $y=y_p+y_h$ och vi kan hitta $y_h$.
+\\
+\\
+Hur hittar man partikulärlösningen?
+Kan vara \underline{supersvårt}, men om inte högerledet $f(x)$ är för komplicerat kan man sätta upp bra ansatser och kontrollera att det funkar.
+Låt $P_n(x)=p_0+p_1x+p_2x^2+...+p_nx^n$ (n:te-grads polynom), $A_n(x)=a_0+a_1x+...+a_nx^n$ och $B_n(x)=b_0+b_1x+...+b_nx^n$ där talen $a_0,...,a_n,b_0,...,b_n\in\mathbb{R}$ är okända.
+\begin{enumerate}
+    \item om $f(x)=P_n(x)$ ansätt $y_p=x^m A_n(x)$
+    \item $f(x)=P_n(x)e^{rx}$ ansätt då $y_p(x)=x^mA_n(x)e^{rx}$
+    \item $f(x)=P_n(x)e^{rx}\cos(kx)$ eller $f(x)=P_n(x)e^{rx}\sin(kx)$ ansätt $y_p(x)=x^m e^{rx}(A_n(x)\cos(kx)+B_n(x)\sin(kx))$
+\end{enumerate}
+Talet $m$ i faktorn $x^m$ väljs så liten som möjligt, $m=0,1,2$, för att se till att $y_p$ \underline{inte} överlappar med homogenlösningen $y_h$.
+Kräver mycket träning!
+
+\paragraph*{Ex (19.6 chapter review 26)}
+Lös begynnelsevärdesproblemet $
+    \left\lbrace
+    \begin{matrix}
+        2y^{\prime\prime}+5y^\prime-3y=6+7e^{\frac{x}{2}} \\
+        y(0)=0                                            \\
+        y(0)^\prime=1
+    \end{matrix}
+    \right.$
+\subparagraph*{Lösning}
+Vi har redan löst det homogena problemet (tidigare exempel) så gäller nu att hitta partikulärlösning.
+Prova ansatsen $y_p(x)=A+Bxe^\frac{x}{2}$ vilken ger derivatorna.
+\begin{equation*}
+    y_p^\prime(x)=0+Be^\frac{x}{2}+Bx\frac{1}{2}e^\frac{x}{2}=B(1+\frac{x}{2})e^\frac{x}{2}
+\end{equation*}
+\begin{equation*}
+    y^{\prime\prime}_p(x)=B\frac{1}{2}e^\frac{x}{2}+B(1+\frac{x}{2})\frac{1}{2}e^\frac{x}{2}=B(1+\frac{x}{4})e^\frac{x}{2}
+\end{equation*}
+Sätt in i differentialekvationen och försök identifiera vad talen $A$ och $B$ måste vara.
+\begin{equation*}
+    2y_p^{\prime\prime}+5y^\prime_p-3y_p=
+    2b(1+\frac{x}{4})e^{\frac{x}{2}}+5B(1+\frac{x}{2})e^\frac{x}{2}-3(A+Bxe^\frac{x}{2})=
+\end{equation*}
+\begin{equation*}
+    -3A+(2B+5B)e^\frac{x}{2}+(\frac{2}{4}B+\frac{5}{2}B-3B)x^\frac{x}{2}=
+    -3A+7Be^\frac{x}{2}+(\frac{2+10-12}{4}B)x^\frac{x}{2}=
+\end{equation*}
+\begin{equation*}
+    -3A+7Be^\frac{x}{2}=
+    6+7e^\frac{x}{2}\Leftrightarrow
+    A=-2,\, B=1
+\end{equation*}
+För homogenlösningen vet vi att $y_h(x)=C_1e^\frac{x}{2}+C_2e^{-3x}$ och den allmänna lösningen blir
+\begin{equation*}
+    y(x)=
+    y_p(x)+y_h(x)=
+    -2+xe^\frac{x}{2}+C_1e^\frac{x}{2}+C_2e^{-3x}
+\end{equation*}
+Vi vet också att $y^\prime(0)=1$:
+\begin{equation*}
+    \left.
+    \begin{matrix}
+        y(0)=0\Rightarrow-2+C_1+C_2=0 \\
+        y^\prime(x)=1\Rightarrow 1+\frac{C_2}{2}-3C_2=1
+    \end{matrix}
+    \right\rbrace
+\end{equation*}
+$\Rightarrow...\Rightarrow C_1=\frac{12}{7},\, \frac{2}{7}$ och vi får
+\begin{equation*}
+    y(x)=-2+xe^\frac{x}{2}+\frac{12}{7}e^\frac{x}{2}+\frac{2}{7}e^{-3x}\, \Box
+\end{equation*}
