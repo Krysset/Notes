@@ -1,0 +1,182 @@
+\chapter{Exempelräkning}
+\paragraph{Ex} Lös integralekvationen $y(x)+\int_x^1\frac{2ty(t)}{1+t^2}\, dt=2x+2$
+\subparagraph*{Lösning}
+Om vi deriverar både vänster- och högerled får vi
+\begin{equation*}
+    \frac{d}{dx}[y(x)+\int_x^1\frac{2ty(t)}{1+t^2}\, dt]=
+    \frac{d}{dx}[2x+2]\Rightarrow
+    y^\prime+\frac{d}{dx}\int_x^1\frac{2ty(t)}{1+t^2}\, dt=2\Leftrightarrow
+\end{equation*}
+\begin{equation*}
+    y^\prime-\frac{d}{dx}\int_1^x\frac{2ty(t)}{1+t^2}\, dt=2\Leftrightarrow
+    \{\text{analysens huvudsats}\}\Leftrightarrow
+    y^\prime-\frac{2x}{1+x^2}y=2\, (*)
+\end{equation*}
+Notera att $(*)$ är en differentialekvation av första ordningen och vi kan använda metoden med integrerande faktor.
+I vårt fall är $p(x)=-\frac{2x}{1+x^2}$
+\begin{equation*}
+    \int p(x)\, dx=\int-\frac{2x}{1+x^2}\, dx=-\ln(|1+x^2|)
+\end{equation*}
+Multiplicera $(x)$ med $e^{-\ln(|1+x^2)|}=e^{\ln{|1+x^2}|}=\frac{1}{|1+x^2|}=\frac{1}{1+x^2}$
+\begin{equation*}
+    \Rightarrow \frac{1}{1+x^2}y^\prime-\frac{2x}{(1+x^2)^2}=\frac{2}{1+x^2}\Leftrightarrow
+    \frac{d}{dx}[\frac{y}{1+x^2}]=\frac{2}{1+x^2}\Rightarrow
+\end{equation*}
+\begin{equation*}
+    \{\text{integrera VL och HL}\}\Rightarrow
+    \frac{y}{1+x^2}=
+    \int\frac{2}{1+x^2}\, dx=
+    2\arctan(x)+C
+\end{equation*}
+\begin{equation*}
+    \Rightarrow y(x)=
+    2(1+x^2)\arctan(x)+C(1+x^2)\text{ där }C\in\mathbb{R}\, (**)
+\end{equation*}
+Är vi klara? Nej! Vi hade från början en integralekvation
+\begin{equation*}
+    y(x)+\int_x^1\frac{2ty(t)}{1+t^2}\, dt=2x+2
+\end{equation*}
+Om vi sätter $x=1$ försvinner integralen och vi får
+\begin{equation*}
+    y(1)+0=2\cdot 1+2\Leftrightarrow
+    y(1)=4
+\end{equation*}
+Med detta kan vi bestämma konstanten $C$!
+Sätt in $x=1$ i $(**)$:
+\begin{equation*}
+    y(1)=
+    2\cdot(1+1^2)\arctan(1)+C(1+1^2)=
+    4\arctan(1)+2C=4\Leftrightarrow
+\end{equation*}
+\begin{equation*}
+    C=\frac{4-4\arctan(1)}{2}=
+    2(1-\arctan(1))=
+    2(1-\frac{\pi}{4})
+\end{equation*}
+och vi finner den slutgiltiga lösningen till integralekvationen som:
+\begin{equation*}
+    y(x)=2(1+x^2)(1+\arctan(x)-\frac{\pi}{4})\, \Box
+\end{equation*}
+
+\paragraph*{Ex} Beräkna värdet av serien $\sum_{k=1}^\infty\frac{(k+1)(l+2)}{k!}$
+\subparagraph*{Lösning}
+Börja med att utveckla täljaren
+\begin{equation*}
+    \sum_{k=1}^\infty\frac{(k+1)(k+2)}{k!}=
+    \sum_{k=1}^\infty\frac{k^2+3k+2}{k!}=
+    \sum_{k=1}^\infty\frac{k^2}{k!}+3\sum_{k=1}^\infty\frac{k}{k!}+2\sum_{k=1}^\infty\frac{1}{k!} (*)
+\end{equation*}
+Notera att Maclaurin-utvecklingen för $e^x$ är:
+\begin{equation*}
+    e^x=\sum_{k=1}^\infty\frac{x^k}{k!}=1+x+\frac{x^2}{2!}+\frac{x^3}{3!}+...
+\end{equation*}
+och därför måste $e^1=\sum_{k=0}^\infty\frac{1^k}{k!}=\sum_{k=0}^\infty\frac{1}{k!}$.
+Försök använda detta för att beräkna serierna i $(*)$.
+\begin{equation*}
+    \sum_{k=1}^\infty\frac{k^2}{k!}+3\sum_{k=1}^\infty\frac{k}{k!}+2\sum_{k=1}^\infty\frac{1}{k!}=
+    \{k! =1\cdot 2\cdot 3\cdot ...\cdot k\}=
+\end{equation*}
+\begin{equation*}
+    \sum_{k=1}^\infty\frac{k}{(k-1)!}+3\sum_{k=1}^\infty\frac{1}{(k-1)!}+\sum_{k=1}^\infty\frac{1}{k}+2-2=
+    \sum_{k=1}^\infty\frac{(k-1)+1}{(k-1)!}+3\sum_{k=1}\infty\frac{1}{(k-1)!}+2e-2=
+\end{equation*}
+\begin{equation*}
+    \sum_{k=1}\infty\frac{k-1}{(k-1)!+\sum_{k=1}\infty\frac{1}{(k-1)!}}+3\sum_{k=1}\infty\frac{1}{(k-1)!}+2e-2=
+\end{equation*}
+\begin{equation*}
+    \sum_{k=1}\infty\frac{1}{(k-2)!}+4\sum_{k=1}\infty\frac{1}{(k-1)!}+2e-2=
+\end{equation*}
+\begin{equation*}
+    \{n=k-2\text{ i första summan och }m=k-1\text{ i andra}\}=
+    \sum_{n=0}\infty\frac{1}{n!}+\sum_{m=0}\infty\frac{1}{m!}+2e-2=
+\end{equation*}
+\begin{equation*}
+    e+4e+2e-2=
+    7e-2
+\end{equation*}
+Så alltså är $\sum_{k=1}\infty\frac{(k+1)(k+2)}{k!}=7e-2\, \Box$
+
+\paragraph{Ex} Bestäm den lösning till differentialekvationen $y^{\prime\prime}+y^\prime-6y=e^{3x}$ som har ett gränsvärde då $x\to-\infty$ och som antar värdet $2$ i $x=0$
+\subparagraph{Lösning}
+
+
+homogena ekvationen $y^{\prime\prime}+y^\prime-6y=0$.
+Den karakteristiska ekvationen blir $r^2+r-6=0$.
+\begin{equation*}
+    r^2+2\frac{1}{2}r+(\frac{1}{2})^2-(\frac{1}{2})^2-6=0 \Leftrightarrow
+    (r+\frac{1}{2})^2=\frac{25}{4}\Leftrightarrow
+    r_{1,2}=-\frac{1}{2}\pm\sqrt{\frac{25}{4}}=-\frac{1}{2}\pm \frac{5}{2}
+\end{equation*}
+dvs. $r_1=-\frac{6}{2}=3$ och $r_2=\frac{4}{2}=2$ och vi har två distinkta och reella rötter.
+En allmän homogenlösning ges därför som $y_h=Ae^{-3x}+Be^{2x},\, A,B\in\mathbb{R}$.
+Som partikulärlösning ansätt $y_p(x)=C\cdot e^{3x}$ vilket ger
+\begin{equation*}
+    \left\lbrace
+    \begin{matrix}
+        y_p^\prime(x)=3Ce^{3x} \\
+        y_p^{\prime\prime}=9Ce^{3x}
+    \end{matrix}
+    \right.
+\end{equation*}
+Insättning i differentialekvationen ger då
+\begin{equation*}
+    9Ce^{3x}+3Ce^{3x}-6Ce^{3x}=6Ce^{3x}=e^{3x}\Leftrightarrow C=\frac{1}{6}
+\end{equation*}
+Vi får alltså den allmänna lösningen till problemet som
+\begin{equation*}
+    y(x)=y_p(x)+y_h(x)=\frac{1}{6}e^{3x}+Ae^{3x}+Be^{2x}
+\end{equation*}
+Enligt förutsättning vet vi att $\lim_{x\to-\infty}y(x)$ måste existera, vilket betyder att $A=0$ (eftersom $e^{-3x}\to\infty$ då $x\to-\infty$).
+Vi vet också att $y(0)=2$, dvs
+\begin{equation*}
+    \frac{1}{6}e^{3\cdot 0}+Be^{3\cdot 0}=2\Leftrightarrow
+    B=2-\frac{1}{6}=\frac{11}{6}
+\end{equation*}
+och allstå ges lösningen av
+\begin{equation*}
+    y(x)=\frac{1}{6}e^{3x}+\frac{11}{6}e^{2x}\, \Box
+\end{equation*}
+
+\paragraph*{Ex} Beräkna $\int e^x\cos(x)\, dx$
+\subparagraph*{Lösning}
+Använd partiell integration!
+\begin{equation*}
+    \int e^x\cos(x)\, dx=
+    e^x\cos(x)-\int e^x(-\sin(x))\, dx=
+    e^x\cos(x)+\int e^x\sin(x)\, dx=
+\end{equation*}
+\begin{equation*}
+    \{\text{partiell integration igen!}\}=
+    e^x\cos(x)+e^x\sin(x)-\int e^x\cos(x)\, dx
+\end{equation*}
+Om vi betecknar $\int e^x\cos(x)\, dx$ med $I$ så har vi alltså fått
+\begin{equation*}
+    I=e^x\cos(x)+e^x\sin(x)-I\Leftrightarrow
+    2I=e^x(\cos(x)+\sin(x))\Leftrightarrow
+\end{equation*}
+\begin{equation*}
+    \int e^x\cos(x)\, dx=
+    \frac{e^x}{2}(\cos(x)+\sin(x))+C,\,C\in\mathbb{R}\, \Box
+\end{equation*}
+
+\paragraph{Ex} Beräkna gränsvärdet $\lim_{x\to\infty}(\frac{x+2}{x})^{3x}$
+\subparagraph{Lösning}
+Betrakta först logaritmen av gränsvärdet, dvs.
+\begin{equation*}
+    \lim_{x\to\infty}\ln((\frac{x+2}{x})^{3x})=
+    \lim_{x\to\infty}3x\ln(\frac{x+2}{x})=
+    \lim_{x\to\infty}3x\ln(1+\frac{2}{x})=
+\end{equation*}
+\begin{equation*}
+    \{y=1+\frac{2}{x}\Leftrightarrow x=\frac{2}{y-1}\text{ och }x\to\infty\text{ motsvarar }y\to 1^+\}=
+\end{equation*}
+\begin{equation*}
+    \lim_{y\to 1^+}\frac{6}{y-1}\ln(y)=
+    6\cdot\lim_{y\to 1^+}\frac{\ln(y)}{y-1}=
+    \{z=y-1\Leftrightarrow y=z+1\}=
+\end{equation*}
+\begin{equation*}
+    6\cdot\lim_{z\to 0^+}\frac{\ln(z+1)}{z}=
+    \{\text{l'hopital}\}=
+    6\cdot \lim_{z\to 0^+}\frac{\frac{1}{z}+1}{1}=6
+\end{equation*}
